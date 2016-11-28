@@ -1,2 +1,5 @@
+# Sass-created files
 .sass-cache
 *.map
+
+main.css
