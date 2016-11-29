@@ -6,6 +6,9 @@ build:
 clean:
 	rm main.css
 
+lint:
+	sass-lint --verbose --no-exit --ignore 'naut_base.scss' '**/*.scss'
+
 watch:
 	sass --style compressed --sourcemap=none --watch main.scss:main.css
 
