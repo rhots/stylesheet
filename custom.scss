@@ -13,14 +13,6 @@
   margin-top: 12px!important
 }
 
-.pinHeader-header .side {
-  margin-top: 164px
-}
-
-.pinHeader-header.res.comments-page .side {
-  margin-top: 290px
-}
-
 .pinHeader-header #header {
   top: 0;
   background-image: url(%%varian-banner%%);
@@ -227,26 +219,6 @@ body>.content {
   margin-top: 190px
 }
 
-.side {
-  margin-top: 294px
-}
-
-.search-page .side {
-  margin-top: 242px
-}
-
-.comments-page .side {
-  margin-top: 406px
-}
-
-.res .comments-page .side {
-  margin-top: 420px
-}
-
-.comments-page .side .linkinfo {
-  margin-top: 94px
-}
-
 #search,
 .search-page .morelink {
   top: 190px
@@ -323,14 +295,6 @@ div.titlebox span.word {
   display: none!important
 }
 
-.sidebox.submit.submit-link {
-  display: block
-}
-
-.side .md blockquote:hover>blockquote:before {
-  display: none!important
-}
-
 .arrow.upmod:focus:after,
 .flair-tespa,
 .listing-page .tabmenu li:nth-of-type(8),
@@ -341,179 +305,6 @@ div.titlebox span.word {
 .wiki-page .tabmenu li:nth-of-type(8),
 div.titlebox span.word {
   display: none
-}
-
-.side blockquote {
-  border: 0;
-  margin: 0;
-  padding: 0
-}
-
-.side .md>blockquote>blockquote>blockquote {
-  margin: 0;
-  padding: 5px 40px 5px 4px;
-  height: 45px;
-  position: relative
-}
-
-.side .md>blockquote {
-  overflow: hidden!important;
-  margin-bottom: 5px
-}
-
-.side .md>blockquote:hover {
-  max-height: 100%!important;
-  background-image: none!important
-}
-
-.side .md>blockquote>blockquote>blockquote p del,
-.side .md>blockquote>blockquote>blockquote p del:hover {
-  position: absolute;
-  text-decoration: none
-}
-
-.side .md>blockquote>blockquote>blockquote p del:nth-child(1) {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  width: 100px;
-  font-size: 11px;
-  font-weight: 400;
-  font-family: Verdana, Candara, Segoe, Geneva, Tahoma, Arial, sans-serif;
-  top: 0;
-  right: 10px;
-  line-height: 40px;
-  color: #202125;
-  text-align: right;
-  z-index: 3
-}
-
-.side .md p del:nth-child(4),
-.side .md>blockquote>blockquote>blockquote p del:nth-child(3) {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 117px;
-  font-size: 12px;
-  font-weight: 400;
-  font-family: Verdana, Candara, Segoe, Geneva, Tahoma, Arial, sans-serif;
-  top: 5px;
-  left: 75px;
-  z-index: 3;
-  color: #000
-}
-
-.side .md p del:nth-child(4) a,
-.side .md>blockquote>blockquote>blockquote p del:nth-child(3) a {
-  color: #fff
-}
-
-.side .md>blockquote>blockquote>blockquote p del:nth-child(4) {
-  top: 23px;
-  color: #000
-}
-
-.side .md>blockquote>blockquote>blockquote p del:nth-child(2) {
-  left: 5px;
-  top: 8px;
-  color: #ddd;
-  background: #0b2d4f;
-  line-height: 28px;
-  font-size: 13px;
-  font-weight: 400;
-  font-family: Verdana, Candara, Segoe, Geneva, Tahoma, Arial, sans-serif;
-  height: 30px;
-  width: 65px;
-  text-align: center;
-  z-index: 3;
-  overflow: hidden
-}
-
-.side .md>ul li a,
-a[href="#s"]:active,
-a[href="#s"]:active:after,
-a[href="#s"]:hover,
-a[href="#s"]:hover:after {
-  color: #fff
-}
-
-.side .md>blockquote>blockquote>blockquote p a:nth-child(2) {
-  top: 9px;
-  left: 75px;
-  z-index: 2;
-  position: absolute
-}
-
-.side .md>blockquote>blockquote>blockquote p a:nth-child(3) {
-  top: 27px;
-  left: 75px;
-  z-index: 2;
-  position: absolute
-}
-
-.side .md a[href*="#matchSpacer"] {
-  font-size: 0;
-  margin-bottom: -10px;
-  display: block
-}
-
-.side .md>ul {
-  padding-left: 0
-}
-
-.side .md>ul li {
-  background: #0b2d4f;
-  padding: 4px 6px;
-  margin-left: 5px;
-  margin-bottom: 3px;
-  list-style: none;
-  position: relative;
-  overflow: hidden
-}
-
-.side .md>ul li sup {
-  float: right;
-  margin-top: 8px;
-  font-size: 16px
-}
-
-.side .md>ul li a del {
-  position: absolute;
-  left: 110px;
-  text-decoration: none;
-  width: 130px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  line-height: 40px;
-  margin-top: -12px
-}
-
-a[href="#s"] {
-  padding: 0 2px;
-  color: #000;
-  background: #000;
-  cursor: text;
-  border-radius: 3px
-}
-
-a[href="#s"]:visited {
-  color: #000
-}
-
-.link:not(.stickied) .title>a[href*="/spoiler"] {
-  background: #000;
-  color: #000;
-  transition: .5s all
-}
-
-.link:not(.stickied) .title>a[href*="/spoiler"]:hover {
-  text-shadow: none;
-  color: #000!important;
-  background: 0 0
-}
-
-.link:not(.stickied) .title>a[href*="/spoiler"]:before {
-  content: "Spoiler ";
-  color: #fff
 }
 
 .thumbnail[href*="www.youtube.com"] {
@@ -621,10 +412,6 @@ a.thumbnail img {
   background: #0b2d4f
 }
 
-.side .spacer {
-  margin: 0
-}
-
 .titlebox .RESDashboardToggle {
   margin-right: 0
 }
@@ -708,523 +495,6 @@ a.thumbnail img {
   color: #fff
 }
 
-.side .md>ol {
-  position: absolute;
-  top: 35px;
-  left: 50px;
-  z-index: 98;
-  list-style: none;
-  margin: 0;
-  padding: 0
-}
-
-.side .md>ol a {
-  display: inline-block;
-  padding: 5px 5px 5px 0;
-  background: #eee;
-  border: 2px solid #4F5763;
-  font-size: 12px;
-  text-decoration: none;
-  color: #222
-}
-
-.side .md>ol li {
-  margin-bottom: 5px
-}
-
-.side .md>ol a:before {
-  content: "NOTICE";
-  font-weight: 700;
-  margin: 0 5px 0 0;
-  padding: 5px;
-  background: #0b2d4f;
-  color: #ddd
-}
-
-.side .md>ol a:hover {
-  border-color: #4D5763;
-  background: #ddd;
-  opacity: .8
-}
-
-.side .md>ol a:hover:before {
-  background: #0b2d4f
-}
-
-.side .md>ol a[href$="#event"] {
-  border: 2px solid #e54219
-}
-
-.side .md>ol a[href$="#event"]:before {
-  content: "EVENT";
-  background: #e54219
-}
-
-.side .md>ol a[href$="#event"]:hover {
-  border-color: #ff5c33
-}
-
-.side .md>ol a[href$="#event"]:hover:before {
-  background: #ff5c33
-}
-
-.side .md>ol a[href$="#blizz"] {
-  border: 2px solid #0071a2
-}
-
-.side .md>ol a[href$="#blizz"]:before {
-  content: "BLIZZ";
-  background: #0071a2
-}
-
-.side .md>ol a[href$="#blizz"]:hover {
-  border-color: #1a8bbc
-}
-
-.side .md>ol a[href$="#blizz"]:hover:before {
-  background: #1a8bbc
-}
-
-.side .md>ol a[href$="#reminder"] {
-  border: 2px solid #4F5763
-}
-
-.side .md>ol a[href$="#reminder"]:before {
-  content: "REMINDER";
-  background: #0b2d4f;
-  color: #ddd
-}
-
-.side .md>ol a[href$="#reminder"]:hover {
-  border-color: #0b2d4f
-}
-
-.side .md>ol a[href$="#reminder"]:hover:before {
-  background: #0b2d4f
-}
-
-.side .md>ol a[href$="#live"] {
-  border: 2px solid #ff4500
-}
-
-.side .md>ol a[href$="#live"]:before {
-  content: "LIVE";
-  background: red;
-  color: #000
-}
-
-.side .md>ol a[href$="#live"]:hover {
-  border-color: #ff4500
-}
-
-.side .md>ol a[href$="#live"]:hover:before {
-  background: red
-}
-
-.side .md a[href*="#submissionFlair"] {
-  text-align: center;
-  content: "";
-  display: inline-block;
-  height: 35px;
-  width: 130px;
-  background: url(%%categories-withoutBorders-updatedIcons%%) no-repeat;
-  margin-left: 11px;
-  margin-top: 1px;
-  margin-bottom: 1px
-}
-
-.side .md a[href*="#submissionFlair"]:hover {
-  opacity: .8
-}
-
-.side .md a[href*="#BluePosts"] {
-  background-position: 0 0
-}
-
-.side .md a[href*="#ModPosts"] {
-  background-position: 0 -35px
-}
-
-.side .md a[href*="#Gameplay"] {
-  background-position: 0 -70px
-}
-
-.side .md a[href*="#VoD"] {
-  background-position: 0 -105px
-}
-
-.side .md a[href*="#esports"] {
-  background-position: 0 -245px
-}
-
-.side .md a[href*="#Shows"] {
-  background-position: 0 -140px
-}
-
-.side .md a[href*="#WeeklyPosts"] {
-  background-position: 0 -175px
-}
-
-.side .md a[href*="#BugReports"] {
-  background-position: 0 -210px
-}
-
-.side .md h1,
-.side .sidecontentbox .title h1 {
-  display: block;
-  margin: 10px -12px!important;
-  padding: 10px;
-  background: #0b2d4f;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
-  color: #ddd;
-  font-size: 15px;
-  font-weight: 400;
-  text-transform: uppercase
-}
-
-.side .titlebox .md h1 {
-  margin: 10px -12px!important
-}
-
-.side .md a[href*="#free_rotation"],
-side .md a[href*="#free_rotation2"] {
-  text-align: center;
-  content: "";
-  display: inline-block;
-  height: 100px;
-  width: 92px;
-  margin-bottom: -40px;
-  margin-right: -28px
-}
-
-.side .md a[href*="#free_rotation"] {
-  background: url(%%thumbnails-hexagon-post-alarak%%) no-repeat
-}
-
-.side .md a[href*="#free_rotation2"] {
-  background: url(%%thumbnails-hexagon-post-rag-small%%) no-repeat
-}
-
-.side .md a[href*="#free_rotation"]:hover,
-.side .md a[href*="#free_rotation2"]:hover {
-  opacity: .8
-}
-
-.side .md a[href*="#Abathur"] {
-  background-position: 0 -300px
-}
-
-.side .md a[href*="#Anubarak"] {
-  background-position: 0 -100px
-}
-
-.side .md a[href*="#Arthas"] {
-  background-position: 0 -200px
-}
-
-.side .md a[href*="#Azmodan"] {
-  background-position: 0 -3200px
-}
-
-.side .md a[href*="#Brightwing"] {
-  background-position: 0 -3300px
-}
-
-.side .md a[href*="#Chen"] {
-  background-position: 0 -400px
-}
-
-.side .md a[href*="#Diablo"] {
-  background-position: 0 -500px
-}
-
-.side .md a[href*="#ETC"] {
-  background-position: 0 -1200px
-}
-
-.side .md a[href*="#Falstad"] {
-  background-position: 0 -600px
-}
-
-.side .md a[href*="#Gazlowe"] {
-  background-position: 0 -2000px
-}
-
-.side .md a[href*="#Illidan"] {
-  background-position: 0 -700px
-}
-
-.side .md a[href*="#Jaina"] {
-  background-position: 0 -800px
-}
-
-.side .md a[href*="#Kaelthas"] {
-  background-position: 0 -900px
-}
-
-.side .md a[href*="#Kerrigan"] {
-  background-position: 0 -1000px
-}
-
-.side .md a[href*="#LiLi"] {
-  background-position: 0 -1100px
-}
-
-.side .md a[href*="#Malfurion"] {
-  background-position: 0 -1900px
-}
-
-.side .md a[href*="#Muradin"] {
-  background-position: 0 -1300px
-}
-
-.side .md a[href*="#Murky"] {
-  background-position: 0 -1400px
-}
-
-.side .md a[href*="#Nazeebo"] {
-  background-position: 0 -1500px
-}
-
-.side .md a[href*="#Nova"] {
-  background-position: 0 -1600px
-}
-
-.side .md a[href*="#Raynor"] {
-  background-position: 0 -1700px
-}
-
-.side .md a[href*="#Rehgar"] {
-  background-position: 0 -1800px
-}
-
-.side .md a[href*="#SgtHammer"] {
-  background-position: 0 -2800px
-}
-
-.side .md a[href*="#Sonya"] {
-  background-position: 0 -2900px
-}
-
-.side .md a[href*="#Stitches"] {
-  background-position: 0 -3000px
-}
-
-.side .md a[href*="#Sylvanas"] {
-  background-position: 0 -3100px
-}
-
-.side .md a[href*="#Tassadar"] {
-  background-position: 0 -3400px
-}
-
-.side .md a[href*="#TLV"] {
-  background-position: 0 0
-}
-
-.side .md a[href*="#Thrall"] {
-  background-position: 0 -2700px
-}
-
-.side .md a[href*="#Tychus"] {
-  background-position: 0 -2100px
-}
-
-.side .md a[href*="#Tyrael"] {
-  background-position: 0 -2200px
-}
-
-.side .md a[href*="#Tyrande"] {
-  background-position: 0 -3500px
-}
-
-.side .md a[href*="#Uther"] {
-  background-position: 0 -2300px
-}
-
-.side .md a[href*="#Valla"] {
-  background-position: 0 -2400px
-}
-
-.side .md a[href*="#Zagara"] {
-  background-position: 0 -2500px
-}
-
-.side .md a[href*="#Zeratul"] {
-  background-position: 0 -2600px
-}
-
-.side .md a[href*="#Johanna"] {
-  background-position: 0 -3600px
-}
-
-.side .md a[href*="#TheButcher"] {
-  background-position: 0 -3700px
-}
-
-.side .md a[href*="#Leoric"] {
-  background-position: 0 -3800px
-}
-
-.side .md a[href*="#Kharazim"] {
-  background-position: 0 -3900px
-}
-
-.side .md a[href*="#Rexxar"] {
-  background-position: 0 -4000px
-}
-
-.side .md a[href*="#LtMorales"] {
-  background-position: 0 -4200px
-}
-
-.side .md a[href*="#Artanis"] {
-  background-position: 0 -4100px
-}
-
-.side .md a[href*="#Cho"],
-.side .md a[href*="#Gall"] {
-  background-position: 0 -4300px
-}
-
-.side .md a[href*="#Lunara"] {
-  background-position: 0 -4400px
-}
-
-.side .md a[href*="#Greymane"] {
-  background-position: 0 -4500px
-}
-
-.side .md a[href*="#LiMing"] {
-  background-position: 0 -4600px
-}
-
-.side .md a[href*="#Xul"] {
-  background-position: 0 -4700px
-}
-
-.side .md a[href*="#Dehaka"] {
-  background-position: 0 -4800px
-}
-
-.side .md a[href*="#Tracer"] {
-  background-position: 0 -4900px
-}
-
-.side .md a[href*="#Chromie"] {
-  background-position: 0 -5000px
-}
-
-.side .md a[href*="#Medivh"] {
-  background-position: 0 -5100px
-}
-
-.side .md a[href*="#Guldan"] {
-  background-position: 0 -5200px
-}
-
-.side .md a[href*="#Auriel"] {
-  background-position: 0 -5300px
-}
-
-.side .md a[href*="#Alarak"] {
-  background-position: 0 -5500px
-}
-
-.side .md a[href*="#Zarya"] {
-  background-position: 0 -5400px
-}
-
-.side .md a[href*="#Samuro"] {
-  background-position: 0 0
-}
-
-.side .md a[href*="#Varian"] {
-  background-position: 0 -100px
-}
-
-.side .md a[href*="#Ragnaros"] {
-  background-position: 0 -200px
-}
-
-.side .md a[href*="#spacer"],
-.side .md a[href*="#bottom"] {
-  pointer-events: none;
-  cursor: default;
-  width: 22px;
-  text-align: center;
-  content: "";
-  display: inline-block
-}
-
-.side .md a[href*="#spacer"] {
-  height: 60px;
-  margin-right: 8px
-}
-
-.side .md a[href*="#bottom"] {
-  margin-right: 12px
-}
-
-.side .md a[href*="#game"] {
-  content: "";
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  background: url(%%friendly-subreddit-images%%) no-repeat;
-  margin-right: 5px
-}
-
-.side .md a[href*="#game"]:hover {
-  opacity: .8
-}
-
-.side .md a[href*="#hearthstone"] {
-  background-position: 0 -50px
-}
-
-.side .md a[href*="#starcraft"] {
-  background-position: 0 -100px
-}
-
-.side .md a[href*="#warcraft"] {
-  background-position: 0 -150px
-}
-
-.side .md a[href*="#diablo"] {
-  background-position: 0 -200px
-}
-
-.side .md a[href*="#official"] {
-  content: "";
-  display: inline-block;
-  height: 64px;
-  width: 64px;
-  background: url(%%social-links%%) no-repeat;
-  opacity: .8;
-  margin-right: 8px
-}
-
-.side .md a[href*="#official"]:hover {
-  opacity: .6
-}
-
-.side .md a[href*="#official"]:last-of-type {
-  margin-right: 0
-}
-
-.side .md a[href*="#official_site"] {
-  background-position: 0 -64px
-}
-
-.side .md a[href*="#official_twitter"] {
-  background-position: 0 -128px
-}
-
-.side .md a[href*="#official_facebook"] {
-  background-position: 0 -192px
-}
-
 .author {
   color: #9E6500!important
 }
@@ -1286,10 +556,6 @@ side .md a[href*="#free_rotation2"] {
 
 .linkflair-bluepost .flair {
   color: #ddd
-}
-
-.side .flair {
-  margin-top: 0
 }
 
 .flairsample-left {
@@ -2239,8 +1505,7 @@ a.voteWeight {
 }
 
 .morelink,
-.morelink:after,
-.side {
+.morelink:after {
   width: 320px
 }
 
@@ -2266,10 +1531,6 @@ a.voteWeight {
 #search input[type=text] {
   width: 320px;
   margin-left: -20px
-}
-
-.side {
-  padding: 6px 12px
 }
 
 .sitetable {
@@ -3048,10 +2309,6 @@ button:hover {
   margin-right: 30px!important
 }
 
-.comments-page .side .linkinfo {
-  width: 320px
-}
-
 .commentarea .thing,
 .res .commentarea .thing {
   padding: 10px 10px 10px 8px!important
@@ -3074,16 +2331,6 @@ div.RES-keyNav-activeElement {
 form.toggle.sr_style_toggle label {
   position: relative;
   top: -2px
-}
-
-.side:after {
-  content: "CSS Theme via /r/Naut. Adapted by /u/Hermes13 with help from /r/Hearthstone & /r/Overwatch.";
-  margin-right: 10px
-}
-
-.side #moderation_tools .title h1,
-.sidecontentbox a.helplink {
-  color: #ddd
 }
 
 .RESDialogSmall .fancy-toggle-button {
@@ -3195,16 +2442,6 @@ div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   background-color: transparent!important
 }
 
-.thing.stickied a[href="#s"],
-.thing.stickied a[href="#s"]:visited {
-  color: #000!important
-}
-
-.thing.stickied a[href="#s"]:active,
-.thing.stickied a[href="#s"]:hover {
-  color: #65b354!important
-}
-
 .link .usertext .md {
   border-top: none!important
 }
@@ -3217,47 +2454,10 @@ html.res-commentBoxes .comment {
   margin-right: 30px!important
 }
 
-.side .md a[href*="#discord"] {
-  height: auto;
-  background-color: #0b2d4f;
-  color: #fff;
-  display: block
-}
-
-.side .md a[href*='#discord']:after {
-  content: "";
-  font-size: 0;
-  background-image: url(%%discord-icon%%);
-  display: block;
-  background-repeat: no-repeat;
-  position: absolute;
-  margin-top: -35px;
-  height: 50px;
-  right: 32px;
-  width: 50px
-}
-
-.side .md a[href*="#rules"],
-.side .md a[href*="#events"] {
-  height: auto;
-  background-color: #0b2d4f;
-  color: #fff;
-  display: block
-}
-
-.side .md a[href*="#welcome"] {
-  text-align: center;
-  content: "";
-  display: inline-block;
-  background: url(%%welcome-small%%) no-repeat;
-  float: right;
-  Width: 296px;
-  Height: 167px;
-  background-size: 296px 1167px
-}
-
 #RESShortcuts {
   color: grey
 }
 
 @import "link_flair";
+@import "sidebar";
+@import "spoilers";

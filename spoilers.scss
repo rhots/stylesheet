@@ -1,0 +1,48 @@
+// Link text to #s will be blacked out
+a[href="#s"] {
+  background: #000;
+  border-radius: 3px;
+  color: #000;
+  cursor: text;
+  padding: 0 2px;
+}
+
+a[href="#s"]:visited {
+  color: #000;
+}
+
+a[href="#s"]:active,
+a[href="#s"]:active:after,
+a[href="#s"]:hover,
+a[href="#s"]:hover:after {
+  color: #fff
+}
+
+.thing.stickied a[href="#s"],
+.thing.stickied a[href="#s"]:visited {
+  color: #000!important
+}
+
+.thing.stickied a[href="#s"]:active,
+.thing.stickied a[href="#s"]:hover {
+  color: #65b354!important
+}
+
+// Submission links that begin with "spoiler" will be blacked out on the front
+// page, but revealed when hovered over.
+.link:not(.stickied) .title>a[href*="/spoiler"] {
+  background: #000;
+  color: #000;
+  transition: .5s all;
+}
+
+.link:not(.stickied) .title>a[href*="/spoiler"]:hover {
+  background: 0 0;
+  color: #000!important;
+  text-shadow: none;
+}
+
+.link:not(.stickied) .title>a[href*="/spoiler"]:before {
+  color: #fff;
+  content: "Spoiler ";
+}
