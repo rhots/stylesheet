@@ -5,5 +5,6 @@ build:
 
 clean:
 	rm main.css
+	rm main.css.map
 
 .PHONY: all build clean
