@@ -1836,7 +1836,8 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .commentarea .sitetable {
     margin: 0;
-    box-shadow: none
+    box-shadow: none;
+    margin-right: 0px!important;
 }
 
 .commentarea .thing {
