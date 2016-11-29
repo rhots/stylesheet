@@ -1,26 +1,26 @@
 .approval-checkmark,
 .btn,
 button {
-    cursor: default
+  cursor: default
 }
 
 #header-bottom-right a:hover,
 #sr-header-area .dropdown.srdrop .selected:hover {
-    text-decoration: underline
+  text-decoration: underline
 }
 
 *,
 :after,
 :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
 }
 
 body {
-    overflow-x: hidden;
-    background-color: #eee;
-    min-width: 820px
+  overflow-x: hidden;
+  background-color: #eee;
+  min-width: 820px
 }
 
 #mail,
@@ -31,180 +31,180 @@ body {
 .listing-page .comment .midcol,
 .tabpane-content .thing .title,
 .top-page .menuarea .spacer {
-    overflow: visible
+  overflow: visible
 }
 
 a {
-    color: #4F8EF7;
-    transition: color .15s ease
+  color: #4F8EF7;
+  transition: color .15s ease
 }
 
 ::focus {
-    outline: 0!important
+  outline: 0!important
 }
 
 .btn,
 button {
-    margin: 4px 16px 4px 0;
-    padding: 2px 18px;
-    border: none;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .24);
-    color: #fff!important;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: all .25s ease;
-    height: 32px;
-    font-size: 12px
+  margin: 4px 16px 4px 0;
+  padding: 2px 18px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .24);
+  color: #fff!important;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .25s ease;
+  height: 32px;
+  font-size: 12px
 }
 
 .btn:hover,
 button:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .34)
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .34)
 }
 
 .btn:active,
 button:active {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .16);
-    background-color: #4059DB
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .16);
+  background-color: #4059DB
 }
 
 .btn:focus,
 button:focus {
-    outline: 0
+  outline: 0
 }
 
 #header {
-    margin: 0;
-    height: 0;
-    border: none
+  margin: 0;
+  height: 0;
+  border: none
 }
 
 #sr-header-area {
-    background-color: rgba(0, 0, 0, .05);
-    border: 0 solid;
-    transition: all .15s ease;
-    height: 24px;
-    line-height: 23px
+  background-color: rgba(0, 0, 0, .05);
+  border: 0 solid;
+  transition: all .15s ease;
+  height: 24px;
+  line-height: 23px
 }
 
 #sr-header-area .width-clip {
-    right: 300px
+  right: 300px
 }
 
 body:not(.loggedin) #sr-header-area .width-clip {
-    right: 340px
+  right: 340px
 }
 
 #sr-header-area .sr-list {
-    margin-right: 48px
+  margin-right: 48px
 }
 
 #sr-header-area .dropdown.srdrop .selected,
 #sr-header-area .separator,
 #sr-header-area .sr-bar a,
 #sr-more-link {
-    background-color: transparent;
-    color: rgba(255, 255, 255, .6);
-    transition: all .15s ease
+  background-color: transparent;
+  color: rgba(255, 255, 255, .6);
+  transition: all .15s ease
 }
 
 #sr-header-area:hover #sr-more-link,
 #sr-header-area:hover .dropdown.srdrop .selected,
 #sr-header-area:hover .seperator,
 #sr-header-area:hover .sr-bar a {
-    color: rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1)
 }
 
 #sr-header-area .dropdown.srdrop .selected:hover,
 #sr-header-area .sr-bar a:hover,
 #sr-more-link:hover {
-    background-color: transparent;
-    border: 0 solid;
-    transition: all .15s ease
+  background-color: transparent;
+  border: 0 solid;
+  transition: all .15s ease
 }
 
 a.random.choice {
-    padding-top: 2px;
-    position: relative;
-    display: inline-block;
-    margin-top: -2px
+  padding-top: 2px;
+  position: relative;
+  display: inline-block;
+  margin-top: -2px
 }
 
 #sr-header-area .dropdown.srdrop .selected {
-    margin: 0 12px 0 8px;
-    padding: 0;
-    background-image: none
+  margin: 0 12px 0 8px;
+  padding: 0;
+  background-image: none
 }
 
 #mail,
 #modmail,
 .morelink {
-    background-image: url(%%spritesheet%%)!important
+  background-image: url(%%spritesheet%%)!important
 }
 
 #header .pagename a:hover,
 .link .domain a:hover,
 .link .entry .tagline a:hover,
 .link .entry li .comments:hover {
-    text-decoration: none
+  text-decoration: none
 }
 
 #sr-header-area .dropdown.srdrop .selected:after {
-    position: relative;
-    content: "▼";
-    margin-left: 4px;
-    font-size: 10px
+  position: relative;
+  content: "▼";
+  margin-left: 4px;
+  font-size: 10px
 }
 
 #sr-header-area .drop-choices.srdrop {
-    background-color: #fff;
-    border: none;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .15)
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .15)
 }
 
 #sr-header-area .drop-choices a.choice {
-    border-bottom: 1px solid #edeeee;
-    color: #4D5763;
-    padding: 2px
+  border-bottom: 1px solid #edeeee;
+  color: #4D5763;
+  padding: 2px
 }
 
 #sr-header-area .drop-choices a.choice:hover {
-    background-color: #f1f1f1
+  background-color: #f1f1f1
 }
 
 #header-img,
 #header-img.default-header {
-    z-index: 99;
-    width: 0;
-    padding-left: 48px;
-    height: 48px;
-    position: relative;
-    top: 0;
-    margin: 0
+  z-index: 99;
+  width: 0;
+  padding-left: 48px;
+  height: 48px;
+  position: relative;
+  top: 0;
+  margin: 0
 }
 
 #header-bottom-left {
-    position: absolute
+  position: absolute
 }
 
 #header .tabmenu ul li {
-    margin: 0!important
+  margin: 0!important
 }
 
 #header .tabmenu li a {
-    display: inline-block;
-    margin: 0 7px;
-    padding: 16px;
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    transition: color .25s ease, background-color .25s ease;
-    color: #fff
+  display: inline-block;
+  margin: 0 7px;
+  padding: 16px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  transition: color .25s ease, background-color .25s ease;
+  color: #fff
 }
 
 #mail.havemail:before,
@@ -212,31 +212,31 @@ a.random.choice {
 .flair,
 .side:after,
 .wiki-page .wikititle {
-    font-family: arial, sans-serif
+  font-family: arial, sans-serif
 }
 
 #header .tabmenu li a:hover {
-    color: rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1)
 }
 
 #header .tabmenu li.selected a {
-    padding: 16px 16px 14px;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 2px solid #fff;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700
+  padding: 16px 16px 14px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700
 }
 
 #header-bottom-right,
 .separator,
 .user,
 .user .userkarma {
-    color: rgba(255, 255, 255, .45)
+  color: rgba(255, 255, 255, .45)
 }
 
 #header .tabmenu li.selected a:hover {
-    background-color: rgba(0, 0, 0, .08)
+  background-color: rgba(0, 0, 0, .08)
 }
 
 .listing-page .tabmenu li>a[href$="/controversial/"],
@@ -245,156 +245,156 @@ a.random.choice {
 .wiki-page .tabmenu li>a[href$="/controversial/"],
 .wiki-page .tabmenu li>a[href$="/promoted/"],
 .wiki-page .tabmenu li>a[href$="/gilded/"] {
-    display: none!important
+  display: none!important
 }
 
 .side {
-    margin: 200px 16px 0 0;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  margin: 200px 16px 0 0;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 #header-bottom-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: auto;
-    height: 24px;
-    background-color: transparent;
-    font-size: 11px;
-    padding: 5px 8px 4px 2px
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: 24px;
+  background-color: transparent;
+  font-size: 11px;
+  padding: 5px 8px 4px 2px
 }
 
 body:not(.loggedin) #header-bottom-right {
-    max-width: 340px
+  max-width: 340px
 }
 
 .user .userkarma {
-    font-weight: 400;
-    border: none;
-    font-size: 9px;
-    transition: all .15s ease
+  font-weight: 400;
+  border: none;
+  font-size: 9px;
+  transition: all .15s ease
 }
 
 #mail,
 #modmail {
-    width: 16px;
-    height: 14px;
-    background-repeat: no-repeat!important;
-    background-color: transparent;
-    transition: all .25s ease
+  width: 16px;
+  height: 14px;
+  background-repeat: no-repeat!important;
+  background-color: transparent;
+  transition: all .25s ease
 }
 
 #mail {
-    top: -2px
+  top: -2px
 }
 
 #mail.nohavemail {
-    background-position: -32px 0
+  background-position: -32px 0
 }
 
 #mail.havemail {
-    background-position: -32px -16px;
-    opacity: 1
+  background-position: -32px -16px;
+  opacity: 1
 }
 
 .message-count {
-    background-color: #f50;
-    position: relative;
-    top: -1px
+  background-color: #f50;
+  position: relative;
+  top: -1px
 }
 
 #mail.havemail:before {
-    position: fixed;
-    padding: 16px 24px;
-    bottom: 24px;
-    z-index: 100;
-    background-color: #EA4848;
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    color: #fff;
-    width: 300px;
-    height: 48px;
-    left: 24px;
-    text-indent: 0;
-    font-size: 14px;
-    line-height: 1;
-    -webkit-transform: translateY(112px);
-    transform: translateY(112px);
-    transition: background-color .25s ease, box-shadow .25s ease;
-    background-image: url(%%spritesheet%%);
-    background-position: 269px -32px;
-    background-repeat: no-repeat
+  position: fixed;
+  padding: 16px 24px;
+  bottom: 24px;
+  z-index: 100;
+  background-color: #EA4848;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  color: #fff;
+  width: 300px;
+  height: 48px;
+  left: 24px;
+  text-indent: 0;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-transform: translateY(112px);
+  transform: translateY(112px);
+  transition: background-color .25s ease, box-shadow .25s ease;
+  background-image: url(%%spritesheet%%);
+  background-position: 269px -32px;
+  background-repeat: no-repeat
 }
 
 #mail.havemail:hover:before {
-    background-color: #ec5b5b;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .48)
+  background-color: #ec5b5b;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .48)
 }
 
 #mail.havemail:active:before {
-    background-color: #c73d3d;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, .76)
+  background-color: #c73d3d;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .76)
 }
 
 #search input[type=text],
 #search input[type=text]:focus:hover {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24)!important
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24)!important
 }
 
 #modmail {
-    top: -3px
+  top: -3px
 }
 
 #modmail.nohavemail {
-    background-position: -48px 0
+  background-position: -48px 0
 }
 
 #modmail.havemail {
-    background-position: -48px -16px;
-    opacity: 1
+  background-position: -48px -16px;
+  opacity: 1
 }
 
 #header-bottom-right a.pref-lang,
 .loggedin .logout a {
-    background-position: 0 -16px;
-    background-image: url(%%spritesheet%%);
-    width: 16px;
-    height: 14px;
-    display: inline-block;
-    text-indent: -9999px;
-    margin: 0;
-    position: relative;
-    top: -1px;
-    transition: all .25s ease
+  background-position: 0 -16px;
+  background-image: url(%%spritesheet%%);
+  width: 16px;
+  height: 14px;
+  display: inline-block;
+  text-indent: -9999px;
+  margin: 0;
+  position: relative;
+  top: -1px;
+  transition: all .25s ease
 }
 
 #search,
 .side:after {
-    position: absolute;
-    width: 300px
+  position: absolute;
+  width: 300px
 }
 
 .loggedin .logout a {
-    background-position: -16px 0
+  background-position: -16px 0
 }
 
 #search input[type=submit],
 #search input[type=submit]:hover {
-    background-image: url(%%spritesheet%%);
-    background-position: -215px -231px
+  background-image: url(%%spritesheet%%);
+  background-position: -215px -231px
 }
 
 .side:after {
-    display: block;
-    margin: 10px 0;
-    padding: 10px 0;
-    color: #5B92FA;
-    text-transform: none;
-    font-size: 16px;
-    text-align: center;
-    right: 16px
+  display: block;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: #5B92FA;
+  text-transform: none;
+  font-size: 16px;
+  text-align: center;
+  right: 16px
 }
 
 .action-form .reason-prompt:first-letter,
@@ -411,233 +411,233 @@ body:not(.loggedin) #header-bottom-right {
 .sitetable .nav-buttons:first-letter,
 .top-page .content .menuarea .dropdown.lightdrop .selected,
 .unvotable-message:first-letter {
-    text-transform: capitalize
+  text-transform: capitalize
 }
 
 #search {
-    right: 16px;
-    z-index: 1
+  right: 16px;
+  z-index: 1
 }
 
 #search input[type=text] {
-    padding: 10px 25px 10px 16px;
-    border: 0 solid;
-    border-radius: 2px;
-    transition: all .25s ease
+  padding: 10px 25px 10px 16px;
+  border: 0 solid;
+  border-radius: 2px;
+  transition: all .25s ease
 }
 
 #search input[type=text]:hover {
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .32)!important
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .32)!important
 }
 
 #search input[type=text]:focus {
-    border-radius: 2px 2px 0 0;
-    outline: 0
+  border-radius: 2px 2px 0 0;
+  outline: 0
 }
 
 #search input[type=text]:-moz-placeholder {
-    font-size: 0;
-    color: #B3B3B3
+  font-size: 0;
+  color: #B3B3B3
 }
 
 #search input[type=text]::-webkit-input-placeholder {
-    font-size: 0;
-    color: #B3B3B3
+  font-size: 0;
+  color: #B3B3B3
 }
 
 #search input[type=text]:-ms-input-placeholder {
-    font-size: 0;
-    color: #B3B3B3
+  font-size: 0;
+  color: #B3B3B3
 }
 
 #search input[type=text]:-moz-placeholder::after {
-    font-size: 14px;
-    content: "Search reddit..";
-    position: relative;
-    top: 1px
+  font-size: 14px;
+  content: "Search reddit..";
+  position: relative;
+  top: 1px
 }
 
 #search input[type=text]::-webkit-input-placeholder::after {
-    font-size: 14px;
-    content: "Search reddit..";
-    position: relative;
-    top: 1px
+  font-size: 14px;
+  content: "Search reddit..";
+  position: relative;
+  top: 1px
 }
 
 #search input[type=text]:-ms-input-placeholder::after {
-    font-size: 14px;
-    content: "Search reddit..";
-    position: relative;
-    top: 1px
+  font-size: 14px;
+  content: "Search reddit..";
+  position: relative;
+  top: 1px
 }
 
 #search input[type=text]::-moz-placeholder {
-    color: #B3B3B3
+  color: #B3B3B3
 }
 
 .morelink a,
 .morelink:after {
-    color: #fff;
-    letter-spacing: 0;
-    font-weight: 400
+  color: #fff;
+  letter-spacing: 0;
+  font-weight: 400
 }
 
 #search input[type=submit] {
-    height: 32px;
-    width: 32px;
-    margin-left: -38px;
-    background-repeat: no-repeat;
-    border: none!important;
-    border-radius: 16px;
-    background-color: transparent;
-    transition: background-color .15s ease
+  height: 32px;
+  width: 32px;
+  margin-left: -38px;
+  background-repeat: no-repeat;
+  border: none!important;
+  border-radius: 16px;
+  background-color: transparent;
+  transition: background-color .15s ease
 }
 
 #search input[type=submit]:hover {
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, .05)
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, .05)
 }
 
 #search #searchexpando {
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 0 0 2px 2px;
-    margin-top: -5px;
-    padding-top: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    height: 57px
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 0 0 2px 2px;
+  margin-top: -5px;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 57px
 }
 
 #search #searchexpando label {
-    padding: 18px 8px 17px;
-    cursor: pointer;
-    transition: all .1s ease
+  padding: 18px 8px 17px;
+  cursor: pointer;
+  transition: all .1s ease
 }
 
 .morelink,
 .morelink:after {
-    width: 300px;
-    position: absolute;
-    transition: all .25s ease
+  width: 300px;
+  position: absolute;
+  transition: all .25s ease
 }
 
 #search #searchexpando label:hover {
-    background-color: rgba(0, 0, 0, .1)
+  background-color: rgba(0, 0, 0, .1)
 }
 
 #search #searchexpando label:active {
-    background-color: rgba(0, 0, 0, .25)
+  background-color: rgba(0, 0, 0, .25)
 }
 
 .morelink {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    background-position: 268px -214px!important;
-    background-repeat: no-repeat!important;
-    right: 16px;
-    height: 36px;
-    border-radius: 2px;
-    line-height: 36px;
-    border: none;
-    text-align: left;
-    padding: 0 16px;
-    font-family: verdana, arial, sans-serif
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  background-position: 268px -214px!important;
+  background-repeat: no-repeat!important;
+  right: 16px;
+  height: 36px;
+  border-radius: 2px;
+  line-height: 36px;
+  border: none;
+  text-align: left;
+  padding: 0 16px;
+  font-family: verdana, arial, sans-serif
 }
 
 .morelink:hover {
-    box-shadow: 0 5px 8px rgba(0, 0, 0, .24)
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .24)
 }
 
 .morelink:active {
-    background-color: #4059DB;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, .6)
+  background-color: #4059DB;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, .6)
 }
 
 .morelink a {
-    font-size: 14px
+  font-size: 14px
 }
 
 .morelink:after {
-    padding: 16px;
-    right: 0;
-    margin-top: 0;
-    display: block;
-    opacity: 0;
-    transition-delay: 0;
-    line-height: 1.4em;
-    border-radius: 2px 2px 0 0;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
-    visibility: hidden;
-    pointer-events: none
+  padding: 16px;
+  right: 0;
+  margin-top: 0;
+  display: block;
+  opacity: 0;
+  transition-delay: 0;
+  line-height: 1.4em;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
+  visibility: hidden;
+  pointer-events: none
 }
 
 .disabled .morelink a,
 .titlebox h1 {
-    color: #4d5763
+  color: #4d5763
 }
 
 .morelink:hover:after {
-    margin-top: 16px;
-    opacity: 100;
-    visibility: visible;
-    transition-delay: .25s
+  margin-top: 16px;
+  opacity: 100;
+  visibility: visible;
+  transition-delay: .25s
 }
 
 .disabled .morelink {
-    box-shadow: none!important;
-    background-color: #CFCFCF
+  box-shadow: none!important;
+  background-color: #CFCFCF
 }
 
 .disabled .morelink:after {
-    content: "You must be approved by the moderators in order to submit.";
-    background-color: #CFCFCF;
-    color: #4d5763
+  content: "You must be approved by the moderators in order to submit.";
+  background-color: #CFCFCF;
+  color: #4d5763
 }
 
 .login-form-side {
-    border: none
+  border: none
 }
 
 .login-form-side input[type=password],
 .login-form-side input[type=text] {
-    width: 128px
+  width: 128px
 }
 
 .login-form-side button.btn {
-    margin-right: -3px
+  margin-right: -3px
 }
 
 .titlebox h1 {
-    margin-bottom: 6px
+  margin-bottom: 6px
 }
 
 .titlebox .number,
 .titlebox .users-online,
 .titlebox span.subscribers {
-    top: -2px
+  top: -2px
 }
 
 .titlebox .tagline a.flairselectbtn {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .titlebox .tagline a.flairselectbtn:after {
-    content: " flair"
+  content: " flair"
 }
 
 .titlebox .tagline .flair:before,
 body:before {
-    content: ""
+  content: ""
 }
 
 .titlebox form.toggle.sr_style_toggle {
-    padding-bottom: 0;
-    display: block
+  padding-bottom: 0;
+  display: block
 }
 
 .titlebox form.toggle.sr_style_toggle label {
-    position: relative;
-    top: -3px
+  position: relative;
+  top: -3px
 }
 
 .side .md .-blocks,
@@ -648,270 +648,270 @@ body:before {
 .side .md pre,
 .side .md table,
 .side .md ul {
-    color: #4D5763;
-    font-size: 13px;
-    font-family: Arial, sans-serif;
-    line-height: 1.3333333333333em
+  color: #4D5763;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  line-height: 1.3333333333333em
 }
 
 .side .titlebox .md h1 {
-    line-height: 18px
+  line-height: 18px
 }
 
 .side .titlebox .md h2 {
-    margin: 16px 0 2px
+  margin: 16px 0 2px
 }
 
 .side .titlebox .md h3 a {
-    padding: 12px 16px;
-    width: 100%;
-    border-radius: 2px;
-    background-color: #516AE8;
-    font-family: verdana, arial, sans-serif;
-    transition: all .25s ease;
-    color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    display: block;
-    margin: 1.5em 0;
-    font-size: 12px
+  padding: 12px 16px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #516AE8;
+  font-family: verdana, arial, sans-serif;
+  transition: all .25s ease;
+  color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  display: block;
+  margin: 1.5em 0;
+  font-size: 12px
 }
 
 .comment .entry .tagline,
 .entry .buttons li a,
 .link .title,
 .linkflairlabel {
-    font-family: Arial, sans-serif
+  font-family: Arial, sans-serif
 }
 
 .side .titlebox .md h3 a:hover {
-    background-color: #5A72EE;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .54)
+  background-color: #5A72EE;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .54)
 }
 
 .side .titlebox .md h3 a:active {
-    background-color: #4059DB;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, .54)
+  background-color: #4059DB;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .54)
 }
 
 .side .titlebox .md h4 a,
 .wiki-page .wiki-page-content .md.wiki h4 {
-    padding: 12px 16px;
-    background-color: #FFF;
-    border: 1px solid #D4D4D4;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
-    color: #737373;
-    font-weight: 700;
-    transition: all .15s ease;
-    display: block;
-    margin: 1.5em 0;
-    font-size: 12px
+  padding: 12px 16px;
+  background-color: #FFF;
+  border: 1px solid #D4D4D4;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+  color: #737373;
+  font-weight: 700;
+  transition: all .15s ease;
+  display: block;
+  margin: 1.5em 0;
+  font-size: 12px
 }
 
 .arrow,
 .arrow.down,
 .arrow.up {
-    transition: background-color .25s ease
+  transition: background-color .25s ease
 }
 
 .side .titlebox h4 a:hover,
 .wiki-page .wiki-page-content .md.wiki h4:hover {
-    box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
-    color: #4D5763
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+  color: #4D5763
 }
 
 .side .titlebox h4 a:active,
 .wiki-page .wiki-page-content .md.wiki h4:active {
-    background-color: #E5E5E5;
-    color: #999;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .36)
+  background-color: #E5E5E5;
+  color: #999;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .36)
 }
 
 .md hr {
-    border: 1px solid #e5e5e5
+  border: 1px solid #e5e5e5
 }
 
 .side #moderation_tools .title .collapse-button {
-    color: #4D5763;
-    vertical-align: middle;
-    border-radius: 1px;
-    border: 1px solid #d8d8d8
+  color: #4D5763;
+  vertical-align: middle;
+  border-radius: 1px;
+  border: 1px solid #d8d8d8
 }
 
 .side .sidecontentbox .content {
-    border: none;
-    padding: 8px 0
+  border: none;
+  padding: 8px 0
 }
 
 .icon-menu a {
-    background-color: transparent
+  background-color: transparent
 }
 
 #ad-frame,
 #ad_main,
 #ad_sponsorship {
-    margin-left: -16px
+  margin-left: -16px
 }
 
 #ad_sponsorship {
-    margin-top: -18px;
-    border-radius: 2px 2px 0 0
+  margin-top: -18px;
+  border-radius: 2px 2px 0 0
 }
 
 .gadget .midcol {
-    width: 38px
+  width: 38px
 }
 
 body>.content {
-    margin: 96px 332px 0 16px;
-    padding: 0;
-    border-radius: 2px
+  margin: 96px 332px 0 16px;
+  padding: 0;
+  border-radius: 2px
 }
 
 .arrow.upmod,
 .sitetable {
-    position: relative
+  position: relative
 }
 
 @media only screen and (min-width:1921px) {
-    body:before {
-        background-size: cover
-    }
+  body:before {
+    background-size: cover
+  }
 }
 
 .link {
-    margin: 0;
-    padding: 0;
-    background-color: #fff
+  margin: 0;
+  padding: 0;
+  background-color: #fff
 }
 
 .link .midcol {
-    width: 36px!important;
-    margin: 15px 14px 0 11px;
-    height: 60px
+  width: 36px!important;
+  margin: 15px 14px 0 11px;
+  height: 60px
 }
 
 .arrow.down,
 .arrow.downmod,
 .arrow.up,
 .arrow.upmod {
-    height: 20px
+  height: 20px
 }
 
 .link .score {
-    line-height: 16px;
-    margin: 1px 0
+  line-height: 16px;
+  margin: 1px 0
 }
 
 .arrow {
-    margin: 0 0 0 2px;
-    border-radius: 2px
+  margin: 0 0 0 2px;
+  border-radius: 2px
 }
 
 .arrow.down:after {
-    display: block;
-    visibility: hidden;
-    position: absolute;
-    z-index: 1000;
-    margin-top: -6px;
-    margin-left: 32px;
-    padding: 12px;
-    background-color: rgba(79, 77, 192, 0);
-    border: none;
-    border-radius: 2px;
-    color: rgba(255, 255, 255, 0);
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-size: 13px;
-    transition: all .25s ease;
-    pointer-events: none
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1000;
+  margin-top: -6px;
+  margin-left: 32px;
+  padding: 12px;
+  background-color: rgba(79, 77, 192, 0);
+  border: none;
+  border-radius: 2px;
+  color: rgba(255, 255, 255, 0);
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 13px;
+  transition: all .25s ease;
+  pointer-events: none
 }
 
 .entry .tagline,
 .link .domain a,
 .link .title {
-    transition: all .15s ease
+  transition: all .15s ease
 }
 
 .flairoptionpane,
 .flairselector .error,
 .flairselector form .flairselection,
 .flairselector h2 {
-    text-align: left
+  text-align: left
 }
 
 .arrow.down:hover:after {
-    visibility: visible;
-    color: #FFF;
-    margin-left: 48px
+  visibility: visible;
+  color: #FFF;
+  margin-left: 48px
 }
 
 .thumbnail {
-    max-width: 64px;
-    max-height: 56px;
-    margin: 16px 16px 0 0
+  max-width: 64px;
+  max-height: 56px;
+  margin: 16px 16px 0 0
 }
 
 .thumbnail.default,
 .thumbnail.self {
-    height: 56px
+  height: 56px
 }
 
 .thumbnail.self {
-    background: url(%%spritesheet%%) -73px -80px
+  background: url(%%spritesheet%%) -73px -80px
 }
 
 .thumbnail.default {
-    background: url(%%spritesheet%%) -143px -80px
+  background: url(%%spritesheet%%) -143px -80px
 }
 
 .thumbnail.nsfw {
-    background: url(%%spritesheet%%) 3px -140px
+  background: url(%%spritesheet%%) 3px -140px
 }
 
 .linkflairlabel {
-    padding: 1px 6px;
-    height: 18px;
-    border-radius: 1px;
-    border: 0 solid;
-    color: #fff;
-    font-weight: 700;
-    font-style: normal;
-    font-variant: normal;
-    font-size: 13px;
-    cursor: default;
-    vertical-align: middle;
-    position: relative;
-    top: -2px;
-    background-color: #4F8EF7
+  padding: 1px 6px;
+  height: 18px;
+  border-radius: 1px;
+  border: 0 solid;
+  color: #fff;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 13px;
+  cursor: default;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  background-color: #4F8EF7
 }
 
 .linkflair-inspiration .linkflairlabel {
-    background-color: #ea4848;
-    color: #fff
+  background-color: #ea4848;
+  color: #fff
 }
 
 .linkflair-inspiration .thumbnail.self {
-    background: url(%%spritesheet%%) -143px -140px
+  background: url(%%spritesheet%%) -143px -140px
 }
 
 .linkflair-waywo .linkflairlabel {
-    background-color: #516ae8;
-    color: #fff
+  background-color: #516ae8;
+  color: #fff
 }
 
 .linkflair-waywo .thumbnail.self {
-    background: url(%%spritesheet%%) -73px -140px
+  background: url(%%spritesheet%%) -73px -140px
 }
 
 .linkflair-mod .linkflairlabel {
-    background-color: #65B354;
-    color: #fff
+  background-color: #65B354;
+  color: #fff
 }
 
 .linkflair-mod a {
-    color: #65B354!important
+  color: #65B354!important
 }
 
 .thing .title,
@@ -919,1553 +919,1553 @@ body>.content {
 .thing .title.loggedin,
 .thing .title.loggedin.click,
 body .content .sitetable .link .title a:hover {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .linkflair-mod .thumbnail.default,
 .linkflair-mod .thumbnail.self {
-    background: url(%%spritesheet%%) -3px -80px!important
+  background: url(%%spritesheet%%) -3px -80px!important
 }
 
 .link .title {
-    margin: -2px 0 0;
-    font-size: 18px;
-    line-height: 1.33
+  margin: -2px 0 0;
+  font-size: 18px;
+  line-height: 1.33
 }
 
 .link .entry {
-    padding: 15px 32px 14px 0;
-    margin-left: 0
+  padding: 15px 32px 14px 0;
+  margin-left: 0
 }
 
 .content .thing .title:visited,
 .content .thing.visited .title {
-    color: #7D5D8A
+  color: #7D5D8A
 }
 
 .thing .title.click:visited,
 .thing .title.loggedin.click:visited {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .link .domain {
-    visibility: hidden
+  visibility: hidden
 }
 
 .link .domain a {
-    visibility: visible;
-    position: relative;
-    top: -1px;
-    color: #b3b3b3
+  visibility: visible;
+  position: relative;
+  top: -1px;
+  color: #b3b3b3
 }
 
 .link .domain a:hover {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .expando-button,
 .expando-button.image,
 .expando-button.video-muted {
-    position: relative;
-    margin: 2px 6px 2px 0!important;
-    width: 16px!important;
-    height: 16px!important;
-    border-radius: 2px;
-    background-color: transparent;
-    background-image: url(%%spritesheet%%)!important;
-    border: 1px solid #e9e9e9;
-    cursor: pointer
+  position: relative;
+  margin: 2px 6px 2px 0!important;
+  width: 16px!important;
+  height: 16px!important;
+  border-radius: 2px;
+  background-color: transparent;
+  background-image: url(%%spritesheet%%)!important;
+  border: 1px solid #e9e9e9;
+  cursor: pointer
 }
 
 .expando-button:hover {
-    background-color: #4F8EF7;
-    border-color: #4F8EF7
+  background-color: #4F8EF7;
+  border-color: #4F8EF7
 }
 
 .expando-button.selftext.collapsed {
-    background-position: -32px -32px!important
+  background-position: -32px -32px!important
 }
 
 .expando-button.selftext.collapsed:hover {
-    background-position: -48px -32px!important
+  background-position: -48px -32px!important
 }
 
 .expando-button.selftext.expanded {
-    background-position: -64px -32px!important
+  background-position: -64px -32px!important
 }
 
 .expando-button.selftext.expanded:hover {
-    background-position: -80px -32px!important
+  background-position: -80px -32px!important
 }
 
 .expando-button.video.collapsed {
-    background-position: -96px -32px!important
+  background-position: -96px -32px!important
 }
 
 .expando-button.video.collapsed:hover {
-    background-position: -12px -32px!important
+  background-position: -12px -32px!important
 }
 
 .expando-button.video.expanded {
-    background-position: -64px -32px!important
+  background-position: -64px -32px!important
 }
 
 .expando-button.video.expanded:hover {
-    background-position: -80px -32px!important
+  background-position: -80px -32px!important
 }
 
 .expando-button.image.collapsedExpando {
-    background-position: -160px -32px!important
+  background-position: -160px -32px!important
 }
 
 .expando-button.image.collapsedExpando:hover {
-    background-position: -176px -32px!important
+  background-position: -176px -32px!important
 }
 
 .expando-button.image.expanded {
-    background-position: -64px -32px!important
+  background-position: -64px -32px!important
 }
 
 .expando-button.image.expanded:hover {
-    background-position: -80px -32px!important
+  background-position: -80px -32px!important
 }
 
 .expando-button.image.gallery.collapsedExpando {
-    background-position: -128px -32px!important
+  background-position: -128px -32px!important
 }
 
 .expando-button.image.gallery.collapsedExpando:hover {
-    background-position: -144px -32px!important
+  background-position: -144px -32px!important
 }
 
 .expando-button.image.gallery.expanded {
-    background-position: -64px -32px!important
+  background-position: -64px -32px!important
 }
 
 .expando-button.image.gallery.expanded:hover {
-    background-position: -80px -32px!important
+  background-position: -80px -32px!important
 }
 
 .expando-button.video-muted.collapsed {
-    background-position: -208px -32px!important
+  background-position: -208px -32px!important
 }
 
 .expando-button.video-muted.collapsed:hover {
-    background-position: -224px -32px!important
+  background-position: -224px -32px!important
 }
 
 .expando-button.video-muted.expanded {
-    background-position: -64px -32px!important
+  background-position: -64px -32px!important
 }
 
 .expando-button.video-muted.expanded:hover {
-    background-position: -80px -32px!important
+  background-position: -80px -32px!important
 }
 
 .link .usertext .md {
-    margin-top: 10px;
-    padding-top: 3px;
-    padding-left: 0;
-    background-color: transparent;
-    border: 0 solid;
-    border-radius: 0;
-    color: #4D5763
+  margin-top: 10px;
+  padding-top: 3px;
+  padding-left: 0;
+  background-color: transparent;
+  border: 0 solid;
+  border-radius: 0;
+  color: #4D5763
 }
 
 .entry .tagline {
-    margin-top: 4px;
-    color: #b3b3b3;
-    font-size: 12px
+  margin-top: 4px;
+  color: #b3b3b3;
+  font-size: 12px
 }
 
 .link .entry .tagline a {
-    color: #4d5763
+  color: #4d5763
 }
 
 .link .entry .tagline time {
-    cursor: help
+  cursor: help
 }
 
 .link .entry .tagline a:hover {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .link .entry .tagline a.author {
-    margin-right: inherit
+  margin-right: inherit
 }
 
 .link .entry .tagline .userattrs {
-    visibility: hidden
+  visibility: hidden
 }
 
 .link .entry .tagline .userattrs a {
-    visibility: visible;
-    font-size: 10px;
-    padding: 1px 3px 1px 2px;
-    margin-left: 2px;
-    background-color: red;
-    color: #fff!important;
-    vertical-align: middle;
-    border-radius: 1px;
-    position: relative;
-    top: -1px;
-    cursor: help
+  visibility: visible;
+  font-size: 10px;
+  padding: 1px 3px 1px 2px;
+  margin-left: 2px;
+  background-color: red;
+  color: #fff!important;
+  vertical-align: middle;
+  border-radius: 1px;
+  position: relative;
+  top: -1px;
+  cursor: help
 }
 
 .link .entry .tagline .userattrs a.moderator {
-    background-color: #65B354
+  background-color: #65B354
 }
 
 .RESUserTagImage {
-    height: 10px!important;
-    background-image: url(%%spritesheet%%)!important;
-    background-position: -192px -34px!important;
-    opacity: .25!important;
-    margin-left: 2px!important;
-    transition: opacity .15s ease;
-    margin-top: 1px!important
+  height: 10px!important;
+  background-image: url(%%spritesheet%%)!important;
+  background-position: -192px -34px!important;
+  opacity: .25!important;
+  margin-left: 2px!important;
+  transition: opacity .15s ease;
+  margin-top: 1px!important
 }
 
 .RESUserTagImage:hover {
-    opacity: 1!important
+  opacity: 1!important
 }
 
 .link .flat-list {
-    margin-top: 3px
+  margin-top: 3px
 }
 
 .entry .buttons li a {
-    padding: 0 1px;
-    color: #b3b3b3;
-    font-weight: 400;
-    font-size: 13px;
-    transition: all .15s ease
+  padding: 0 1px;
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 13px;
+  transition: all .15s ease
 }
 
 .link .entry .buttons li a:hover {
-    color: #4F8EF7;
-    text-decoration: none
+  color: #4F8EF7;
+  text-decoration: none
 }
 
 .nsfw-stamp acronym {
-    padding: 2px 3px;
-    background-color: transparent;
-    border-color: #e82e63!important;
-    border-radius: 2px;
-    color: #e82e63;
-    opacity: 100;
-    cursor: help
+  padding: 2px 3px;
+  background-color: transparent;
+  border-color: #e82e63!important;
+  border-radius: 2px;
+  color: #e82e63;
+  opacity: 100;
+  cursor: help
 }
 
 .link .entry .buttons li a.comments {
-    color: #4F8EF7;
-    font-weight: 700!important;
-    opacity: 100!important;
-    transition: all .25s ease-in-out!important
+  color: #4F8EF7;
+  font-weight: 700!important;
+  opacity: 100!important;
+  transition: all .25s ease-in-out!important
 }
 
 .action-form {
-    position: fixed;
-    top: 35%;
-    left: 40%;
-    margin: 0;
-    padding: 24px;
-    background-color: #fff;
-    z-index: 100;
-    box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-    border: none;
-    border-radius: 2px
+  position: fixed;
+  top: 35%;
+  left: 40%;
+  margin: 0;
+  padding: 24px;
+  background-color: #fff;
+  z-index: 100;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .24);
+  border: none;
+  border-radius: 2px
 }
 
 .action-form .reason-prompt {
-    font-size: 16px;
-    color: #4D5763;
-    padding-bottom: 8px;
-    display: block
+  font-size: 16px;
+  color: #4D5763;
+  padding-bottom: 8px;
+  display: block
 }
 
 .action-form .reason-prompt li,
 .action-form li label {
-    padding: 4px 4px 4px 0;
-    display: block
+  padding: 4px 4px 4px 0;
+  display: block
 }
 
 .action-form li label {
-    cursor: pointer;
-    color: #4D5763
+  cursor: pointer;
+  color: #4D5763
 }
 
 .action-form li label:hover {
-    background-color: rgba(0, 0, 0, .05)
+  background-color: rgba(0, 0, 0, .05)
 }
 
 .action-form input[name=other_reason] {
-    padding: 8px
+  padding: 8px
 }
 
 .link .entry .buttons li a.flairselectbtn {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .link .entry .buttons li .redditSingleClick {
-    padding: 0 1px;
-    color: #b3b3b3;
-    font-weight: 400;
-    font-size: 13px;
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    transition: all .15s ease
+  padding: 0 1px;
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  transition: all .15s ease
 }
 
 .thing.spam {
-    background-color: #FFE9E6
+  background-color: #FFE9E6
 }
 
 .entry .buttons li.reported-stamp {
-    background-color: transparent;
-    border: 1px solid #EDEEEE!important;
-    border-radius: 20px;
-    color: #4A4F57;
-    line-height: 16px
+  background-color: transparent;
+  border: 1px solid #EDEEEE!important;
+  border-radius: 20px;
+  color: #4A4F57;
+  line-height: 16px
 }
 
 a.pretty-button.negative,
 a.pretty-button.neutral,
 a.pretty-button.positive {
-    background-image: none;
-    border: 1px solid;
-    border-radius: 20px;
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, .25);
-    color: #fff;
-    line-height: 15px;
-    transition: all .25s ease
+  background-image: none;
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, .25);
+  color: #fff;
+  line-height: 15px;
+  transition: all .25s ease
 }
 
 a.pretty-button.negative {
-    background-color: #fb797e;
-    border-color: #fb797e
+  background-color: #fb797e;
+  border-color: #fb797e
 }
 
 a.pretty-button.negative:hover {
-    background-color: #fc535a;
-    border-color: #fc535a
+  background-color: #fc535a;
+  border-color: #fc535a
 }
 
 a.pretty-button.neutral {
-    background-color: #ddd;
-    border-color: #ddd;
-    color: #4A4F57
+  background-color: #ddd;
+  border-color: #ddd;
+  color: #4A4F57
 }
 
 a.pretty-button.neutral:hover {
-    background-color: #ececec;
-    border-color: #ececec
+  background-color: #ececec;
+  border-color: #ececec
 }
 
 a.pretty-button.positive {
-    background-color: #1ecd97;
-    border-color: #1ecd97
+  background-color: #1ecd97;
+  border-color: #1ecd97
 }
 
 a.pretty-button.positive:hover {
-    background-color: #22e1a6;
-    border-color: #22e1a6
+  background-color: #22e1a6;
+  border-color: #22e1a6
 }
 
 a.pretty-button.negative.pressed,
 a.pretty-button.neutral.pressed,
 a.pretty-button.positive.pressed {
-    background-image: none;
-    box-shadow: inset 0 3px 1px rgba(0, 0, 0, .15)
+  background-image: none;
+  box-shadow: inset 0 3px 1px rgba(0, 0, 0, .15)
 }
 
 .comment.spam>.child,
 .message.spam>.child {
-    background-color: transparent
+  background-color: transparent
 }
 
 .link.last-clicked {
-    background-color: #F2F2F2;
-    border: none
+  background-color: #F2F2F2;
+  border: none
 }
 
 .thing.stickied {
-    border-radius: 2px 2px 0 0
+  border-radius: 2px 2px 0 0
 }
 
 .thing.stickied .entry li .comments,
 .thing.stickied a,
 .thing.stickied a.title {
-    color: #65b354!important
+  color: #65b354!important
 }
 
 .content .spacer {
-    margin: 0
+  margin: 0
 }
 
 .link.promotedlink.promoted {
-    margin-right: 0;
-    background-color: #EFF7FF;
-    border: none;
-    padding: 0
+  margin-right: 0;
+  background-color: #EFF7FF;
+  border: none;
+  padding: 0
 }
 
 .organic-listing .link,
 .organic-listing .link.compressed,
 .organic-listing .link.promotedlink {
-    padding-top: 0;
-    padding-bottom: 0
+  padding-top: 0;
+  padding-bottom: 0
 }
 
 .link.promotedlink.promoted .thumbnail {
-    max-height: inherit;
-    max-width: inherit;
-    margin-top: 8px
+  max-height: inherit;
+  max-width: inherit;
+  margin-top: 8px
 }
 
 .link.promotedlink.promoted .thumbnail img {
-    height: inherit;
-    width: inherit
+  height: inherit;
+  width: inherit
 }
 
 .organic-listing {
-    padding: 0;
-    position: relative;
-    margin-bottom: 0;
-    border: none;
-    border-radius: 2px 2px 0 0
+  padding: 0;
+  position: relative;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 2px 2px 0 0
 }
 
 .organic-listing .help,
 .organic-listing .sponsored-tagline {
-    margin-bottom: 20px;
-    margin-right: 16px
+  margin-bottom: 20px;
+  margin-right: 16px
 }
 
 .organic-listing .sponsored-tagline {
-    color: #B3B3B3
+  color: #B3B3B3
 }
 
 .link.compressed,
 .link.compressed .title {
-    margin: 0
+  margin: 0
 }
 
 .link.compressed .entry {
-    padding: 11px 32px 9px 0
+  padding: 11px 32px 9px 0
 }
 
 body>.content .link.compressed .midcol {
-    height: auto;
-    margin: 8px 0 0 4px
+  height: auto;
+  margin: 8px 0 0 4px
 }
 
 .flairselector.drop-choices.active {
-    border: 1px solid #e2e2e2
+  border: 1px solid #e2e2e2
 }
 
 .flairselector h2 {
-    margin-bottom: 4px;
-    background-color: transparent;
-    color: #4F8EF7;
-    font-weight: 400;
-    font-size: 18px
+  margin-bottom: 4px;
+  background-color: transparent;
+  color: #4F8EF7;
+  font-weight: 400;
+  font-size: 18px
 }
 
 .flairoptionpane {
-    max-height: 250px
+  max-height: 250px
 }
 
 .flairselector .flairoptionpane ul li {
-    padding: 0!important
+  padding: 0!important
 }
 
 .flairoptionpane ul li .linkflair {
-    text-align: left;
-    padding: 0
+  text-align: left;
+  padding: 0
 }
 
 .flairoptionpane ul li .linkflair:hover,
 .flairselector li:hover {
-    background-color: #F5F8F9;
-    border: 0 solid
+  background-color: #F5F8F9;
+  border: 0 solid
 }
 
 .flairoptionpane ul li .linkflair span.linkflairlabel {
-    margin: 8px 6px 8px 0;
-    line-height: 1.35
+  margin: 8px 6px 8px 0;
+  line-height: 1.35
 }
 
 .flairoptionpane ul li .linkflair a.title {
-    font-size: 18px!important;
-    opacity: 100!important;
-    color: #4F8EF7!important
+  font-size: 18px!important;
+  opacity: 100!important;
+  color: #4F8EF7!important
 }
 
 .flairselector form {
-    padding-top: 12px;
-    border-top: 1px solid #F7F7F7
+  padding-top: 12px;
+  border-top: 1px solid #F7F7F7
 }
 
 .flairselector form .flairselection:before {
-    display: block;
-    content: "Selected Flair:";
-    color: #b3b3b3
+  display: block;
+  content: "Selected Flair:";
+  color: #b3b3b3
 }
 
 .flairselector form .flairselection .linkflair a.title {
-    font-size: 18px!important;
-    opacity: 100!important;
-    color: #4F8EF7!important;
-    cursor: default
+  font-size: 18px!important;
+  opacity: 100!important;
+  color: #4F8EF7!important;
+  cursor: default
 }
 
 .flairselector form .flairselection .flairremove {
-    padding: 4px 0;
-    margin-bottom: 8px;
-    visibility: hidden;
-    display: block!important
+  padding: 4px 0;
+  margin-bottom: 8px;
+  visibility: hidden;
+  display: block!important
 }
 
 .flairselector form .flairselection .flairremove a {
-    visibility: visible;
-    opacity: 100!important;
-    color: #4F8EF7!important;
-    margin-left: -4px
+  visibility: visible;
+  opacity: 100!important;
+  color: #4F8EF7!important;
+  margin-left: -4px
 }
 
 .flairselector form .flairselection .flairremove a:hover {
-    text-decoration: underline!important
+  text-decoration: underline!important
 }
 
 .flairselector .error:after {
-    display: block;
-    color: #b3b3b3;
-    content: "Go to /r/.../about/flairs."
+  display: block;
+  color: #b3b3b3;
+  content: "Go to /r/.../about/flairs."
 }
 
 .flairselector img {
-    position: relative;
-    left: 50%;
-    margin-left: -9px;
-    opacity: .5
+  position: relative;
+  left: 50%;
+  margin-left: -9px;
+  opacity: .5
 }
 
 .flairselector .flairoptionpane ul li {
-    margin: 4px 0
+  margin: 4px 0
 }
 
 .flairselector li.selected {
-    border: none;
-    background-color: transparent
+  border: none;
+  background-color: transparent
 }
 
 .flairselector .flairoptionpane ul li.flairsample-right {
-    padding: 5px 0!important;
-    border: none
+  padding: 5px 0!important;
+  border: none
 }
 
 .flairselector form .flairselection a.author,
 .flairselector li a {
-    color: #b3b3b3!important;
-    font-size: 11px
+  color: #b3b3b3!important;
+  font-size: 11px
 }
 
 .unvotable-message {
-    border: 0 solid;
-    color: #b3b3b3
+  border: 0 solid;
+  color: #b3b3b3
 }
 
 .res .RES-keyNav-activeElement {
-    outline: #E0E0E0 dashed 0!important;
-    transition: all .35s ease
+  outline: #E0E0E0 dashed 0!important;
+  transition: all .35s ease
 }
 
 .RESCloseButton,
 .res .entry {
-    transition: all .15s ease
+  transition: all .15s ease
 }
 
 div.RES-keyNav-activeElement,
 div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-    background-color: transparent!important;
-    border-left: 2px solid #4F8EF7
+  background-color: transparent!important;
+  border-left: 2px solid #4F8EF7
 }
 
 div.commentarea div.RES-keyNav-activeElement .md {
-    background-color: transparent!important
+  background-color: transparent!important
 }
 
 .res .commentarea .entry .flat-list {
-    padding-bottom: 16px
+  padding-bottom: 16px
 }
 
 #userTaggerPreview,
 .userTagLink.hasTag {
-    font-size: 11px!important;
-    border-radius: 0!important;
-    border: 0 solid!important;
-    margin-top: 0!important;
-    margin-left: 4px!important
+  font-size: 11px!important;
+  border-radius: 0!important;
+  border: 0 solid!important;
+  margin-top: 0!important;
+  margin-left: 4px!important
 }
 
 .RESDialogSmall {
-    border: none;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .12);
-    margin-top: 8px
+  border: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .12);
+  margin-top: 8px
 }
 
 .RESDialogSmall>h3 {
-    color: #4F8EF7;
-    background-color: #FFF;
-    border-bottom: 1px solid #EDEDED;
-    height: 36px;
-    padding: 8px;
-    margin: 0
+  color: #4F8EF7;
+  background-color: #FFF;
+  border-bottom: 1px solid #EDEDED;
+  height: 36px;
+  padding: 8px;
+  margin: 0
 }
 
 .livePreview .md {
-    padding: 8px 12px
+  padding: 8px 12px
 }
 
 .RESCloseButton {
-    line-height: 19px;
-    height: 22px;
-    width: 22px
+  line-height: 19px;
+  height: 22px;
+  width: 22px
 }
 
 .RESCloseButton:hover {
-    border: 1px solid #D7D9DC
+  border: 1px solid #D7D9DC
 }
 
 #userTaggerToolTip input[type=text],
 #userTaggerToolTip select {
-    line-height: 22px;
-    padding-left: 4px;
-    border: 1px solid #E5E5E5!important
+  line-height: 22px;
+  padding-left: 4px;
+  border: 1px solid #E5E5E5!important
 }
 
 .toggleButton {
-    line-height: .8
+  line-height: .8
 }
 
 .toggleButton .toggleOn {
-    border-radius: 0;
-    border: 1px solid #4F8EF7;
-    background-color: #4F8EF7;
-    color: #fff
+  border-radius: 0;
+  border: 1px solid #4F8EF7;
+  background-color: #4F8EF7;
+  color: #fff
 }
 
 .toggleButton .toggleOff {
-    border-radius: 0;
-    border: 1px solid #D7D9DC;
-    background-color: transparent
+  border-radius: 0;
+  border: 1px solid #D7D9DC;
+  background-color: transparent
 }
 
 #userTaggerToolTip input[type=submit] {
-    bottom: 10px!important
+  bottom: 10px!important
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop {
-    display: inline;
-    visibility: visible
+  display: inline;
+  visibility: visible
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice,
 .top-page .content .menuarea .drop-choices.lightdrop form {
-    display: inline
+  display: inline
 }
 
 .top-page .content .menuarea .dropdown-title.lightdrop {
-    visibility: hidden
+  visibility: hidden
 }
 
 .top-page .content .menuarea {
-    border-bottom: 0;
-    padding: 0;
-    margin: 0;
-    height: 36px
+  border-bottom: 0;
+  padding: 0;
+  margin: 0;
+  height: 36px
 }
 
 .top-page .content .menuarea .dropdown.lightdrop .selected {
-    z-index: 1002;
-    position: relative;
-    left: -68px;
-    top: 11px;
-    background: #5A72EE;
-    text-decoration: none;
-    font-size: 12px;
-    pointer-events: none;
-    padding: 10px 16px;
-    overflow: visible;
-    color: #FFF
+  z-index: 1002;
+  position: relative;
+  left: -68px;
+  top: 11px;
+  background: #5A72EE;
+  text-decoration: none;
+  font-size: 12px;
+  pointer-events: none;
+  padding: 10px 16px;
+  overflow: visible;
+  color: #FFF
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop {
-    padding: 10px 16px 10px 104px;
-    margin-left: 16px;
-    margin-top: 1px;
-    border-radius: 2px 2px 0 0;
-    border: none;
-    border-bottom: 1px solid #E0E1E2;
-    width: calc(100% - 348px);
-    box-shadow: none
+  padding: 10px 16px 10px 104px;
+  margin-left: 16px;
+  margin-top: 1px;
+  border-radius: 2px 2px 0 0;
+  border: none;
+  border-bottom: 1px solid #E0E1E2;
+  width: calc(100% - 348px);
+  box-shadow: none
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice {
-    padding: 10px;
-    color: #4D5763;
-    transition: all .25s ease
+  padding: 10px;
+  color: #4D5763;
+  transition: all .25s ease
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice[href*="/?t=all"] {
-    border-right: 0 solid
+  border-right: 0 solid
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice:hover {
-    background-color: #F5F8F9
+  background-color: #F5F8F9
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice.selected {
-    background-color: #4f8ef7;
-    color: #fff
+  background-color: #4f8ef7;
+  color: #fff
 }
 
 .guider {
-    border: none;
-    box-shadow: 0 2px 3px #DDD
+  border: none;
+  box-shadow: 0 2px 3px #DDD
 }
 
 .guider_content h1 {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .guider_button {
-    font-size: 11px;
-    border: none;
-    background-image: none;
-    background-color: #4F8EF7;
-    transition: all .15s ease
+  font-size: 11px;
+  border: none;
+  background-image: none;
+  background-color: #4F8EF7;
+  transition: all .15s ease
 }
 
 .guider_button:hover {
-    background-color: rgba(79, 142, 247, .75)
+  background-color: rgba(79, 142, 247, .75)
 }
 
 .x_button {
-    transition: all .25s ease;
-    box-shadow: 0 1px 4px transparent
+  transition: all .25s ease;
+  box-shadow: 0 1px 4px transparent
 }
 
 .x_button:hover {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .15)
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .15)
 }
 
 .content .infobar {
-    margin: 0 0 16px;
-    padding: 8px 16px;
-    line-height: 26px;
-    border: none;
-    background-color: #516AE8;
-    color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    border-radius: 2px
+  margin: 0 0 16px;
+  padding: 8px 16px;
+  line-height: 26px;
+  border: none;
+  background-color: #516AE8;
+  color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  border-radius: 2px
 }
 
 .infobar .md {
-    color: #fff
+  color: #fff
 }
 
 .content .infobar.welcome {
-    line-height: inherit;
-    height: 86px
+  line-height: inherit;
+  height: 86px
 }
 
 .content .infobar.welcome h1 {
-    color: #4d5763
+  color: #4d5763
 }
 
 .commentarea .infobar {
-    padding: 8px 16px;
-    line-height: 16px;
-    margin-right: 0
+  padding: 8px 16px;
+  line-height: 16px;
+  margin-right: 0
 }
 
 .commentarea .infobar a {
-    color: rgba(0, 0, 0, .54);
-    font-weight: 700
+  color: rgba(0, 0, 0, .54);
+  font-weight: 700
 }
 
 #noresults {
-    margin: 0;
-    position: absolute;
-    top: 72px;
-    width: 100%;
-    height: 312px;
-    background: url(%%noresults%%) 50% 50% no-repeat;
-    text-indent: -9999px;
-    font-size: 0;
-    display: block
+  margin: 0;
+  position: absolute;
+  top: 72px;
+  width: 100%;
+  height: 312px;
+  background: url(%%noresults%%) 50% 50% no-repeat;
+  text-indent: -9999px;
+  font-size: 0;
+  display: block
 }
 
 .sitetable .nav-buttons {
-    padding: 16px;
-    background-color: #fff;
-    color: #b3b3b3;
-    border-top: 1px solid #F2F2F2;
-    margin-top: -1px
+  padding: 16px;
+  background-color: #fff;
+  color: #b3b3b3;
+  border-top: 1px solid #F2F2F2;
+  margin-top: -1px
 }
 
 .sitetable .nav-buttons .nextprev {
-    color: #b3b3b3;
-    font-size: 14px
+  color: #b3b3b3;
+  font-size: 14px
 }
 
 .sitetable .nav-buttons .nextprev a {
-    border: 0;
-    background-color: transparent
+  border: 0;
+  background-color: transparent
 }
 
 .sitetable .nav-buttons .nextprev a:hover {
-    text-decoration: underline;
-    border: 0;
-    background-color: transparent
+  text-decoration: underline;
+  border: 0;
+  background-color: transparent
 }
 
 .comments-page .link {
-    border-radius: 2px 2px 0 0;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 .comments-page .link .entry {
-    border-bottom: none;
-    padding-bottom: 15px
+  border-bottom: none;
+  padding-bottom: 15px
 }
 
 .commentarea .panestack-title {
-    margin: 10px 0 0 22px;
-    border-bottom: 0
+  margin: 10px 0 0 22px;
+  border-bottom: 0
 }
 
 .commentarea .panestack-title .title {
-    color: #4D5763
+  color: #4D5763
 }
 
 .commentarea .menuarea {
-    margin: 0 0 0 22px
+  margin: 0 0 0 22px
 }
 
 .commentarea .menuarea span.dropdown-title.lightdrop {
-    color: #b3b3b3
+  color: #b3b3b3
 }
 
 .commentarea .menuarea .dropdown.lightdrop .selected {
-    cursor: pointer;
-    text-decoration: none;
-    background-image: none;
-    padding-right: 0;
-    font-weight: 400;
-    color: #b3b3b3
+  cursor: pointer;
+  text-decoration: none;
+  background-image: none;
+  padding-right: 0;
+  font-weight: 400;
+  color: #b3b3b3
 }
 
 .commentarea .menuarea .dropdown.lightdrop .selected:hover {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .commentarea .menuarea .dropdown.lightdrop .selected:after {
-    content: "▼"
+  content: "▼"
 }
 
 .drop-choices.lightdrop {
-    border: none;
-    z-index: 1001;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .2)
+  border: none;
+  z-index: 1001;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2)
 }
 
 .drop-choices a.choice {
-    padding: 6px;
-    transition: all .1s ease
+  padding: 6px;
+  transition: all .1s ease
 }
 
 .drop-choices a.choice:hover {
-    background-color: #4F8EF7;
-    color: #fff
+  background-color: #4F8EF7;
+  color: #fff
 }
 
 .commentarea .menuarea .toggle a,
 .help-hoverable {
-    color: #b3b3b3;
-    font-weight: 400
+  color: #b3b3b3;
+  font-weight: 400
 }
 
 .commentarea .menuarea .toggle a:hover,
 .help-hoverable:hover,
 .usertext .bottom-area a.reddiquette {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .commentarea>.usertext {
-    background-color: #FAFAFA;
-    border-radius: 0 0 2px 2px;
-    margin: -58px 0 16px;
-    padding: 64px 16px 16px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  background-color: #FAFAFA;
+  border-radius: 0 0 2px 2px;
+  margin: -58px 0 16px;
+  padding: 64px 16px 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 .commentarea .sitetable .comment,
 .commentarea .thing {
-    background-color: #fff
+  background-color: #fff
 }
 
 .usertext button {
-    margin: 4px 16px 8px 0
+  margin: 4px 16px 8px 0
 }
 
 .usertext-edit textarea {
-    position: relative;
-    z-index: 999
+  position: relative;
+  z-index: 999
 }
 
 .usertext .bottom-area {
-    width: 500px
+  width: 500px
 }
 
 .gold-accent.comment-visits-box {
-    margin: 0 0 12px;
-    border-radius: 2px
+  margin: 0 0 12px;
+  border-radius: 2px
 }
 
 .commentarea .sitetable {
-    margin: 0;
-    box-shadow: none
+  margin: 0;
+  box-shadow: none
 }
 
 .commentarea .thing {
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
-    margin: 0 0 8px
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
+  margin: 0 0 8px
 }
 
 .commentarea .child .thing {
-    box-shadow: none;
-    padding: 4px;
-    margin: 12px 0 0
+  box-shadow: none;
+  padding: 4px;
+  margin: 12px 0 0
 }
 
 .commentarea .comment .midcol {
-    margin-top: 2px;
-    width: 36px;
-    margin-right: 2px
+  margin-top: 2px;
+  width: 36px;
+  margin-right: 2px
 }
 
 .comment .child,
 .comment .showreplies {
-    border-left: 1px dotted #ECECEC;
-    margin-top: 0
+  border-left: 1px dotted #ECECEC;
+  margin-top: 0
 }
 
 .comment .midcol {
-    width: 24px;
-    margin-right: 0
+  width: 24px;
+  margin-right: 0
 }
 
 .comment .midcol .arrow {
-    margin-left: 0;
-    margin-bottom: 4px
+  margin-left: 0;
+  margin-bottom: 4px
 }
 
 .comment .entry .tagline {
-    color: #b3b3b3;
-    font-size: 12px
+  color: #b3b3b3;
+  font-size: 12px
 }
 
 .comment .expand {
-    background-color: transparent;
-    transition: all .15s ease;
-    color: #B3B3B3
+  background-color: transparent;
+  transition: all .15s ease;
+  color: #B3B3B3
 }
 
 .comment .expand:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #4F8EF7
+  color: #fff;
+  text-decoration: none;
+  background-color: #4F8EF7
 }
 
 .comment .author {
-    color: #4D5763;
-    margin-right: 0;
-    font-weight: 700
+  color: #4D5763;
+  margin-right: 0;
+  font-weight: 700
 }
 
 .comment .author:hover {
-    color: #4f8ef7;
-    text-decoration: none
+  color: #4f8ef7;
+  text-decoration: none
 }
 
 .green,
 .tagline .moderator {
-    color: #65B354;
-    font-weight: 700
+  color: #65B354;
+  font-weight: 700
 }
 
 .tagline .submitter {
-    font-weight: 700;
-    color: #4f8ef7
+  font-weight: 700;
+  color: #4f8ef7
 }
 
 .res .thing .tagline .author.submitter {
-    padding: 1px 4px;
-    border-radius: 1px;
-    background-color: #4F8EF7!important;
-    box-shadow: 0 0 0 transparent;
-    transition: all .15s ease
+  padding: 1px 4px;
+  border-radius: 1px;
+  background-color: #4F8EF7!important;
+  box-shadow: 0 0 0 transparent;
+  transition: all .15s ease
 }
 
 .res .thing .tagline .author.submitter:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-    background-color: #4F8EF7!important
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  background-color: #4F8EF7!important
 }
 
 .comment .score {
-    font-size: inherit;
-    font-weight: 700;
-    color: #666
+  font-size: inherit;
+  font-weight: 700;
+  color: #666
 }
 
 .comment span.userattrs {
-    margin-left: 4px
+  margin-left: 4px
 }
 
 .comment .usertext .md {
-    color: #4D5763
+  color: #4D5763
 }
 
 .comment .usertext .md p {
-    margin-top: 0
+  margin-top: 0
 }
 
 .md a {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .md a:visited {
-    color: #7D5D8A
+  color: #7D5D8A
 }
 
 .md pre {
-    padding: 8px
+  padding: 8px
 }
 
 .md blockquote {
-    border-left: 2px solid #E5E3DA;
-    color: #706F6F
+  border-left: 2px solid #E5E3DA;
+  color: #706F6F
 }
 
 .md h1,
 .md h2 {
-    margin: .5em 0 .25em;
-    border: none;
-    color: #4D5763
+  margin: .5em 0 .25em;
+  border: none;
+  color: #4D5763
 }
 
 .md h3 {
-    color: #4D5763;
-    margin: 16px 0 0
+  color: #4D5763;
+  margin: 16px 0 0
 }
 
 .usertext.grayed .usertext-body {
-    margin: 4px 0;
-    background-color: transparent;
-    text-transform: italic;
-    padding: 0
+  margin: 4px 0;
+  background-color: transparent;
+  text-transform: italic;
+  padding: 0
 }
 
 .comment .flat-list li a {
-    color: #b3b3b3;
-    font-weight: 400;
-    font-size: 10px
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 10px
 }
 
 .comment .flat-list li a:hover {
-    color: #4F8EF7;
-    text-decoration: none
+  color: #4F8EF7;
+  text-decoration: none
 }
 
 .comment .flat-list li a[onclick*=reply] {
-    color: #4F8EF7;
-    font-weight: 700;
-    font-size: 11px
+  color: #4F8EF7;
+  font-weight: 700;
+  font-size: 11px
 }
 
 .deepthread a {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .comments-page .side .linkinfo {
-    position: absolute;
-    right: 16px;
-    top: 200px;
-    padding: 16px;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
-    border: none
+  position: absolute;
+  right: 16px;
+  top: 200px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
+  border: none
 }
 
 .comments-page .side .linkinfo .date {
-    color: #B3B3B3
+  color: #B3B3B3
 }
 
 .comments-page .side .linkinfo .date:first-letter {
-    text-transform: capitalize
+  text-transform: capitalize
 }
 
 .comments-page .side .linkinfo .score {
-    color: #4D5763
+  color: #4D5763
 }
 
 .linkinfo .shortlink input {
-    border: 1px solid #E5E5E5
+  border: 1px solid #E5E5E5
 }
 
 .res.comments-page .side {
-    margin-top: 374px
+  margin-top: 374px
 }
 
 .submit-page .content {
-    margin: 96px auto
+  margin: 96px auto
 }
 
 .submit-page #newlink.submit.content {
-    width: 524px;
-    margin: 0 auto
+  width: 524px;
+  margin: 0 auto
 }
 
 .submit-page #newlink.submit.content form .spacer+.spacer {
-    margin: 0
+  margin: 0
 }
 
 .submit-page #newlink.submit.content ul.tabmenu.formtab {
-    padding: 0;
-    border: none
+  padding: 0;
+  border: none
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab a {
-    padding: 16px;
-    width: 262px;
-    display: inline-block;
-    text-align: center;
-    background-color: #fff;
-    color: #4D5763;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: all .25s ease;
-    font-size: 16px;
-    border: none
+  padding: 16px;
+  width: 262px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  color: #4D5763;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .25s ease;
+  font-size: 16px;
+  border: none
 }
 
 .raisedbox h4,
 .searchfacets h4.title:first-letter,
 .wiki-page .wikititle {
-    text-transform: capitalize
+  text-transform: capitalize
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab .selected a {
-    font-size: 16px;
-    color: #fff
+  font-size: 16px;
+  color: #fff
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab a:hover {
-    background-color: #e7e9f6
+  background-color: #e7e9f6
 }
 
 .submit-page .formtabs-content {
-    border-top: 0;
-    padding-top: 0
+  border-top: 0;
+  padding-top: 0
 }
 
 .submit-page .roundfield {
-    padding: 16px;
-    width: 524px;
-    background-color: #fff;
-    border-radius: 2px;
-    margin-bottom: 16px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  padding: 16px;
+  width: 524px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 .submit-page .roundfield .title {
-    color: #4D5763
+  color: #4D5763
 }
 
 .submit-page .infobar {
-    width: 524px;
-    margin: -12px 0 0;
-    padding: 16px;
-    color: #fff;
-    border-radius: 0 0 2px 2px;
-    border: none;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    font-size: 0
+  width: 524px;
+  margin: -12px 0 0;
+  padding: 16px;
+  color: #fff;
+  border-radius: 0 0 2px 2px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  font-size: 0
 }
 
 .content.submit .info-notice,
 .search-page .menuarea {
-    background-color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 .submit-page .infobar:before {
-    font-size: 14px;
-    display: inline-block
+  font-size: 14px;
+  display: inline-block
 }
 
 #search #searchexpando p,
 .pinHeader-header:before,
 .side .md blockquote:hover>blockquote:before {
-    display: none!important
+  display: none!important
 }
 
 .content.submit .info-notice {
-    border-radius: 2px;
-    padding: 16px;
-    border: none;
-    margin-bottom: 0
+  border-radius: 2px;
+  padding: 16px;
+  border: none;
+  margin-bottom: 0
 }
 
 .submit-page #newlink.submit.content .btn {
-    width: 100%;
-    line-height: 41px;
-    height: 42px;
-    margin-top: 24px;
-    border: none;
-    color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    cursor: pointer
+  width: 100%;
+  line-height: 41px;
+  height: 42px;
+  margin-top: 24px;
+  border: none;
+  color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  cursor: pointer
 }
 
 .submit-page #newlink.submit.content .btn:hover {
-    box-shadow: 0 2px 12px rgba(0, 0, 0, .48);
-    color: #fff
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .48);
+  color: #fff
 }
 
 .submit-page #header-bottom-left {
-    top: 36px;
-    left: 16px
+  top: 36px;
+  left: 16px
 }
 
 .search-page .searchpane {
-    margin: 0;
-    background: #fff;
-    padding: 16px;
-    border: none;
-    border-radius: 2px 2px 0 0;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    position: relative
+  margin: 0;
+  background: #fff;
+  padding: 16px;
+  border: none;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  position: relative
 }
 
 .raisedbox h4 {
-    color: #B3B3B3!important;
-    font-weight: 400
+  color: #B3B3B3!important;
+  font-weight: 400
 }
 
 .search-page #search {
-    position: inherit
+  position: inherit
 }
 
 .search-page #search input[type=text] {
-    box-shadow: none!important;
-    font-size: 36px;
-    padding: 0;
-    margin: 0 0 9px;
-    border-radius: 0;
-    border-bottom: 1px solid #E7E7E7
+  box-shadow: none!important;
+  font-size: 36px;
+  padding: 0;
+  margin: 0 0 9px;
+  border-radius: 0;
+  border-bottom: 1px solid #E7E7E7
 }
 
 .search-page #search input[type=text]:hover {
-    box-shadow: none!important
+  box-shadow: none!important
 }
 
 .search-page #search label {
-    padding: 1em;
-    margin: .5em 0;
-    transition: background-color .1s ease;
-    cursor: pointer;
-    font-size: 12px
+  padding: 1em;
+  margin: .5em 0;
+  transition: background-color .1s ease;
+  cursor: pointer;
+  font-size: 12px
 }
 
 .search-page #search label:hover {
-    background-color: rgba(0, 0, 0, .05)
+  background-color: rgba(0, 0, 0, .05)
 }
 
 .search-page #previoussearch p {
-    margin-top: 1.5em
+  margin-top: 1.5em
 }
 
 .search-page .searchfacets {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
-    border: none;
-    padding: 16px;
-    margin: 0;
-    background-color: #F9F9F9;
-    border-radius: 0 0 2px 2px
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
+  border: none;
+  padding: 16px;
+  margin: 0;
+  background-color: #F9F9F9;
+  border-radius: 0 0 2px 2px
 }
 
 .searchfacets .title {
-    margin: 0
+  margin: 0
 }
 
 .searchfacets h4.title {
-    color: #4D5763;
-    margin: 0 0 8px
+  color: #4D5763;
+  margin: 0 0 8px
 }
 
 .searchfacets .list {
-    margin: 0
+  margin: 0
 }
 
 .searchfacets .facet.count {
-    color: #B3B3B3;
-    font-weight: 400
+  color: #B3B3B3;
+  font-weight: 400
 }
 
 .searchfacets .facet.count:hover {
-    text-decoration: none
+  text-decoration: none
 }
 
 .search-page .menuarea {
-    border-radius: 2px 2px 0 0;
-    border-bottom: 0;
-    margin: 16px 0 0;
-    padding: 16px;
-    color: #B3B3B3
+  border-radius: 2px 2px 0 0;
+  border-bottom: 0;
+  margin: 16px 0 0;
+  padding: 16px;
+  color: #B3B3B3
 }
 
 .wiki-page .pageactions,
 .wiki-page .wikititle {
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 .search-page .menuarea .dropdown.lightdrop .selected {
-    text-decoration: none;
-    color: #4D5763;
-    font-weight: 400;
-    cursor: pointer
+  text-decoration: none;
+  color: #4D5763;
+  font-weight: 400;
+  cursor: pointer
 }
 
 .wiki-page .wikititle {
-    padding: 9px 16px 10px;
-    font-size: 16px;
-    margin: 0
+  padding: 9px 16px 10px;
+  font-size: 16px;
+  margin: 0
 }
 
 .wiki-page .pageactions {
-    margin-left: 16px;
-    padding: 0 16px;
-    border: none
+  margin-left: 16px;
+  padding: 0 16px;
+  border: none
 }
 
 .wiki-page .pageactions .wikiaction {
-    margin: 0;
-    background-color: transparent;
-    border-radius: 0;
-    padding: 10px 16px 11px;
-    color: #B3B3B3
+  margin: 0;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 10px 16px 11px;
+  color: #B3B3B3
 }
 
 .wiki-page .pageactions .wikiaction-current {
-    padding: 10px 16px 7px;
-    border-bottom: 4px solid #4F8EF7;
-    color: #4F8EF7
+  padding: 10px 16px 7px;
+  border-bottom: 4px solid #4F8EF7;
+  color: #4F8EF7
 }
 
 .wiki-page .pageactions .wikiaction-current:hover,
 .wiki-page .pageactions .wikiaction:hover {
-    background-color: rgba(0, 0, 0, .05)
+  background-color: rgba(0, 0, 0, .05)
 }
 
 .linefield,
 .wiki-page .wiki-page-content {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
-    background-color: #fff
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
+  background-color: #fff
 }
 
 .wiki-page .wiki-page-content {
-    margin: 16px 0;
-    padding: 16px;
-    border-radius: 2px
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 2px
 }
 
 .wiki-page .wiki-page-content .wiki>.toc>ul {
-    border: none
+  border: none
 }
 
 .wiki-page .wiki-page-content .wiki.md,
 .wiki-page .wiki-page-content .wiki.md h2 {
-    color: #4D5763
+  color: #4D5763
 }
 
 .linefield,
 .wiki-page .wiki-page-content em {
-    color: #B3B3B3
+  color: #B3B3B3
 }
 
 .wiki-page .wiki-page-content .wiki.md p {
-    font-size: 14px;
-    line-height: 1.4285714285714em
+  font-size: 14px;
+  line-height: 1.4285714285714em
 }
 
 .wiki-page .wiki-page-content hr {
-    border-style: solid;
-    border-color: #e5e5e5
+  border-style: solid;
+  border-color: #e5e5e5
 }
 
 .tabmenu li a,
 .tabmenu li.selected a {
-    border: none;
-    background-color: transparent
+  border: none;
+  background-color: transparent
 }
 
 .usertext .bottom-area a {
-    color: #b3b3b3
+  color: #b3b3b3
 }
 
 .usertext .bottom-area a:hover {
-    color: #4f8ef7
+  color: #4f8ef7
 }
 
 .pretty-form {
-    padding-top: 24px
+  padding-top: 24px
 }
 
 .create-promotion h1,
 .fancy-settings h1 {
-    color: rgba(255, 255, 255, .8)
+  color: rgba(255, 255, 255, .8)
 }
 
 .fancy-settings h1 strong {
-    color: rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1)
 }
 
 .tabmenu {
-    border-bottom: 1px solid #edeeee;
-    margin-bottom: 12px
+  border-bottom: 1px solid #edeeee;
+  margin-bottom: 12px
 }
 
 .tabmenu li {
-    margin: 0!important
+  margin: 0!important
 }
 
 .tabmenu li a {
-    color: #4D5763;
-    font-size: 14px
+  color: #4D5763;
+  font-size: 14px
 }
 
 .flair,
 .link .flair {
-    font-size: 12px
+  font-size: 12px
 }
 
 .tabmenu li.selected a {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .tabpane-content {
-    border: none
+  border: none
 }
 
 .tabpane-content .flairrow a.author {
-    color: #b3b3b3
+  color: #b3b3b3
 }
 
 .tabpane-content .tagline a {
-    color: #4F8EF7
+  color: #4F8EF7
 }
 
 .fancy-settings .pretty-form {
-    padding-top: 0
+  padding-top: 0
 }
 
 .stylesheet-customize-container .pretty-form {
-    background-color: #fff;
-    padding: 16px;
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
-    margin-bottom: 16px
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16);
+  margin-bottom: 16px
 }
 
 .stylesheet-customize-container .pretty-form .sheets {
-    margin-right: 0
+  margin-right: 0
 }
 
 .sheets .btn.right {
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    padding: 0
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0
 }
 
 #images {
-    padding: 16px;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .16)
 }
 
 #images #image-upload {
-    margin: 0 0 4em
+  margin: 0 0 4em
 }
 
 .side .flair:before {
-    margin-left: 0
+  margin-left: 0
 }
 
 .listing-page .comment {
-    background-color: #fff;
-    margin-left: 0;
-    border-bottom: 1px solid #F2F2F2;
-    padding: 12px
+  background-color: #fff;
+  margin-left: 0;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 12px
 }
 
 .listing-page .comment .midcol {
-    width: 36px;
-    margin-right: 2px;
-    margin-top: 4px
+  width: 36px;
+  margin-right: 2px;
+  margin-top: 4px
 }
 
 .listing-page .comment .parent {
-    margin-bottom: 4px
+  margin-bottom: 4px
 }
 
 .listing-page .comment .title {
-    font-size: 14px;
-    margin-left: 8px
+  font-size: 14px;
+  margin-left: 8px
 }
 
 .footer {
-    border: 0 solid
+  border: 0 solid
 }
 
 .res .link .tagline a.voteWeight {
-    background-color: transparent!important
+  background-color: transparent!important
 }
 
 .res .thing .tagline .author.moderator {
-    background-color: #65B354!important;
-    padding: 1px 4px;
-    border-radius: 1px
+  background-color: #65B354!important;
+  padding: 1px 4px;
+  border-radius: 1px
 }
 
 .res .srSep {
-    color: rgba(255, 255, 255, .45)
+  color: rgba(255, 255, 255, .45)
 }
 
 .res #RESShortcutsViewport {
-    margin-right: 381px
+  margin-right: 381px
 }
 
 .res #RESShortcutsEditContainer {
-    margin-right: 312px
+  margin-right: 312px
 }
 
 #RESShortcutsAdd,
@@ -2474,7 +2474,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 #RESShortcutsSort,
 #RESShortcutsTrash,
 .res #RESShortcutsEditContainer {
-    background-color: transparent!important;
-    color: rgba(255, 255, 255, .45)!important;
-    top: 1px!important
+  background-color: transparent!important;
+  color: rgba(255, 255, 255, .45)!important;
+  top: 1px!important
 }
