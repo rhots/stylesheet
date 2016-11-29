@@ -2188,108 +2188,6 @@ side .md a[href*="#free_rotation2"] {
     background-position: 40px -2240px
 }
 
-.linkflair-modpost .linkflairlabel {
-    background-color: #add5ab;
-    font-size: 11px;
-    font-weight: 700;
-    color: #000;
-    border-color: #000;
-    border-width: 1px
-}
-
-.linkflair-blizzard .linkflairlabel,
-.linkflair-weekly .linkflairlabel {
-    background-color: #000;
-    font-size: 11px;
-    font-weight: 700;
-    border-color: #000
-}
-
-.linkflair-weekly .linkflairlabel {
-    color: #FFF;
-    border-width: 1px
-}
-
-.linkflair-blizzard .linkflairlabel {
-    color: #00b4ff;
-    border-width: 0;
-    padding: 3px
-}
-
-.linkflair-Default .linkflairlabel,
-.linkflair-awesome .linkflairlabel,
-.linkflair-blizzcon .linkflairlabel,
-.linkflair-bug .linkflairlabel,
-.linkflair-esports .linkflairlabel,
-.linkflair-gameplay .linkflairlabel,
-.linkflair-rage .linkflairlabel,
-.linkflair-show .linkflairlabel,
-.linkflair-vod .linkflairlabel {
-    font-size: 11px;
-    font-weight: 700
-}
-
-.linkflair-gameplay .linkflairlabel {
-    background-color: #900;
-    color: #FFF
-}
-
-.linkflair-vod .linkflairlabel {
-    background-color: #36F;
-    color: #FFF
-}
-
-.linkflair-bug .linkflairlabel {
-    background-color: #E68A00;
-    color: #FFF
-}
-
-.linkflair-show .linkflairlabel {
-    background-color: #060;
-    color: #FFF
-}
-
-.linkflair-esports .linkflairlabel {
-    background-color: #330081;
-    color: #FFF
-}
-
-.linkflair-awesome .linkflairlabel {
-    background-color: #FFF;
-    color: #000
-}
-
-.linkflair-Default .linkflairlabel {
-    background-color: #AAA;
-    color: #000
-}
-
-.linkflair-blizzcon .linkflairlabel,
-.linkflair-rage .linkflairlabel {
-    color: #FFF
-}
-
-.linkflair-rage .linkflairlabel {
-    background-color: red
-}
-
-.linkflair-blizzcon .linkflairlabel {
-    background-color: #00008B
-}
-
-.linkflair-blizzreply .linkflairlabel {
-    font-size: 11px;
-    display: inline-block;
-    max-width: 11em!important;
-    height: auto;
-    background: #333;
-    position: relative;
-    color: rgba(0, 195, 255, 1);
-    padding: 3px 6px;
-    font-weight: 700;
-    text-shadow: 1px 1px #000
-}
-
 .arrow,
 .arrow:hover {
     background-color: transparent
@@ -3361,3 +3259,5 @@ html.res-commentBoxes .comment {
 #RESShortcuts {
     color: grey
 }
+
+@import "link_flair";
