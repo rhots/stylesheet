@@ -6,4 +6,7 @@ build:
 clean:
 	rm main.css
 
-.PHONY: all build clean
+watch:
+	sass --style compressed --sourcemap=none --watch main.scss:main.css
+
+.PHONY: all build clean watch
