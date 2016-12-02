@@ -1837,6 +1837,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_DRobbins"],
 .res .thing .tagline .author[href$="/Blizz_Shyy"],
 .res .thing .tagline .author[href$="/Blizz_Peterconcept"],
+.res .thing .tagline .author[href$="/Blizz_AKlontzas"],
 .thing .tagline .author[href$="/trikslyr"],
 .thing .tagline .author[href$="/Spyrian"],
 .thing .tagline .author[href$="/vaeflare"],
@@ -1866,6 +1867,7 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_DRobbins"],
 .thing .tagline .author[href$="/Blizz_Shyy"],
 .thing .tagline .author[href$="/Blizz_Peterconcept"],
+.thing .tagline .author[href$="/Blizz_AKlontzas"],
 .thing .tagline .author[href$="/TeamTeSPA"],
 .thing .tagline .author[href$="/Tespa_Logan"],
 .thing .tagline .author[href$="/Tespa_Kevin"] {
@@ -1905,6 +1907,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_Shyy"]::before,
 .res .thing .tagline .author[href$="/Blizz_Peterconcept"]::before,
 .res .thing .tagline .author[href$="/BlizzJohnzee"]::before,
+.res .thing .tagline .author[href$="/Blizz_AKlontzas"]::before,
 .thing .tagline .author[href$="/trikslyr"]::before,
 .thing .tagline .author[href$="/Spyrian"]::before,
 .thing .tagline .author[href$="/vaeflare"]::before,
@@ -1933,6 +1936,7 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/blizz_taylor"]::before,
 .thing .tagline .author[href$="/Blizz_DRobbins"]::before,
 .thing .tagline .author[href$="/Blizz_Shyy"]::before,
+.thing .tagline .author[href$="/Blizz_AKlontzas"]::before,
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::before,
 .thing .tagline .author[href$="/BlizzJohnzee"]::before {
   content: "";
@@ -1973,6 +1977,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_DRobbins"]::after,
 .res .thing .tagline .author[href$="/Blizz_Shyy"]::after,
 .res .thing .tagline .author[href$="/Blizz_Peterconcept"]::after,
+.res .thing .tagline .author[href$="/Blizz_AKlontzas"]::after,
 .res .thing .tagline .author[href$="/BlizzJohnzee"]::after,
 .thing .tagline .author[href$="/trikslyr"]::after,
 .thing .tagline .author[href$="/Spyrian"]::after,
@@ -2003,6 +2008,7 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_DRobbins"]::after,
 .thing .tagline .author[href$="/Blizz_Shyy"]::after,
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after,
+.thing .tagline .author[href$="/Blizz_AKlontzas"]::after,
 .thing .tagline .author[href$="/TeamTeSPA"]::after,
 .thing .tagline .author[href$="/Tespa_Logan"]::after,
 .thing .tagline .author[href$="/Tespa_Kevin"]::after,
@@ -2044,7 +2050,9 @@ body.listing-page>.content {
 }
 
 .res .thing .tagline .author[href$="/BlizzClaudio"]::after,
-.thing .tagline .author[href$="/BlizzClaudio"]::after {
+.thing .tagline .author[href$="/BlizzClaudio"]::after,
+.res .thing .tagline .author[href$="/Blizz_AKlontzas"]::after,
+.thing .tagline .author[href$="/Blizz_AKlontzas"]::after {
   content: "Producer"
 }
 
