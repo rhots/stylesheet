@@ -2461,6 +2461,10 @@ html.res-commentBoxes .comment {
   color: grey
 }
 
+.expando-button{
+  background-size:inherit!important;
+}
+
 @import "link_flair";
 @import "res";
 @import "sidebar";
