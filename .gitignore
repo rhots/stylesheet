@@ -3,3 +3,5 @@
 
 main.css
 main.beautified.css
+
+/node_modules/*
