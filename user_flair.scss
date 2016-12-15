@@ -1,0 +1,74 @@
+.flair {
+  border: none;
+  font-weight: 400;
+  background-color: transparent;
+  padding-left: 0;
+  margin-right: inherit
+}
+
+.flair:before {
+  margin-right: 3px;
+  height: auto;
+  content: "- ";
+  margin-left: 4px
+}
+
+.flair,
+.flair::before {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 3px
+}
+
+.flair:hover,
+.flairoptionpane .flair,
+.flairselection .flair,
+.flairselector {
+  width: auto!important
+}
+
+.flair {
+  color: #333;
+  line-height: 16px;
+  box-sizing: content-box;
+  vertical-align: bottom;
+  font-size: 11px!important;
+  margin-left: 1px
+}
+
+.flair::before {
+  content: " ";
+  background: url(%%flair%%);
+  margin: 0;
+  vertical-align: top
+}
+
+.flair:hover::before {
+  margin-right: 4px
+}
+
+.flair:empty::before {
+  margin: 0
+}
+
+.flairsample-left {
+  text-align: left!important
+}
+
+.flairselector {
+  position: fixed;
+  top: 20%!important;
+  left: 50%!important;
+  margin-left: -125px;
+  padding: 32px!important;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .64);
+  z-index: 2.3435465768779E+16
+}
+
+.flairselector form .flairselection:before {
+  padding-bottom: 20px
+}

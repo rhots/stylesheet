@@ -1,0 +1,29 @@
+.flair-blizzard {
+  background-position: 0 -1320px;
+  display: none
+}
+
+.flair-blizzard:hover {
+  background: 0 0;
+  line-height: 20px;
+  height: 20px
+}
+
+.flair-blizzard:hover:before {
+  background: #000;
+  content: "Verified Blizzard Employee";
+  width: auto;
+  height: 20px;
+  color: #00b4ff;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 3px
+}
+
+.flair-blizzard+a.author,
+.flair-blizzard+a.author:visited {
+  color: #00b4ff!important;
+  background: #2C2C2C!important;
+  padding: 3px;
+  border-radius: 2.5px
+}
