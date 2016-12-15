@@ -317,33 +317,48 @@
   color:white!important;
 }
 
-.side .md a[href*="#discord"] {
-  height: auto;
-  background-color: #0b2d4f;
-  color: #fff;
-  display: block
-}
-
-.side .md a[href*='#discord']:after {
-  content: "";
-  font-size: 0;
-  background-image: url(%%discord-icon%%);
-  display: block;
-  background-repeat: no-repeat;
-  position: absolute;
-  margin-top: -35px;
-  height: 50px;
-  right: 32px;
-  width: 50px
-}
-
-.side .md a[href*="#rules"],
-.side .md a[href*="#metasub"],
+.side .md a[href*="#discordIcon"],
+.side .md a[href*="#rulesIcon"],
+.side .md a[href*="#metaIcon"],
+.side .md a[href*="#wikiIcon"],
 .side .md a[href*="#events"] {
   height: auto;
   background-color: #0b2d4f;
   color: #fff;
   display: block
+}
+
+.side .md a[href*='#discordIcon']:after,
+.side .md a[href*='#rulesIcon']:after,
+.side .md a[href*='#metaIcon']:after,
+.side .md a[href*='#wikiIcon']:after {
+  content: "";
+  font-size: 0;
+  background-image: url(%%sidebar-button-icons%%);
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: -35px;
+  height: 50px;
+
+  width: 50px
+}
+
+.side .md a[href*='#discordIcon']:after {
+  background-position: 0 0;
+  right: 179px;
+}
+.side .md a[href*='#rulesIcon']:after {
+  background-position: 0 -100px;
+  right: 179px
+}
+.side .md a[href*='#metaIcon']:after {
+  background-position: 0 -50px;
+  right: 30px;
+}
+.side .md a[href*='#wikiIcon']:after {
+  background-position: 0 -150px;
+  right: 32px;
 }
 
 .side .md a[href*="#free_rotation"],
