@@ -354,7 +354,9 @@ side .md a[href*="#free_rotation2"] {
   height: 100px;
   width: 92px;
   margin-bottom: -40px;
-  margin-right: -28px
+  margin-right: -28px;
+  position: relative;
+  top: -10px;
 }
 
 .side .md a[href*="#free_rotation"] {
