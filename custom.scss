@@ -864,6 +864,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_KinaBREW"],
 .res .thing .tagline .author[href$="/Blizz_JDeShazer"],
 .res .thing .tagline .author[href$="/eSportsMatt"],
+.res .thing .tagline .author[href$="/BlizzMilkfat"],
 .res .thing .tagline .author[href$="/Ravinix"],
 .res .thing .tagline .author[href$="/cloaken"],
 .res .thing .tagline .author[href$="/BlizzAZJackson"],
@@ -894,6 +895,7 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_KinaBREW"],
 .thing .tagline .author[href$="/Blizz_JDeShazer"],
 .thing .tagline .author[href$="/eSportsMatt"],
+.thing .tagline .author[href$="/BlizzMilkfat"],
 .thing .tagline .author[href$="/Ravinix"],
 .thing .tagline .author[href$="/cloaken"],
 .thing .tagline .author[href$="/BlizzAZJackson"],
@@ -933,6 +935,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_KinaBREW"]::before,
 .res .thing .tagline .author[href$="/Blizz_JDeShazer"]::before,
 .res .thing .tagline .author[href$="/eSportsMatt"]::before,
+.res .thing .tagline .author[href$="/BlizzMilkfat"]::before,
 .res .thing .tagline .author[href$="/Ravinix"]::before,
 .res .thing .tagline .author[href$="/cloaken"]::before,
 .res .thing .tagline .author[href$="/BlizzAZJackson"]::before,
@@ -964,6 +967,7 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_KinaBREW"]::before,
 .thing .tagline .author[href$="/Blizz_JDeShazer"]::before,
 .thing .tagline .author[href$="/eSportsMatt"]::before,
+.thing .tagline .author[href$="/BlizzMilkfat"]::before,
 .thing .tagline .author[href$="/Ravinix"]::before,
 .thing .tagline .author[href$="/cloaken"]::before,
 .thing .tagline .author[href$="/BlizzAZJackson"]::before,
@@ -1004,6 +1008,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_KinaBREW"]::after,
 .res .thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
 .res .thing .tagline .author[href$="/eSportsMatt"]::after,
+.res .thing .tagline .author[href$="/BlizzMilkfat"]::after,
 .res .thing .tagline .author[href$="/Ravinix"]::after,
 .res .thing .tagline .author[href$="/cloaken"]::after,
 .res .thing .tagline .author[href$="/BlizzAZJackson"]::after,
@@ -1035,6 +1040,7 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_KinaBREW"]::after,
 .thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
 .thing .tagline .author[href$="/eSportsMatt"]::after,
+.thing .tagline .author[href$="/BlizzMilkfat"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after,
 .thing .tagline .author[href$="/cloaken"]::after,
 .thing .tagline .author[href$="/BlizzAZJackson"]::after,
@@ -1123,9 +1129,14 @@ body.listing-page>.content {
 }
 
 .res .thing .tagline .author[href$="/eSportsMatt"]::after,
-.thing .tagline .author[href$="/eSportsMatt"]::after {
+.thing .tagline .author[href$="/eSportsMatt"]::after{
   content: "eSports Coordinator"
 }
+
+.thing .tagline .author[href$="/BlizzMilkfat"]::after,
+.thing .tagline .author[href$="/BlizzMilkfat"]::after{
+  content: "Heroes Franchise Lead"
+} 
 
 .res .thing .tagline .author[href$="/cloaken"]::after,
 .thing .tagline .author[href$="/cloaken"]::after {
