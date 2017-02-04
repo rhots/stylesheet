@@ -1092,19 +1092,22 @@ body.listing-page>.content {
 
 .res .thing .tagline .author[href$="/Blizz_Daybringer"]::after,
 .res .thing .tagline .author[href$="/Centaurik"]::after,
-.res .thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
 .res .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .res .thing .tagline .author[href$="/BlizzNeyman"]::after,
 .res .thing .tagline .author[href$="/BlizzCooper"]::after,
 .res .thing .tagline .author[href$="/Blizz_NLaMusga"]::after,
 .thing .tagline .author[href$="/Blizz_Daybringer"]::after,
 .thing .tagline .author[href$="/Centaurik"]::after,
-.thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
 .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .thing .tagline .author[href$="/BlizzNeyman"]::after,
 .thing .tagline .author[href$="/BlizzCooper"]::after,
 .thing .tagline .author[href$="/Blizz_NLaMusga"]::after {
   content: "Game Designer"
+}
+
+.res .thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
+.thing .tagline .author[href$="/Blizz_JDeShazer"]::after {
+  content: "Battleground Designer";
 }
 
 .res .thing .tagline .author[href$="/BlizzClaudio"]::after,
