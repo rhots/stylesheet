@@ -885,6 +885,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_Shyy"],
 .res .thing .tagline .author[href$="/Blizz_Peterconcept"],
 .res .thing .tagline .author[href$="/Blizz_AKlontzas"],
+.res .thing .tagline .author[href$="/Heroes_QA"],
 .thing .tagline .author[href$="/Spyrian"],
 .thing .tagline .author[href$="/vaeflare"],
 .thing .tagline .author[href$="/Aldrexus"],
@@ -918,7 +919,8 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_AKlontzas"],
 .thing .tagline .author[href$="/TeamTeSPA"],
 .thing .tagline .author[href$="/Tespa_Logan"],
-.thing .tagline .author[href$="/Tespa_Kevin"] {
+.thing .tagline .author[href$="/Tespa_Kevin"],
+.thing .tagline .author[href$="/Heroes_QA"] {
   border-radius: 1px;
   padding: 2px 3px;
   vertical-align: middle;
@@ -957,6 +959,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_Peterconcept"]::before,
 .res .thing .tagline .author[href$="/BlizzJohnzee"]::before,
 .res .thing .tagline .author[href$="/Blizz_AKlontzas"]::before,
+.res .thing .tagline .author[href$="/Heroes_QA"]::before,
 .thing .tagline .author[href$="/Spyrian"]::before,
 .thing .tagline .author[href$="/vaeflare"]::before,
 .thing .tagline .author[href$="/Aldrexus"]::before,
@@ -988,7 +991,8 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/Blizz_Shyy"]::before,
 .thing .tagline .author[href$="/Blizz_AKlontzas"]::before,
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::before,
-.thing .tagline .author[href$="/BlizzJohnzee"]::before {
+.thing .tagline .author[href$="/BlizzJohnzee"]::before,
+.thing .tagline .author[href$="/Heroes_QA"]::before {
   content: "";
   display: inline-block;
   margin-right: 4px;
@@ -1030,6 +1034,7 @@ body.listing-page>.content {
 .res .thing .tagline .author[href$="/Blizz_Peterconcept"]::after,
 .res .thing .tagline .author[href$="/Blizz_AKlontzas"]::after,
 .res .thing .tagline .author[href$="/BlizzJohnzee"]::after,
+.res .thing .tagline .author[href$="/Heroes_QA"]::after,
 .thing .tagline .author[href$="/Spyrian"]::after,
 .thing .tagline .author[href$="/vaeflare"]::after,
 .thing .tagline .author[href$="/Aldrexus"]::after,
@@ -1064,7 +1069,8 @@ body.listing-page>.content {
 .thing .tagline .author[href$="/TeamTeSPA"]::after,
 .thing .tagline .author[href$="/Tespa_Logan"]::after,
 .thing .tagline .author[href$="/Tespa_Kevin"]::after,
-.thing .tagline .author[href$="/BlizzJohnzee"]::after {
+.thing .tagline .author[href$="/BlizzJohnzee"]::after,
+.thing .tagline .author[href$="/Heroes_QA"]::after {
   font-size: 11px;
   padding-left: .25em;
   border-left: 1px solid #AAA;
@@ -1086,19 +1092,22 @@ body.listing-page>.content {
 
 .res .thing .tagline .author[href$="/Blizz_Daybringer"]::after,
 .res .thing .tagline .author[href$="/Centaurik"]::after,
-.res .thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
 .res .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .res .thing .tagline .author[href$="/BlizzNeyman"]::after,
 .res .thing .tagline .author[href$="/BlizzCooper"]::after,
 .res .thing .tagline .author[href$="/Blizz_NLaMusga"]::after,
 .thing .tagline .author[href$="/Blizz_Daybringer"]::after,
 .thing .tagline .author[href$="/Centaurik"]::after,
-.thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
 .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .thing .tagline .author[href$="/BlizzNeyman"]::after,
 .thing .tagline .author[href$="/BlizzCooper"]::after,
 .thing .tagline .author[href$="/Blizz_NLaMusga"]::after {
   content: "Game Designer"
+}
+
+.res .thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
+.thing .tagline .author[href$="/Blizz_JDeShazer"]::after {
+  content: "Battleground Designer";
 }
 
 .res .thing .tagline .author[href$="/BlizzClaudio"]::after,
