@@ -2,42 +2,81 @@
   background: url(%%flair-esports%%);
 }
 
-.flair-e-b-step::before {
+.flair-e-tempostorm::before{
   background-position: 0 0;
 }
-
-.flair-e-begenius::before {
+.flair-e-fanatic::before{
+  background-position: 40px 0;
+}
+.flair-e-barrelboys::before{
   background-position: 0 -20px;
 }
-
-.flair-e-diamond-skin::before {
+.flair-e-dignitas::before{
+  background-position: 40px -20px;
+}
+.flair-e-navi::before{
   background-position: 0 -40px;
 }
-
-.flair-e-no-tomorrow::before {
+.flair-e-mvpblack::before{
+  background-position: 40px -40px;
+}
+.flair-e-cloud9::before{
   background-position: 0 -60px;
 }
-
-.flair-e-superstars::before {
+.flair-e-yl::before{
+  background-position: 40px -600px;
+}
+.flair-e-estar::before{
   background-position: 0 -80px;
 }
-
-.flair-e-synergy::before {
+.flair-e-zeropanda::before{
+  background-position: 40px -80px;
+}
+.flair-e-elysiumgaming::before{
   background-position: 0 -100px;
 }
-
-.flair-e-team-8::before {
+.flair-e-resurgence::before{
+  background-position: 40px -100px;
+}
+.flair-e-naventic::before{
   background-position: 0 -120px;
 }
-
-.flair-e-team-expert::before {
+.flair-e-gfe::before{
+  background-position: 40px -120px;
+}
+.flair-e-misfits::before{
   background-position: 0 -140px;
 }
-
-.flair-e-team-freedom::before {
+.flair-e-balistix::before{
+  background-position: 40px -140px;
+}
+.flair-e-b-step::before{
   background-position: 0 -160px;
 }
-
-.flair-e-tricked-esport::before {
+.flair-e-teamfreedom::before{
+  background-position: 40px -160px;
+}
+.flair-e-notomorrow::before{
   background-position: 0 -180px;
+}
+.flair-e-superstars::before{
+  background-position: 40px -180px;
+}
+.flair-e-team8::before{
+  background-position: 0 -200px;
+}
+.flair-e-begenius::before{
+  background-position: 40px -200px;
+}
+.flair-e-trickedesports::before{
+  background-position: 0 -220px;
+}
+.flair-e-playingducks::before{
+  background-position: 40px -220px;
+}
+.flair-e-teamexpert::before{
+  background-position: 0 -240px;
+}
+.flair-e-synergy::before{
+  background-position: 40px -240px;
 }
