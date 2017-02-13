@@ -360,11 +360,11 @@ side .md a[href*="#free_rotation2"] {
 }
 
 .side .md a[href*="#free_rotation"] {
-  background: url(%%thumbnails-hexagon-post-alarak%%) no-repeat
+  background: url(%%thumbnails-hexagon-one%%) no-repeat
 }
 
 .side .md a[href*="#free_rotation2"] {
-  background: url(%%thumbnails-hexagon-post-rag-small%%) no-repeat
+  background: url(%%thumbnails-hexagon-two%%) no-repeat
 }
 
 .side .md a[href*="#free_rotation"]:hover,
@@ -607,6 +607,18 @@ side .md a[href*="#free_rotation2"] {
 
 .side .md a[href*="#Ragnaros"] {
   background-position: 0 -200px
+}
+
+.side .md a[href*="#Zuljin"] {
+  background-position: 0 -300px
+}
+
+.side .md a[href*="#Valeera"] {
+  background-position: 0 -400px
+}
+
+.side .md a[href*="#Lucio"] {
+  background-position: 0 -500px
 }
 
 .side .md a[href*="#spacer"],
