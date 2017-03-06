@@ -1,7 +1,7 @@
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
   background-image: url(%%banner%%);
-  background-position: 50% 0
+  background-position: 80% 0
 }
 
 .pinHeader-sub #header-bottom-left,
@@ -201,7 +201,7 @@ html.res-commentBoxes .comment {
 
 body:before {
   height: 180px;
-  background: url(%%banner%%) 50% 0 no-repeat fixed #000;
+  background: url(%%banner%%) 80% 0 no-repeat fixed #000;
   top: 0;
   position: absolute;
   width: 100%;
