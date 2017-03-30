@@ -31,6 +31,7 @@
 .thing .tagline .author[href$="/Ravinix"],
 .thing .tagline .author[href$="/Spyrian"],
 .thing .tagline .author[href$="/BlizzJunho"],
+.thing .tagline .author[href$="/BlizzROcampo"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -135,7 +136,8 @@
   content: "Principal Artist - UI Design";
 }
 
-.thing .tagline .author[href$="/Blizz_Taylor"]::after {
+.thing .tagline .author[href$="/Blizz_Taylor"]::after,
+.thing .tagline .author[href$="/BlizzROcampo"]::after {
   content: "UI Designer";
 }
 
