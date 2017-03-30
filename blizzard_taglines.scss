@@ -131,12 +131,16 @@
   content: "UI Artist";
 }
 
+.thing .tagline .author[href$="/BlizzJunho"]::after {
+  content: "Principal Artist - UI Design";
+}
+
 .thing .tagline .author[href$="/Blizz_Taylor"]::after {
   content: "UI Designer";
 }
 
 .thing .tagline .author[href$="/BlizzTravis"]::after {
-  content: "Lead System Designer";
+  content: "Lead Game Designer";
 }
 
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
