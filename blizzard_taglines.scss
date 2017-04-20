@@ -32,6 +32,9 @@
 .thing .tagline .author[href$="/Spyrian"],
 .thing .tagline .author[href$="/BlizzJunho"],
 .thing .tagline .author[href$="/BlizzROcampo"],
+.thing .tagline .author[href$="/Blizz_BMarony"],
+.thing .tagline .author[href$="/BlizzKyle"],
+.thing .tagline .author[href$="/BlizzKwevs"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -69,6 +72,7 @@
 .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .thing .tagline .author[href$="/BlizzNeyman"]::after,
 .thing .tagline .author[href$="/BlizzCooper"]::after,
+.thing .tagline .author[href$="/BlizzKyle"]::after,
 .thing .tagline .author[href$="/Blizz_NLaMusga"]::after {
   content: "Game Designer";
 }
@@ -94,7 +98,8 @@
   content: "Technical Game Designer";
 }
 
-.thing .tagline .author[href$="/Blizz_KinaBREW"]::after {
+.thing .tagline .author[href$="/Blizz_KinaBREW"]::after,
+.thing .tagline .author[href$="/Blizz_BMarony"]::after {
   content: "3D Artist";
 }
 
@@ -147,4 +152,8 @@
 
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
   content: "Concept Artist";
+}
+
+.thing .tagline .author[href$="/BlizzKwevs"]::after {
+  content: "Senior Animator";
 }
