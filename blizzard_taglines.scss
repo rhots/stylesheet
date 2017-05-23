@@ -36,6 +36,7 @@
 .thing .tagline .author[href$="/BlizzKyle"],
 .thing .tagline .author[href$="/BlizzKwevs"],
 .thing .tagline .author[href$="/Araxom"],
+.thing .tagline .author[href$="/Katriedna"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -65,6 +66,7 @@
 .thing .tagline .author[href$="/Katealyst"]::after,
 .thing .tagline .author[href$="/Rathmyr"]::after,
 .thing .tagline .author[href$="/Araxom"]::after,
+.thing .tagline .author[href$="/Katriedna"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after {
   content: "Community Manager";
 }
