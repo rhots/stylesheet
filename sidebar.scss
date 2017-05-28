@@ -719,3 +719,13 @@ side .md a[href*="#free_rotation2"] {
 .sidecontentbox a.helplink {
   color: #ddd
 }
+
+.titlebox h1 a[href*="#hgc"] {
+	display: inline;
+	color: #ddd;
+	text-decoration: underline
+}
+
+.titlebox h1 a[href*="#hgc"]:visited {
+	color: #ddd
+}
