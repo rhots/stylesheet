@@ -72,3 +72,7 @@
 .flairselector form .flairselection:before {
   padding-bottom: 20px
 }
+
+.flair-verified::before {
+  background: url(%%green-check%%);
+}
