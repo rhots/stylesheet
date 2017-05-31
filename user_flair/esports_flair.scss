@@ -1,3 +1,8 @@
+.flair-esports,
+.flair-esports::before{
+  width: 30px;
+}
+
 .flair-esports::before {
   background: url(%%flair-esports%%);
 }
@@ -31,7 +36,7 @@
 }
 
 .flair-e-roll20::before {
-  background-position: 40px -120px;
+  background-position: 30px -120px;
 }
 
 .flair-e-team-expert::before {
