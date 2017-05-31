@@ -73,8 +73,9 @@
   padding-bottom: 20px
 }
 
-.flair-verified::before {
+.flair-verified + .userattrs{
   background: url(%%green-check%%);
-  width: 7px;
-  height: 10px;
+  display: inline-block;
+  width: 13px;
+  height: 18px;
 }
