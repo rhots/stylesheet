@@ -37,6 +37,7 @@
 .thing .tagline .author[href$="/BlizzKwevs"],
 .thing .tagline .author[href$="/Araxom"],
 .thing .tagline .author[href$="/Katriedna"],
+.thing .tagline .author[href$="/dyluuxx"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -114,6 +115,10 @@
 .thing .tagline .author[href$="/BlizzMilkfat"]::after{
   content: "Esports Franchise Lead";
 } 
+
+.thing .tagline .author[href$="/dyluuxx"]::after {
+  content: "Esports Communications";
+}
 
 .thing .tagline .author[href$="/cloaken"]::after {
   content: "Creative Content Lead";
