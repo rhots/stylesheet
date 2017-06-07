@@ -1,645 +1,547 @@
-.flair-abathur::before {
+.flair-hero::before {
+  background: url(%%flair-hero%%);
+}
+
+.flair-h-abathur::before {
   background-position: 0 0
 }
 
-.flair-arthas::before {
-  background-position: 0 -20px
-}
-
-.flair-barbarian::before {
-  background-position: 0 -40px
-}
-
-.flair-brightwing::before {
-  background-position: 0 -460px
-}
-
-.flair-demonhunter::before {
-  background-position: 0 -60px
-}
-
-.flair-diablo::before {
-  background-position: 0 -80px
-}
-
-.flair-etc::before {
-  background-position: 0 -100px
-}
-
-.flair-falstad::before {
-  background-position: 0 -120px
-}
-
-.flair-gazlowe::before {
-  background-position: 0 -140px
-}
-
-.flair-illidan::before {
-  background-position: 0 -160px
-}
-
-.flair-kerrigan::before {
-  background-position: 0 -180px
-}
-
-.flair-malfurion::before {
-  background-position: 0 -200px
-}
-
-.flair-muradin::before {
-  background-position: 0 -220px
-}
-
-.flair-nova::before {
-  background-position: 0 -240px
-}
-
-.flair-raynor::before {
-  background-position: 0 -260px
-}
-
-.flair-sgthammer::before {
-  background-position: 0 -280px
-}
-
-.flair-stitches::before {
-  background-position: 0 -300px
-}
-
-.flair-tassadar::before {
-  background-position: 0 -320px
-}
-
-.flair-tyrael::before {
-  background-position: 0 -340px
-}
-
-.flair-tyrande::before {
-  background-position: 0 -360px
-}
-
-.flair-uther::before {
-  background-position: 0 -380px
-}
-
-.flair-witchdoctor::before {
-  background-position: 0 -400px
-}
-
-.flair-zeratul::before {
-  background-position: 0 -420px
-}
-
-.flair-lili::before {
-  background-position: 0 -440px
-}
-
-.flair-murky::before {
-  background-position: 0 -480px
-}
-
-.flair-kaelthas::before {
-  background-position: 0 -520px
-}
-
-.flair-sylvannas::before {
-  background-position: 0 -540px
-}
-
-.flair-tychus::before {
-  background-position: 0 -560px
-}
-
-.flair-diablothree::before {
-  background-position: 0 -580px
-}
-
-.flair-starcrafttwo::before {
-  background-position: 0 -600px
-}
-
-.flair-wow::before {
-  background-position: 0 -620px
-}
-
-.flair-hearthstone::before {
-  background-position: 40px -600px
-}
-
-.flair-overwatch::before {
-  background-position: 40px -580px
-}
-
-.flair-heroeslogo::before {
-  background-position: 0 -640px
-}
-
-.flair-heroesicon::before {
-  background-position: 0 -660px;
-  height: 16px!important
-}
-
-.flair-rehgar::before {
-  background-position: 0 -680px
-}
-
-.flair-anubarak::before {
-  background-position: 0 -700px
-}
-
-.flair-chen::before {
-  height: 17px;
-  background-position: 0 -720px
-}
-
-.flair-azmodan::before {
-  background-position: 0 -740px
-}
-
-.flair-thrall::before {
-  background-position: 0 -760px
-}
-
-.flair-jaina::before {
-  background-position: 0 -780px
-}
-
-.flair-leoric::before {
-  background-position: 0 -820px
-}
-
-.flair-butcher::before {
-  background-position: 0 -840px
-}
-
-.flair-crusader::before {
-  background-position: 0 -860px
-}
-
-.flair-zagara::before {
-  background-position: 0 -880px
-}
-
-.flair-tlv::before {
-  background-position: 0 -899px
-}
-
-.flair-monk::before {
-  background-position: 0 -1620px
-}
-
-.flair-rexxar::before {
-  background-position: 0 -1640px
-}
-
-.flair-assassin::before {
-  background-position: 0 -1680px
-}
-
-.flair-specialist::before {
-  background-position: 0 -1700px
-}
-
-.flair-support::before {
-  background-position: 0 -1720px
-}
-
-.flair-warrior::before {
-  background-position: 0 -1740px
-}
-
-.flair-medic::before {
-  background-position: 0 -1760px
-}
-
-.flair-artanis::before {
-  background-position: 0 -1780px
-}
-
-.flair-sgthammer2::before {
-  background-position: 0 -1880px
-}
-
-.flair-kaelthas2::before {
-  background-position: 0 -1900px
-}
-
-.flair-thrall2::before {
-  background-position: 0 -1920px
-}
-
-.flair-leoric2::before {
-  background-position: 0 -1940px
-}
-
-.flair-guldan::before {
-  background-position: 0 -1800px
-}
-
-.flair-wonderbillie::before {
-  background-position: 0 -2000px
-}
-
-.flair-chogall::before {
-  background-position: 0 -2020px
-}
-
-.flair-cho::before {
-  background-position: 0 -2040px
-}
-
-.flair-gall::before {
-  background-position: 0 -2060px
-}
-
-.flair-lunara::before {
-  background-position: 0 -2080px
-}
-
-.flair-greymane::before {
-  background-position: 0 -2100px
-}
-
-.flair-greymaneworgen::before {
-  background-position: 0 -2120px
-}
-
-.flair-tracer::before {
-  background-position: 0 -2140px
-}
-
-.flair-liming::before {
-  background-position: 0 -2400px
-}
-
-.flair-limingorb::before {
-  background-position: 0 -2420px
-}
-
-.flair-xul::before {
-  background-position: 0 -2440px
-}
-
-.flair-autoselect::before {
-  background-position: 0 -2220px
-}
-
-.flair-master-abathur::before {
+.flair-h-master-abathur::before {
   background-position: 40px 0
 }
 
-.flair-master-arthas::before {
+.flair-h-arthas::before {
+  background-position: 0 -20px
+}
+
+.flair-h-master-arthas::before {
   background-position: 40px -20px
 }
 
-.flair-master-barbarian::before {
+.flair-h-sonya::before {
+  background-position: 0 -40px
+}
+
+.flair-h-master-sonya::before {
   background-position: 40px -40px
 }
 
-.flair-master-brightwing::before {
-  background-position: 40px -460px
+.flair-h-valla::before {
+  background-position: 0 -60px
 }
 
-.flair-master-demonhunter::before {
+.flair-h-master-valla::before {
   background-position: 40px -60px
 }
 
-.flair-master-diablo::before {
+.flair-h-diablo::before {
+  background-position: 0 -80px
+}
+
+.flair-h-master-diablo::before {
   background-position: 40px -80px
 }
 
-.flair-master-etc::before {
+.flair-h-etc::before {
+  background-position: 0 -100px
+}
+
+.flair-h-master-etc::before {
   background-position: 40px -100px
 }
 
-.flair-master-falstad::before {
+.flair-h-falstad::before {
+  background-position: 0 -120px
+}
+
+.flair-h-master-falstad::before {
   background-position: 40px -120px
 }
 
-.flair-master-gazlowe::before {
+.flair-h-gazlowe::before {
+  background-position: 0 -140px
+}
+
+.flair-h-master-gazlowe::before {
   background-position: 40px -140px
 }
 
-.flair-master-illidan::before {
+.flair-h-illidan::before {
+  background-position: 0 -160px
+}
+
+.flair-h-master-illidan::before {
   background-position: 40px -160px
 }
 
-.flair-master-kerrigan::before {
+.flair-h-kerrigan::before {
+  background-position: 0 -180px
+}
+
+.flair-h-master-kerrigan::before {
   background-position: 40px -180px
 }
 
-.flair-master-malfurion::before {
+.flair-h-malfurion::before {
+  background-position: 0 -200px
+}
+
+.flair-h-master-malfurion::before {
   background-position: 40px -200px
 }
 
-.flair-master-muradin::before {
+.flair-h-muradin::before {
+  background-position: 0 -220px
+}
+
+.flair-h-master-muradin::before {
   background-position: 40px -220px
 }
 
-.flair-master-nova::before {
+.flair-h-nova::before {
+  background-position: 0 -240px
+}
+
+.flair-h-master-nova::before {
   background-position: 40px -240px
 }
 
-.flair-master-raynor::before {
+.flair-h-raynor::before {
+  background-position: 0 -260px
+}
+
+.flair-h-master-raynor::before {
   background-position: 40px -260px
 }
 
-.flair-master-sgthammer::before {
+.flair-h-sgthammer::before {
+  background-position: 0 -280px
+}
+
+.flair-h-master-sgthammer::before {
   background-position: 40px -280px
 }
 
-.flair-master-stitches::before {
+.flair-h-stitches::before {
+  background-position: 0 -300px
+}
+
+.flair-h-master-stitches::before {
   background-position: 40px -300px
 }
 
-.flair-master-tassadar::before {
+.flair-h-tassadar::before {
+  background-position: 0 -320px
+}
+
+.flair-h-master-tassadar::before {
   background-position: 40px -320px
 }
 
-.flair-master-tyrael::before {
+.flair-h-tyrael::before {
+  background-position: 0 -340px
+}
+
+.flair-h-master-tyrael::before {
   background-position: 40px -340px
 }
 
-.flair-master-tyrande::before {
+.flair-h-tyrande::before {
+  background-position: 0 -360px
+}
+
+.flair-h-master-tyrande::before {
   background-position: 40px -360px
 }
 
-.flair-master-uther::before {
+.flair-h-uther::before {
+  background-position: 0 -380px
+}
+
+.flair-h-master-uther::before {
   background-position: 40px -380px
 }
 
-.flair-master-witchdoctor::before {
+.flair-h-nazeebo::before {
+  background-position: 0 -400px
+}
+
+.flair-h-master-nazeebo::before {
   background-position: 40px -400px
 }
 
-.flair-master-zeratul::before {
+.flair-h-zeratul::before {
+  background-position: 0 -420px
+}
+
+.flair-h-master-zeratul::before {
   background-position: 40px -420px
 }
 
-.flair-master-lili::before {
+.flair-h-lili::before {
+  background-position: 0 -440px
+}
+
+.flair-h-master-lili::before {
   background-position: 40px -440px
 }
 
-.flair-master-murky::before {
+.flair-h-brightwing::before {
+  background-position: 0 -460px
+}
+
+.flair-h-master-brightwing::before {
+  background-position: 40px -460px
+}
+
+.flair-h-murky::before {
+  background-position: 0 -480px
+}
+
+.flair-h-master-murky::before {
   background-position: 40px -480px
 }
 
-.flair-master-kaelthas::before {
-  background-position: 40px -520px
+.flair-h-chen::before {
+  background-position: 0 -500px
 }
 
-.flair-master-sylvannas::before {
-  background-position: 40px -540px
-}
-
-.flair-master-tychus::before {
-  background-position: 40px -560px
-}
-
-.flair-master-rehgar::before {
-  background-position: 40px -680px
-}
-
-.flair-master-anubarak::before {
-  background-position: 40px -700px
-}
-
-.flair-master-chen::before {
+.flair-h-master-chen::before {
   background-position: 40px -500px
 }
 
-.flair-master-azmodan::before {
+.flair-h-kaelthas::before {
+  background-position: 0 -520px
+}
+
+.flair-h-master-kaelthas::before {
+  background-position: 40px -520px
+}
+
+.flair-h-sylvannas::before {
+  background-position: 0 -540px
+}
+
+.flair-h-master-sylvannas::before {
+  background-position: 40px -540px
+}
+
+.flair-h-tychus::before {
+  background-position: 0 -560px
+}
+
+.flair-h-master-tychus::before {
+  background-position: 40px -560px
+}
+
+.flair-h-rehgar::before {
+  background-position: 0 -580px
+}
+
+.flair-h-master-rehgar::before {
+  background-position: 40px -580px
+}
+
+.flair-h-anubarak::before {
+  background-position: 0 -600px
+}
+
+.flair-h-master-anubarak::before {
+  background-position: 40px -600px
+}
+
+.flair-h-azmodan::before {
+  background-position: 0 -620px
+}
+
+.flair-h-master-azmodan::before {
+  background-position: 40px -620px
+}
+
+.flair-h-thrall::before {
+  background-position: 0 -640px
+}
+
+.flair-h-master-thrall::before {
+  background-position: 40px -640px
+}
+
+.flair-h-jaina::before {
+  background-position: 0 -660px
+}
+
+.flair-h-master-jaina::before {
+  background-position: 40px -660px
+}
+
+.flair-h-leoric::before {
+  background-position: 0 -680px
+}
+
+.flair-h-master-leoric::before {
+  background-position: 40px -680px
+}
+
+.flair-h-butcher::before {
+  background-position: 0 -700px
+}
+
+.flair-h-master-butcher::before {
+  background-position: 40px -700px
+}
+
+.flair-h-johanna::before {
+  background-position: 0 -720px
+}
+
+.flair-h-master-johanna::before {
+  background-position: 40px -720px
+}
+
+.flair-h-zagara::before {
+  background-position: 0 -740px
+}
+
+.flair-h-master-zagara::before {
   background-position: 40px -740px
 }
 
-.flair-master-thrall::before {
+.flair-h-tlv::before {
+  background-position: 0 -760px
+}
+
+.flair-h-master-tlv::before {
   background-position: 40px -760px
 }
 
-.flair-master-jaina::before {
+.flair-h-kharazim::before {
+  background-position: 0 -780px
+}
+
+.flair-h-master-kharazim::before {
   background-position: 40px -780px
 }
 
-.flair-master-leoric::before {
+.flair-h-rexxar::before {
+  background-position: 0 -800px
+}
+
+.flair-h-master-rexxar::before {
+  background-position: 40px -800px
+}
+
+.flair-h-morales::before {
+  background-position: 0 -820px
+}
+
+.flair-h-master-morales::before {
   background-position: 40px -820px
 }
 
-.flair-master-butcher::before {
+.flair-h-artanis::before {
+  background-position: 0 -840px
+}
+
+.flair-h-master-artanis::before {
   background-position: 40px -840px
 }
 
-.flair-master-crusader::before {
-  background-position: 40px -860px
+.flair-h-chogall::before {
+  background-position: 0 -860px
 }
 
-.flair-master-zagara::before {
+.flair-h-cho::before {
+  background-position: 0 -880px
+}
+
+.flair-h-master-cho::before {
   background-position: 40px -880px
 }
 
-.flair-master-tlv::before {
-  background-position: 40px -899px
+.flair-h-gall::before {
+  background-position: 0 -900px
 }
 
-.flair-master-monk::before {
-  background-position: 40px -1620px
+.flair-h-master-gall::before {
+  background-position: 40px -900px
 }
 
-.flair-master-rexxar::before {
-  background-position: 40px -1640px
+.flair-h-lunara::before {
+  background-position: 0 -920px
 }
 
-.flair-master-medic::before {
-  background-position: 40px -1760px
+.flair-h-master-lunara::before {
+  background-position: 40px -920px
 }
 
-.flair-master-artanis::before {
-  background-position: 40px -1780px
+.flair-h-greymane::before {
+  background-position: 0 -940px
 }
 
-.flair-master-cho::before {
-  background-position: 40px -2040px
+.flair-h-master-greymane::before {
+  background-position: 40px -940px
 }
 
-.flair-master-gall::before {
-  background-position: 40px -2060px
+.flair-h-greymane-worgen::before {
+  background-position: 0 -960px
 }
 
-.flair-master-lunara::before {
-  background-position: 40px -2080px
+.flair-h-liming::before {
+  background-position: 0 -980px
 }
 
-.flair-master-greymane::before {
-  background-position: 40px -2100px
+.flair-h-master-liming::before {
+  background-position: 40px -980px
 }
 
-.flair-master-liming::before {
-  background-position: 40px -2400px
+.flair-h-xul::before {
+  background-position: 0 -1000px
 }
 
-.flair-master-xul::before {
-  background-position: 40px -2440px
+.flair-h-master-xul::before {
+  background-position: 40px -1000px
 }
 
-.flair-dehaka::before {
-  background-position: 0 -2580px
+.flair-h-dehaka::before {
+  background-position: 0 -1020px
 }
 
-.flair-chromie::before {
-  background-position: 0 -2620px
+.flair-h-master-dehaka::before {
+  background-position: 40px -1020px
 }
 
-.flair-master-chromie::before {
-  background-position: 40px -2620px
+.flair-h-tracer::before {
+  background-position: 0 -1040px
 }
 
-.flair-tracer-ingmae::before {
-  background-position: 0 -2600px
+.flair-h-master-tracer::before {
+  background-position: 40px -1040px
 }
 
-.flair-tracer-ingame-master::before {
-  background-position: 40px -2600px
+.flair-h-chromie::before {
+  background-position: 0 -1060px
 }
 
-.flair-master-dehaka::before {
-  background-position: 40px -2580px
+.flair-h-master-chromie::before {
+  background-position: 40px -1060px
 }
 
-.flair-master-madhiv::before {
-  background-position: 40px -2640px
+.flair-h-medivh::before {
+  background-position: 0 -1080px
 }
 
-.flair-madhiv::before {
-  background-position: 0 -2640px
+.flair-h-master-medivh::before {
+  background-position: 40px -1080px
 }
 
-.flair-guldan-ingame::before {
-  background-position: 0 -2660px
+.flair-h-guldan::before {
+  background-position: 0 -1100px
 }
 
-.flair-master-guldan::before {
-  background-position: 40px -2660px
+.flair-h-master-guldan::before {
+  background-position: 40px -1100px
 }
 
-.flair-chen-tespa::before {
+.flair-h-auriel::before {
+  background-position: 0 -1120px
+}
+
+.flair-h-master-auriel::before {
+  background-position: 40px -1120px
+}
+
+.flair-h-alarak::before {
+  background-position: 0 -1140px
+}
+
+.flair-h-master-alarak::before {
+  background-position: 40px -1140px
+}
+
+.flair-h-zarya::before {
+  background-position: 0 -1160px
+}
+
+.flair-h-master-zarya::before {
   background-position: 40px -1160px
 }
 
-.flair-khaldor::before {
-  background-position: 40px -2560px
+.flair-h-samuro::before {
+  background-position: 0 -1180px
 }
 
-.flair-blizzcon2014::before {
-  background-position: 40px -2300px
+.flair-h-master-samuro::before {
+  background-position: 40px -1180px
 }
 
-.flair-azmodunk::before {
-  background-position: 40px -2280px
+.flair-h-varian::before {
+  background-position: 0 -1200px
 }
 
-.flair-space-lord-leoric::before {
-  background-position: 40px -2260px
+.flair-h-master-varian::before {
+  background-position: 40px -1200px
 }
 
-.flair-alarak::before {
-  background-position: 0 -2700px
+.flair-h-ragnaros::before {
+  background-position: 0 -1220px
 }
 
-.flair-master-alarak::before {
-  background-position: 40px -2700px
+.flair-h-master-ragnaros::before {
+  background-position: 40px -1220px
 }
 
-.flair-zarya::before {
-  background-position: 0 -2720px
+.flair-h-zuljin::before {
+  background-position: 0 -1240px
 }
 
-.flair-master-zarya::before {
-  background-position: 40px -2720px
+.flair-h-master-zuljin::before {
+  background-position: 40px -1240px
 }
 
-.flair-samuro::before {
-  background-position: 0 -2740px
+.flair-h-valeera::before {
+  background-position: 0 -1260px
 }
 
-.flair-master-samuro::before {
-  background-position: 40px -2740px
+.flair-h-master-valeera::before {
+  background-position: 40px -1260px
 }
 
-.flair-auriel::before {
-  background-position: 0 -2680px
+.flair-h-lucio::before {
+  background-position: 0 -1280px
 }
 
-.flair-master-auriel::before {
-  background-position: 40px -2680px
+.flair-h-master-lucio::before {
+  background-position: 40px -1280px
 }
 
-.flair-varian::before {
-  background-position: 0 -2760px
+.flair-h-cassia::before {
+  background-position: 0 -1300px
 }
 
-.flair-rag::before {
-  background-position: 0 -2780px
+.flair-h-master-cassia::before {
+  background-position: 40px -1300px
 }
 
-.flair-master-varian::before {
-  background-position: 40px -2760px
+.flair-h-probius::before {
+  background-position: 0 -1320px
 }
 
-.flair-master-rag::before {
-  background-position: 40px -2780px
+.flair-h-master-probius::before {
+  background-position: 40px -1320px
 }
 
-.flair-zuljin::before {
-  background-position: 0 -2800px
+.flair-h-genji::before {
+  background-position: 0 -1340px
 }
 
-.flair-master-zuljin::before {
-  background-position: 40px -2800px
+.flair-h-master-genji::before {
+  background-position: 40px -1340px
 }
 
-.flair-valeera::before {
-  background-position: 0 -2820px
+.flair-h-dva::before {
+  background-position: 0 -1360px
 }
 
-.flair-master-valeera::before {
-  background-position: 40px -2820px
-}
-
-.flair-lucio::before {
-  background-position: 0 -2840px
-}
-
-.flair-master-lucio::before {
-  background-position: 40px -2840px
-}
-
-.flair-cassia::before {
-  background-position: 0 -2860px
-}
-
-.flair-master-cassia::before {
-  background-position: 40px -2860px
-}
-
-.flair-probius::before {
-  background-position: 0 -2880px
-}
-
-.flair-master-probius::before {
-  background-position: 40px -2880px
-}
-
-.flair-genji::before {
-  background-position: 0 -2900px
-}
-
-.flair-master-genji::before {
-  background-position: 40px -2900px
-}
-
-.flair-dva::before {
-  background-position: 0 -2920px
-}
-
-.flair-master-dva::before {
-  background-position: 40px -2920px
+.flair-h-master-dva::before {
+  background-position: 40px -1360px
 }
