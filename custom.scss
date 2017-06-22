@@ -506,7 +506,7 @@ a.thumbnail img {
 
 .arrow {
   height: 24px!important;
-  width: 25px!important;
+  width: 24px!important;
   background-image: url(%%reddit-voting%%)!important
 }
 
@@ -516,16 +516,16 @@ a.thumbnail img {
 }
 
 .arrow.up {
-  background-position: 0 -25px!important
+  background-position: 0 -24px!important
 }
 
 .arrow.down {
-  background-position: 0 -50px!important
+  background-position: 0 -48px!important
 }
 
 .arrow.down:hover,
 .arrow.downmod {
-  background-position: 0 -75px!important
+  background-position: 0 -72px!important
 }
 
 a.voteWeight {
