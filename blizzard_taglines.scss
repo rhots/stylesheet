@@ -38,6 +38,7 @@
 .thing .tagline .author[href$="/Araxom"],
 .thing .tagline .author[href$="/Katriedna"],
 .thing .tagline .author[href$="/dyluuxx"],
+.thing .tagline .author[href$="/Dalthrox"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -165,4 +166,8 @@
 
 .thing .tagline .author[href$="/BlizzKwevs"]::after {
   content: "Senior Animator";
+}
+
+.thing .tagline .author[href$="/Dalthrox"]::after {
+  content: "Customer Support";
 }
