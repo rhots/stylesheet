@@ -1,0 +1,47 @@
+// turikk's bits and bobs for comment expansion bar on the side
+
+.commentarea .thing,
+.res .commentarea .thing,
+html.res-commentBoxes.res-commentBoxes-rounded .comment {
+  position: relative
+}
+
+.commentarea .thing.noncollapsed,
+.res .commentarea .thing.noncollapsed,
+html.res-commentBoxes.res-commentBoxes-rounded .comment.noncollapsed {
+  margin: 0 0 8px!important;
+  overflow: initial!important;
+  padding: 0 0 0 24px!important;
+  z-index: 1;
+  border-radius: 5px!important
+}
+
+.commentarea .comment .midcol {
+  width: 32px;
+  margin-right: 6px;
+  overflow: visible;
+  margin-top: 8px
+}
+
+.comment .expand {
+  background-color: transparent;
+  transition: all .15s ease;
+  color: #98abba;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  bottom: -1px;
+  padding: 3px;
+  border-radius: 5px 0 0 5px;
+  width: 19px;
+}
+
+.comment .expand:hover {
+  text-decoration: none;
+  background: #1e517c;
+  color: white;
+}
+
+.comment.collapsed .expand:hover {
+  color: white;
+}
