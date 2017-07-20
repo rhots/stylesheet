@@ -2,7 +2,7 @@ $flair-height: 20px;
 $flair-width: 40px;
 
 @function flair-position-width($index) {
-  @return $flair-width * $index;
+  @return $flair-width * $index * -1;
 }
 
 @function flair-position-height($index) {
