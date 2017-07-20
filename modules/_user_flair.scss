@@ -1,0 +1,28 @@
+$flair-height: 20px;
+$flair-width: 40px;
+
+@function flair-position-width($index) {
+  @return $flair-width * $index;
+}
+
+@function flair-position-height($index) {
+  @return $flair-height * $index * -1;
+}
+
+@mixin hero-flair($name, $index) {
+  .flair-h-#{$name}::before {
+    background-position: flair-position-width(0) flair-position-height($index);
+  }
+}
+
+@mixin hero-master-flair($name, $index) {
+  .flair-h-master-#{$name}::before {
+    background-position: flair-position-width(1) flair-position-height($index);
+  }
+}
+
+@mixin hero-flair-set($name, $index) {
+  @include hero-flair($name, $index);
+  @include hero-master-flair($name, $index);
+}
+
