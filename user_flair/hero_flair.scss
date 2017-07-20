@@ -1,563 +1,77 @@
+@import '../modules/user_flair';
+
 .flair-hero::before {
   background: url(%%flair-hero%%);
 }
 
-.flair-h-abathur::before {
-  background-position: 0 0
-}
-
-.flair-h-master-abathur::before {
-  background-position: 40px 0
-}
-
-.flair-h-arthas::before {
-  background-position: 0 -20px
-}
-
-.flair-h-master-arthas::before {
-  background-position: 40px -20px
-}
-
-.flair-h-sonya::before {
-  background-position: 0 -40px
-}
-
-.flair-h-master-sonya::before {
-  background-position: 40px -40px
-}
-
-.flair-h-valla::before {
-  background-position: 0 -60px
-}
-
-.flair-h-master-valla::before {
-  background-position: 40px -60px
-}
-
-.flair-h-diablo::before {
-  background-position: 0 -80px
-}
-
-.flair-h-master-diablo::before {
-  background-position: 40px -80px
-}
-
-.flair-h-etc::before {
-  background-position: 0 -100px
-}
-
-.flair-h-master-etc::before {
-  background-position: 40px -100px
-}
-
-.flair-h-falstad::before {
-  background-position: 0 -120px
-}
-
-.flair-h-master-falstad::before {
-  background-position: 40px -120px
-}
-
-.flair-h-gazlowe::before {
-  background-position: 0 -140px
-}
-
-.flair-h-master-gazlowe::before {
-  background-position: 40px -140px
-}
-
-.flair-h-illidan::before {
-  background-position: 0 -160px
-}
-
-.flair-h-master-illidan::before {
-  background-position: 40px -160px
-}
-
-.flair-h-kerrigan::before {
-  background-position: 0 -180px
-}
-
-.flair-h-master-kerrigan::before {
-  background-position: 40px -180px
-}
-
-.flair-h-malfurion::before {
-  background-position: 0 -200px
-}
-
-.flair-h-master-malfurion::before {
-  background-position: 40px -200px
-}
-
-.flair-h-muradin::before {
-  background-position: 0 -220px
-}
-
-.flair-h-master-muradin::before {
-  background-position: 40px -220px
-}
-
-.flair-h-nova::before {
-  background-position: 0 -240px
-}
-
-.flair-h-master-nova::before {
-  background-position: 40px -240px
-}
-
-.flair-h-raynor::before {
-  background-position: 0 -260px
-}
-
-.flair-h-master-raynor::before {
-  background-position: 40px -260px
-}
-
-.flair-h-sgthammer::before {
-  background-position: 0 -280px
-}
-
-.flair-h-master-sgthammer::before {
-  background-position: 40px -280px
-}
-
-.flair-h-stitches::before {
-  background-position: 0 -300px
-}
-
-.flair-h-master-stitches::before {
-  background-position: 40px -300px
-}
-
-.flair-h-tassadar::before {
-  background-position: 0 -320px
-}
-
-.flair-h-master-tassadar::before {
-  background-position: 40px -320px
-}
-
-.flair-h-tyrael::before {
-  background-position: 0 -340px
-}
-
-.flair-h-master-tyrael::before {
-  background-position: 40px -340px
-}
-
-.flair-h-tyrande::before {
-  background-position: 0 -360px
-}
-
-.flair-h-master-tyrande::before {
-  background-position: 40px -360px
-}
-
-.flair-h-uther::before {
-  background-position: 0 -380px
-}
-
-.flair-h-master-uther::before {
-  background-position: 40px -380px
-}
-
-.flair-h-nazeebo::before {
-  background-position: 0 -400px
-}
-
-.flair-h-master-nazeebo::before {
-  background-position: 40px -400px
-}
-
-.flair-h-zeratul::before {
-  background-position: 0 -420px
-}
-
-.flair-h-master-zeratul::before {
-  background-position: 40px -420px
-}
-
-.flair-h-lili::before {
-  background-position: 0 -440px
-}
-
-.flair-h-master-lili::before {
-  background-position: 40px -440px
-}
-
-.flair-h-brightwing::before {
-  background-position: 0 -460px
-}
-
-.flair-h-master-brightwing::before {
-  background-position: 40px -460px
-}
-
-.flair-h-murky::before {
-  background-position: 0 -480px
-}
-
-.flair-h-master-murky::before {
-  background-position: 40px -480px
-}
-
-.flair-h-chen::before {
-  background-position: 0 -500px
-}
-
-.flair-h-master-chen::before {
-  background-position: 40px -500px
-}
-
-.flair-h-kaelthas::before {
-  background-position: 0 -520px
-}
-
-.flair-h-master-kaelthas::before {
-  background-position: 40px -520px
-}
-
-.flair-h-sylvannas::before {
-  background-position: 0 -540px
-}
-
-.flair-h-master-sylvannas::before {
-  background-position: 40px -540px
-}
-
-.flair-h-tychus::before {
-  background-position: 0 -560px
-}
-
-.flair-h-master-tychus::before {
-  background-position: 40px -560px
-}
-
-.flair-h-rehgar::before {
-  background-position: 0 -580px
-}
-
-.flair-h-master-rehgar::before {
-  background-position: 40px -580px
-}
-
-.flair-h-anubarak::before {
-  background-position: 0 -600px
-}
-
-.flair-h-master-anubarak::before {
-  background-position: 40px -600px
-}
-
-.flair-h-azmodan::before {
-  background-position: 0 -620px
-}
-
-.flair-h-master-azmodan::before {
-  background-position: 40px -620px
-}
-
-.flair-h-thrall::before {
-  background-position: 0 -640px
-}
-
-.flair-h-master-thrall::before {
-  background-position: 40px -640px
-}
-
-.flair-h-jaina::before {
-  background-position: 0 -660px
-}
-
-.flair-h-master-jaina::before {
-  background-position: 40px -660px
-}
-
-.flair-h-leoric::before {
-  background-position: 0 -680px
-}
-
-.flair-h-master-leoric::before {
-  background-position: 40px -680px
-}
-
-.flair-h-butcher::before {
-  background-position: 0 -700px
-}
-
-.flair-h-master-butcher::before {
-  background-position: 40px -700px
-}
-
-.flair-h-johanna::before {
-  background-position: 0 -720px
-}
-
-.flair-h-master-johanna::before {
-  background-position: 40px -720px
-}
-
-.flair-h-zagara::before {
-  background-position: 0 -740px
-}
-
-.flair-h-master-zagara::before {
-  background-position: 40px -740px
-}
-
-.flair-h-tlv::before {
-  background-position: 0 -760px
-}
-
-.flair-h-master-tlv::before {
-  background-position: 40px -760px
-}
-
-.flair-h-kharazim::before {
-  background-position: 0 -780px
-}
-
-.flair-h-master-kharazim::before {
-  background-position: 40px -780px
-}
-
-.flair-h-rexxar::before {
-  background-position: 0 -800px
-}
-
-.flair-h-master-rexxar::before {
-  background-position: 40px -800px
-}
-
-.flair-h-morales::before {
-  background-position: 0 -820px
-}
-
-.flair-h-master-morales::before {
-  background-position: 40px -820px
-}
-
-.flair-h-artanis::before {
-  background-position: 0 -840px
-}
-
-.flair-h-master-artanis::before {
-  background-position: 40px -840px
-}
-
-.flair-h-chogall::before {
-  background-position: 0 -860px
-}
-
-.flair-h-cho::before {
-  background-position: 0 -880px
-}
-
-.flair-h-master-cho::before {
-  background-position: 40px -880px
-}
-
-.flair-h-gall::before {
-  background-position: 0 -900px
-}
-
-.flair-h-master-gall::before {
-  background-position: 40px -900px
-}
-
-.flair-h-lunara::before {
-  background-position: 0 -920px
-}
-
-.flair-h-master-lunara::before {
-  background-position: 40px -920px
-}
-
-.flair-h-greymane::before {
-  background-position: 0 -940px
-}
-
-.flair-h-master-greymane::before {
-  background-position: 40px -940px
-}
-
-.flair-h-greymane-worgen::before {
-  background-position: 0 -960px
-}
-
-.flair-h-liming::before {
-  background-position: 0 -980px
-}
-
-.flair-h-master-liming::before {
-  background-position: 40px -980px
-}
-
-.flair-h-xul::before {
-  background-position: 0 -1000px
-}
-
-.flair-h-master-xul::before {
-  background-position: 40px -1000px
-}
-
-.flair-h-dehaka::before {
-  background-position: 0 -1020px
-}
-
-.flair-h-master-dehaka::before {
-  background-position: 40px -1020px
-}
-
-.flair-h-tracer::before {
-  background-position: 0 -1040px
-}
-
-.flair-h-master-tracer::before {
-  background-position: 40px -1040px
-}
-
-.flair-h-chromie::before {
-  background-position: 0 -1060px
-}
-
-.flair-h-master-chromie::before {
-  background-position: 40px -1060px
-}
-
-.flair-h-medivh::before {
-  background-position: 0 -1080px
-}
-
-.flair-h-master-medivh::before {
-  background-position: 40px -1080px
-}
-
-.flair-h-guldan::before {
-  background-position: 0 -1100px
-}
-
-.flair-h-master-guldan::before {
-  background-position: 40px -1100px
-}
-
-.flair-h-auriel::before {
-  background-position: 0 -1120px
-}
-
-.flair-h-master-auriel::before {
-  background-position: 40px -1120px
-}
-
-.flair-h-alarak::before {
-  background-position: 0 -1140px
-}
-
-.flair-h-master-alarak::before {
-  background-position: 40px -1140px
-}
-
-.flair-h-zarya::before {
-  background-position: 0 -1160px
-}
-
-.flair-h-master-zarya::before {
-  background-position: 40px -1160px
-}
-
-.flair-h-samuro::before {
-  background-position: 0 -1180px
-}
-
-.flair-h-master-samuro::before {
-  background-position: 40px -1180px
-}
-
-.flair-h-varian::before {
-  background-position: 0 -1200px
-}
-
-.flair-h-master-varian::before {
-  background-position: 40px -1200px
-}
-
-.flair-h-ragnaros::before {
-  background-position: 0 -1220px
-}
-
-.flair-h-master-ragnaros::before {
-  background-position: 40px -1220px
-}
-
-.flair-h-zuljin::before {
-  background-position: 0 -1240px
-}
-
-.flair-h-master-zuljin::before {
-  background-position: 40px -1240px
-}
-
-.flair-h-valeera::before {
-  background-position: 0 -1260px
-}
-
-.flair-h-master-valeera::before {
-  background-position: 40px -1260px
-}
-
-.flair-h-lucio::before {
-  background-position: 0 -1280px
-}
-
-.flair-h-master-lucio::before {
-  background-position: 40px -1280px
-}
-
-.flair-h-cassia::before {
-  background-position: 0 -1300px
-}
-
-.flair-h-master-cassia::before {
-  background-position: 40px -1300px
-}
-
-.flair-h-probius::before {
-  background-position: 0 -1320px
-}
-
-.flair-h-master-probius::before {
-  background-position: 40px -1320px
-}
-
-.flair-h-genji::before {
-  background-position: 0 -1340px
-}
-
-.flair-h-master-genji::before {
-  background-position: 40px -1340px
-}
-
-.flair-h-dva::before {
-  background-position: 0 -1360px
-}
-
-.flair-h-master-dva::before {
-  background-position: 40px -1360px
-}
-
-.flair-h-malthael::before {
-  background-position: 0 -1380px
-}
-
-.flair-h-master-malthael::before {
-  background-position: 40px -1380px
-}
-
-.flair-h-stukov::before {
-  background-position: 0 -1400px
-}
-
-.flair-h-master-stukov::before {
-  background-position: 40px -1400px
-}
+@include hero-flair-set("abathur",     0);
+@include hero-flair-set("arthas",      1);
+@include hero-flair-set("sonya",       2);
+@include hero-flair-set("valla",       3);
+@include hero-flair-set("diablo",      4);
+@include hero-flair-set("etc",         5);
+@include hero-flair-set("falstad",     6);
+@include hero-flair-set("gazlowe",     7);
+@include hero-flair-set("illidan",     8);
+@include hero-flair-set("kerrigan",    9);
+@include hero-flair-set("malfurion",   10);
+@include hero-flair-set("muradin",     11);
+@include hero-flair-set("nova",        12);
+@include hero-flair-set("raynor",      13);
+@include hero-flair-set("sgthammer",   14);
+@include hero-flair-set("stitches",    15);
+@include hero-flair-set("tassadar",    16);
+@include hero-flair-set("tyrael",      17);
+@include hero-flair-set("tyrande",     18);
+@include hero-flair-set("uther",       19);
+@include hero-flair-set("nazeebo",     20);
+@include hero-flair-set("zeratul",     21);
+@include hero-flair-set("lili",        22);
+@include hero-flair-set("brightwing",  23);
+@include hero-flair-set("murky",       24);
+@include hero-flair-set("chen",        25);
+@include hero-flair-set("kaelthas",    26);
+@include hero-flair-set("sylvannas",   27);
+@include hero-flair-set("tychus",      28);
+@include hero-flair-set("rehgar",      29);
+@include hero-flair-set("anubarak",    30);
+@include hero-flair-set("azmodan",     31);
+@include hero-flair-set("thrall",      32);
+@include hero-flair-set("jaina",       33);
+@include hero-flair-set("leoric",      34);
+@include hero-flair-set("butcher",     35);
+@include hero-flair-set("johanna",     36);
+@include hero-flair-set("zagara",      37);
+@include hero-flair-set("tlv",         38);
+@include hero-flair-set("kharazim",    39);
+@include hero-flair-set("rexxar",      40);
+@include hero-flair-set("morales",     41);
+@include hero-flair-set("artanis",     42);
+@include hero-flair("chogall",         43);
+@include hero-flair-set("cho",         44);
+@include hero-flair-set("gall",        45);
+@include hero-flair-set("lunara",      46);
+@include hero-flair-set("greymane",    47);
+@include hero-flair("greymane-worgen", 48);
+@include hero-flair-set("liming",      49);
+@include hero-flair-set("xul",         50);
+@include hero-flair-set("dehaka",      51);
+@include hero-flair-set("tracer",      52);
+@include hero-flair-set("chromie",     53);
+@include hero-flair-set("medivh",      54);
+@include hero-flair-set("guldan",      55);
+@include hero-flair-set("auriel",      56);
+@include hero-flair-set("alarak",      57);
+@include hero-flair-set("zarya",       58);
+@include hero-flair-set("samuro",      59);
+@include hero-flair-set("varian",      60);
+@include hero-flair-set("ragnaros",    61);
+@include hero-flair-set("zuljin",      62);
+@include hero-flair-set("valeera",     63);
+@include hero-flair-set("lucio",       64);
+@include hero-flair-set("cassia",      65);
+@include hero-flair-set("probius",     66);
+@include hero-flair-set("genji",       67);
+@include hero-flair-set("dva",         68);
+@include hero-flair-set("malthael",    69);
+@include hero-flair-set("stukov",      70);
