@@ -21,8 +21,15 @@ $flair-width: 40px;
   }
 }
 
+@mixin hero-star-flair($name, $index) {
+  .flair-h-star-#{$name}::before {
+    background-position: flair-position-width(2) flair-position-height($index);
+  }
+}
+
 @mixin hero-flair-set($name, $index) {
   @include hero-flair($name, $index);
   @include hero-master-flair($name, $index);
+  @include hero-star-flair($name, $index);
 }
 
