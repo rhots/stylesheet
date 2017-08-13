@@ -23,12 +23,22 @@
 }
 
 .linkflair-creative .linkflairlabel {
-  background-color: #68A;
+  background-color: #70f;
+  color: #FFF;
+}
+
+.linkflair-discussion .linkflairlabel {
+  background-color: #923d0e;
   color: #FFF;
 }
 
 .linkflair-esports .linkflairlabel {
-  background-color: #6A3;
+  background-color: #119c14;
+  color: #FFF;
+}
+
+.linkflair-fluff .linkflairlabel {
+  background-color: #f74f97;
   color: #FFF;
 }
 
@@ -48,8 +58,8 @@
 }
 
 .linkflair-suggestion .linkflairlabel {
-  background-color: #634;
-  color: #FFF;
+  background-color: #fbf100;
+  color: #000;
 }
 
 .linkflair-teaching .linkflairlabel {
