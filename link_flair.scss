@@ -69,6 +69,58 @@
   color: #000;
 }
 
+.linkflair-blizzcon .thumbnail.self,
+.linkflair-bug .thumbnail.self,
+.linkflair-creative .thumbnail.self,
+.linkflair-discussion .thumbnail.self,
+.linkflair-esports .thumbnail.self,
+.linkflair-fluff .thumbnail.self,
+.linkflair-gameplay .thumbnail.self,
+.linkflair-news .thumbnail.self,
+.linkflair-rage .thumbnail.self,
+.linkflair-suggestion .thumbnail.self,
+.linkflair-teaching .thumbnail.self {
+	height: 56px;
+}
+
+.linkflair-gameplay .thumbnail.self {
+  background: url(%%link-flair%%) 0 0
+}
+
+.linkflair-esports .thumbnail.self {
+  background: url(%%link-flair%%) 0 -56px
+}
+
+.linkflair-bug .thumbnail.self {
+  background: url(%%link-flair%%) 0 -112px
+}
+
+.linkflair-suggestion .thumbnail.self {
+  background: url(%%link-flair%%) 0 -168
+}
+
+.linkflair-news .thumbnail.self {
+  background: url(%%link-flair%%) 0 -224px
+}
+
+.linkflair-creative .thumbnail.self {
+  background: url(%%link-flair%%) 0 -280px
+}
+
+.linkflair-teaching .thumbnail.self {
+  background: url(%%link-flair%%) 0 -336px
+}
+
+.linkflair-fluff .thumbnail.self {
+  background: url(%%link-flair%%) 0 -392px
+}
+
+.linkflair-discussion .thumbnail.self {
+  background: url(%%link-flair%%) 0 -448px
+}
+
+
+
 // Blizzard-related flairs
 
 .linkflair-bluepost .flair {
