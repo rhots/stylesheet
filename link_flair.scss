@@ -10,64 +10,70 @@
 .linkflair-suggestion .linkflairlabel,
 .linkflair-teaching .linkflairlabel {
   height: 16px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
+  position: relative;
+  display: block;
+  top: -10px;
+  width: fit-content;
+  padding: 0 4px 0 0;
+  margin-bottom: -13px;
+  line-height: 14px;
+  background-color: transparent;
+}
+
+.flairoptionpane .linkflairlabel {
+  font-size: 13px;
+  top: 10px;
+  padding-left: 1px;
 }
 
 .linkflair-blizzcon .linkflairlabel {
-  background-color: #7DF;
-  color: #FFF;
+  color: #7DF;
 }
 
 .linkflair-bug .linkflairlabel {
-  background-color: #E68A00;
-  color: #000;
+  color: #E68A00;
 }
 
 .linkflair-creative .linkflairlabel {
-  background-color: #70f;
-  color: #FFF;
+  color: #70f;
 }
 
 .linkflair-discussion .linkflairlabel {
-  background-color: #923d0e;
-  color: #FFF;
+  color: #923d0e;
 }
 
 .linkflair-esports .linkflairlabel {
-  background-color: #119c14;
-  color: #FFF;
+  color: #119c14;
 }
 
 .linkflair-fluff .linkflairlabel {
-  background-color: #f74f97;
-  color: #FFF;
+  color: #f74f97;
 }
 
 .linkflair-gameplay .linkflairlabel {
-  background-color: #28A;
-  color: #FFF;
+  color: #28A;
 }
 
 .linkflair-news .linkflairlabel {
-  background-color: #40B;
-  color: #FFF;
+  color: #1100b0;
 }
 
 .linkflair-rage .linkflairlabel {
-  background-color: red;
-  color: #FFF;
+  color: red;
 }
 
 .linkflair-suggestion .linkflairlabel {
-  background-color: #e2d900;
-  color: #000;
+  color: #8e8800;
 }
 
 .linkflair-teaching .linkflairlabel {
-  background-color: #9FF;
-  color: #000;
+  color: #1ba2a2;
 }
+
+
+// Link Flair Icons
 
 .linkflair-blizzcon .thumbnail.self,
 .linkflair-bug .thumbnail.self,
