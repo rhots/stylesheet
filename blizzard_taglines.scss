@@ -39,6 +39,7 @@
 .thing .tagline .author[href$="/Katriedna"],
 .thing .tagline .author[href$="/dyluuxx"],
 .thing .tagline .author[href$="/Dalthrox"],
+.thing .tagline .author[href$="/Kalviery"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -168,6 +169,7 @@
   content: "Senior Animator";
 }
 
-.thing .tagline .author[href$="/Dalthrox"]::after {
+.thing .tagline .author[href$="/Dalthrox"]::after,
+.thing .tagline .author[href$="/Kalviery"]::after {
   content: "Customer Support";
 }
