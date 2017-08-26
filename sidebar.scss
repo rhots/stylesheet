@@ -672,11 +672,11 @@ side .md a[href*="#free_rotation2"] {
 .side .md a[href*="#official"] {
   content: "";
   display: inline-block;
-  height: 64px;
-  width: 64px;
+  height: 50px;
+  width: 50px;
   background: url(%%social-links%%) no-repeat;
   opacity: .8;
-  margin-right: 8px
+  margin-right: 7px
 }
 
 .side .md a[href*="#official"]:hover {
@@ -688,15 +688,19 @@ side .md a[href*="#free_rotation2"] {
 }
 
 .side .md a[href*="#official_site"] {
-  background-position: 0 -64px
+  background-position: 0 -50px
 }
 
 .side .md a[href*="#official_twitter"] {
-  background-position: 0 -128px
+  background-position: 0 -100px
 }
 
 .side .md a[href*="#official_facebook"] {
-  background-position: 0 -192px
+  background-position: 0 -150px
+}
+
+.side .md a[href*="#official_twitch"] {
+  background-position: 0 -200px
 }
 
 .side .flair {
