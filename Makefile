@@ -1,5 +1,6 @@
 GITSHA := $(shell git rev-parse --short HEAD 2>/dev/null)
 COMMITSUMMARY := $(shell git log --format=%s -n 1 HEAD 2>/dev/null)
+COMMITMSG := $(shell git log --format=%b -n 1 HEAD 2>/dev/null)
 
 all: build
 
@@ -16,7 +17,7 @@ nocompress:
 	sass --sourcemap=none main.scss main.css
 
 revision:
-	@echo "$(GITSHA) - $(COMMITSUMMARY)"
+	@echo "$(GITSHA) - $(COMMITSUMMARY) - $(COMMITMSG)"
 
 watch:
 	sass --style compressed --sourcemap=none --watch main.scss:main.css

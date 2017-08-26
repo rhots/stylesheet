@@ -3,17 +3,16 @@
 .commentarea .thing,
 .res .commentarea .thing,
 html.res-commentBoxes.res-commentBoxes-rounded .comment {
-  position: relative
+  position: relative;
 }
 
 .commentarea .thing.noncollapsed,
 .res .commentarea .thing.noncollapsed,
 html.res-commentBoxes.res-commentBoxes-rounded .comment.noncollapsed {
-  margin: 0 0 8px!important;
   overflow: initial!important;
-  padding: 0 0 0 24px!important;
+  padding: 10px 10px 10px 24px!important;
   z-index: 1;
-  border-radius: 5px!important
+  border-radius: 5px!important;
 }
 
 .commentarea .comment .midcol {
