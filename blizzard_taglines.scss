@@ -68,7 +68,6 @@
 .thing .tagline .author[href$="/Aldrexus"]::after,
 .thing .tagline .author[href$="/Katealyst"]::after,
 .thing .tagline .author[href$="/Rathmyr"]::after,
-.thing .tagline .author[href$="/Araxom"]::after,
 .thing .tagline .author[href$="/Katriedna"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after {
   content: "Community Manager";
@@ -169,6 +168,7 @@
   content: "Senior Animator";
 }
 
+.thing .tagline .author[href$="/Araxom"]::after,
 .thing .tagline .author[href$="/Dalthrox"]::after,
 .thing .tagline .author[href$="/Kalviery"]::after {
   content: "Customer Support";
