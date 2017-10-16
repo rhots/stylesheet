@@ -72,7 +72,7 @@
   font-family: Verdana, Candara, Segoe, Geneva, Tahoma, Arial, sans-serif;
   top: 0;
   right: 10px;
-  line-height: 40px;
+  line-height: 20px;
   color: #202125;
   text-align: right;
   z-index: 3
@@ -155,6 +155,10 @@
   list-style: none;
   position: relative;
   overflow: hidden
+}
+
+.side .md>ul li:hover {
+  background-color: #05192f;
 }
 
 .side .md>ul li sup {
@@ -732,4 +736,40 @@ side .md a[href*="#free_rotation2"] {
 
 .titlebox h1 a[href*="#hgc"]:visited {
 	color: #ddd
+}
+
+/* sidebar dropdown menus */
+
+.titlebox blockquote>ul {
+    padding: 0;
+}
+
+.titlebox blockquote>ul li {
+    display: none;
+    background: #0b2d4f;
+    padding: 8px 0;
+    margin-bottom: 3px;
+    text-align: center;
+    color: white;
+    font-size: 15px !important;
+}
+
+.titlebox blockquote>ul li a {
+    color: white;
+}
+
+.titlebox blockquote>ul li:hover {
+    background-color: #05192f;
+}
+
+.titlebox blockquote>ul li:nth-child(1):not(.flairsample-left) {
+    display: block;
+}
+
+.titlebox blockquote>ul li:nth-child(1):not(.flairsample-left):hover {
+    background-color: #05192f;
+}
+
+.titlebox blockquote>ul:hover > li {
+    display: block;
 }
