@@ -1193,3 +1193,11 @@ html.res-commentBoxes .comment {
 .titlebox .tagline a.flairselectbtn {
   font-weight: bold
 }
+
+.thing.stickied .md hr {
+  border: 1px solid #ababab
+}
+
+.thing.stickied .md td, .thing.stickied .md th {
+  border-color: #ababab
+}
