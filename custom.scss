@@ -136,11 +136,6 @@ html.res-commentBoxes .comment {
   height: auto
 }
 
-.res #search #searchexpando label {
-  padding-top: 13px;
-  padding-bottom: 13px
-}
-
 .res .fancy-toggle-button .remove,
 .res .titlebox .fancy-toggle-button .add {
   top: -78px
@@ -396,7 +391,6 @@ a.thumbnail img {
 
 .titlebox .subscribe-button .active.add {
   top: 0;
-  z-index: 2;
   text-transform: uppercase;
   font-weight: 400
 }
@@ -1192,4 +1186,12 @@ html.res-commentBoxes .comment {
 
 .titlebox .tagline a.flairselectbtn {
   font-weight: bold
+}
+
+.thing.stickied .md hr {
+  border: #ababab
+}
+
+.thing.stickied .md td, .thing.stickied .md th {
+  border-color: #ababab
 }
