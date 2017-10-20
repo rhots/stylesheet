@@ -27,22 +27,3 @@ a[href="#s"]:hover:after {
 .thing.stickied a[href="#s"]:hover {
   color: #65b354!important
 }
-
-// Submission links that begin with "spoiler" will be blacked out on the front
-// page, but revealed when hovered over.
-.link:not(.stickied) .title>a[href*="/spoiler"] {
-  background: #000;
-  color: #000;
-  transition: .5s all;
-}
-
-.link:not(.stickied) .title>a[href*="/spoiler"]:hover {
-  background: 0 0;
-  color: #000!important;
-  text-shadow: none;
-}
-
-.link:not(.stickied) .title>a[href*="/spoiler"]:before {
-  color: #fff;
-  content: "Spoiler ";
-}
