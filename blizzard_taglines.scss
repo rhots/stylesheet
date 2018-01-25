@@ -39,6 +39,8 @@
 .thing .tagline .author[href$="/Dalthrox"],
 .thing .tagline .author[href$="/Kalviery"],
 .thing .tagline .author[href$="/Xenramek"],
+.thing .tagline .author[href$="/Kaeyoh"],
+.thing .tagline .author[href$="/EsportsKyle"],
 .thing .tagline .author[href$="/vaeflare"] {
   border-radius: 1px;
   margin-bottom: 2px;
@@ -69,6 +71,7 @@
 .thing .tagline .author[href$="/Rathmyr"]::after,
 .thing .tagline .author[href$="/Katriedna"]::after,
 .thing .tagline .author[href$="/Xenramek"]::after,
+.thing .tagline .author[href$="/Kaeyoh"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after {
   content: "Community Manager";
 }
@@ -108,8 +111,8 @@
   content: "3D Artist";
 }
 
-.thing .tagline .author[href$="/eSportsMatt"]::after{
-  content: "Asc. Esports Manager";
+.thing .tagline .author[href$="/EsportsKyle"]::after{
+  content: "HGC League Operations";
 }
 
 .thing .tagline .author[href$="/BlizzMilkfat"]::after{
