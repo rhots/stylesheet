@@ -1156,7 +1156,9 @@ div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 .linkflair-bluepost .res .RES-keyNav-activeElement,
 .linkflair-bluepost .res .RES-keyNav-activeElement .md-container,
 .res .RES-keyNav-activeElement,
-.res .RES-keyNav-activeElement .md-container {
+.res .RES-keyNav-activeElement .md-container, 
+.entry.res-selected, 
+.entry.res-selected .md-container {
   background-color: transparent!important
 }
 
