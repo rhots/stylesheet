@@ -476,7 +476,8 @@ a.thumbnail img {
 }
 
 #header #header-bottom-right {
-  background-color: none
+  background-color: transparent;
+  z-index: 1000
 }
 
 #header-bottom-right a {
