@@ -29,6 +29,7 @@
 .thing .tagline .author[href$="/cloaken"],
 .thing .tagline .author[href$="/dyluuxx"],
 .thing .tagline .author[href$="/Dalthrox"],
+.thing .tagline .author[href$="/Dromogaz"],
 .thing .tagline .author[href$="/eSportsMatt"],
 .thing .tagline .author[href$="/EsportsKyle"],
 .thing .tagline .author[href$="/Heroes_QA"],
@@ -41,6 +42,7 @@
 .thing .tagline .author[href$="/Rathmyr"],
 .thing .tagline .author[href$="/Ravinix"],
 .thing .tagline .author[href$="/Spyrian"],
+.thing .tagline .author[href$="/Ustovar"],
 .thing .tagline .author[href$="/vaeflare"],
 .thing .tagline .author[href$="/Xenramek"]{
   border-radius: 1px;
@@ -173,6 +175,8 @@
 .thing .tagline .author[href$="/Araxom"]::after,
 .thing .tagline .author[href$="/BlizzardCS_Scout"]::after,
 .thing .tagline .author[href$="/Dalthrox"]::after,
-.thing .tagline .author[href$="/Kalviery"]::after {
+.thing .tagline .author[href$="/Dromogaz"]::after,
+.thing .tagline .author[href$="/Kalviery"]::after, 
+.thing .tagline .author[href$="/Ustovar"]::after {
   content: "Customer Support";
 }
