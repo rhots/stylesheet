@@ -4,6 +4,7 @@
 .thing .tagline .author[href$="/Blizz_Daybringer"],
 .thing .tagline .author[href$="/Blizz_DRobbins"],
 .thing .tagline .author[href$="/Blizz_JDeShazer"],
+.thing .tagline .author[href$="/Blizz_Joe"],
 .thing .tagline .author[href$="/Blizz_KinaBREW"],
 .thing .tagline .author[href$="/Blizz_Peterconcept"],
 .thing .tagline .author[href$="/Blizz_Shyy"],
@@ -144,6 +145,10 @@
 
 .thing .tagline .author[href$="/BlizzTravis"]::after {
   content: "Lead Game Designer";
+}
+
+.thing .tagline .author[href$="/Blizz_Joe"]::after {
+  content: "Lead Systems Designer";
 }
 
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
