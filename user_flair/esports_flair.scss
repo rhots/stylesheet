@@ -7,8 +7,16 @@
   background: url(%%flair-esports%%);
 }
 
+.flair-e-cloud9::before {
+  background-position: 0 0;
+}
+
 .flair-e-even-in-death::before {
   background-position: 30px 0;
+}
+
+.flair-e-roll20::before {
+  background-position: 0 -20px;
 }
 
 .flair-e-diamond-skin::before {
