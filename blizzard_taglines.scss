@@ -1,10 +1,10 @@
-.thing .tagline .author[href$="/Aldrexus"],
 .thing .tagline .author[href$="/Araxom"],
 .thing .tagline .author[href$="/Blizz_AKlontzas"],
 .thing .tagline .author[href$="/Blizz_BMarony"],
 .thing .tagline .author[href$="/Blizz_Daybringer"],
 .thing .tagline .author[href$="/Blizz_DRobbins"],
 .thing .tagline .author[href$="/Blizz_JDeShazer"],
+.thing .tagline .author[href$="/Blizz_Joe"],
 .thing .tagline .author[href$="/Blizz_KinaBREW"],
 .thing .tagline .author[href$="/Blizz_Peterconcept"],
 .thing .tagline .author[href$="/Blizz_Shyy"],
@@ -12,23 +12,20 @@
 .thing .tagline .author[href$="/BlizzardCS_Scout"],
 .thing .tagline .author[href$="/BlizzAlan"],
 .thing .tagline .author[href$="/BlizzAZJackson"],
-.thing .tagline .author[href$="/BlizzClaudio"],
 .thing .tagline .author[href$="/BlizzCooper"],
 .thing .tagline .author[href$="/BlizzJohnny"],
 .thing .tagline .author[href$="/BlizzJohnzee"],
 .thing .tagline .author[href$="/BlizzJunho"],
-.thing .tagline .author[href$="/BlizzKwevs"],
 .thing .tagline .author[href$="/BlizzKyle"],
 .thing .tagline .author[href$="/BlizzLoesby"],
 .thing .tagline .author[href$="/BlizzMilkfat"],
 .thing .tagline .author[href$="/BlizzNeyman"],
-.thing .tagline .author[href$="/BlizzROcampo"],
 .thing .tagline .author[href$="/BlizzTravis"],
-.thing .tagline .author[href$="/BlizzZhang"],
 .thing .tagline .author[href$="/Centaurik"],
 .thing .tagline .author[href$="/cloaken"],
 .thing .tagline .author[href$="/dyluuxx"],
 .thing .tagline .author[href$="/Dalthrox"],
+.thing .tagline .author[href$="/Dromogaz"],
 .thing .tagline .author[href$="/eSportsMatt"],
 .thing .tagline .author[href$="/EsportsKyle"],
 .thing .tagline .author[href$="/Heroes_QA"],
@@ -37,11 +34,10 @@
 .thing .tagline .author[href$="/Kalviery"],
 .thing .tagline .author[href$="/Katealyst"],
 .thing .tagline .author[href$="/Katriedna"],
-.thing .tagline .author[href$="/LeadRockDesigner"],
 .thing .tagline .author[href$="/Rathmyr"],
 .thing .tagline .author[href$="/Ravinix"],
 .thing .tagline .author[href$="/Spyrian"],
-.thing .tagline .author[href$="/vaeflare"],
+.thing .tagline .author[href$="/Ustovar"],
 .thing .tagline .author[href$="/Xenramek"]{
   border-radius: 1px;
   margin-bottom: 2px;
@@ -66,7 +62,6 @@
   }
 }
 
-.thing .tagline .author[href$="/Aldrexus"]::after,
 .thing .tagline .author[href$="/Kaeyoh"]::after,
 .thing .tagline .author[href$="/Katealyst"]::after,
 .thing .tagline .author[href$="/Katriedna"]::after,
@@ -90,17 +85,12 @@
   content: "Battleground Designer";
 }
 
-.thing .tagline .author[href$="/BlizzClaudio"]::after,
 .thing .tagline .author[href$="/Blizz_AKlontzas"]::after {
   content: "Producer";
 }
 
 .thing .tagline .author[href$="/BlizzAlan"]::after {
   content: "Game Director";
-}
-
-.thing .tagline .author[href$="/LeadRockDesigner"]::after {
-  content: "The Rock";
 }
 
 .thing .tagline .author[href$="/blizz_zhopp"]::after {
@@ -132,7 +122,6 @@
   content: "Technical Designer";
 }
 
-.thing .tagline .author[href$="/BlizzZhang"]::after,
 .thing .tagline .author[href$="/Blizz_Shyy"]::after {
   content: "Game Producer";
 }
@@ -154,25 +143,23 @@
   content: "Principal Artist - UI Design";
 }
 
-.thing .tagline .author[href$="/BlizzROcampo"]::after {
-  content: "UI Designer";
-}
-
 .thing .tagline .author[href$="/BlizzTravis"]::after {
   content: "Lead Game Designer";
+}
+
+.thing .tagline .author[href$="/Blizz_Joe"]::after {
+  content: "Lead Systems Designer";
 }
 
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
   content: "Concept Artist";
 }
 
-.thing .tagline .author[href$="/BlizzKwevs"]::after {
-  content: "Senior Animator";
-}
-
 .thing .tagline .author[href$="/Araxom"]::after,
 .thing .tagline .author[href$="/BlizzardCS_Scout"]::after,
 .thing .tagline .author[href$="/Dalthrox"]::after,
-.thing .tagline .author[href$="/Kalviery"]::after {
+.thing .tagline .author[href$="/Dromogaz"]::after,
+.thing .tagline .author[href$="/Kalviery"]::after, 
+.thing .tagline .author[href$="/Ustovar"]::after {
   content: "Customer Support";
 }

@@ -493,6 +493,10 @@ a.thumbnail img {
   background-color: transparent
 }
 
+flairoptionpane {
+  max-height: 350px
+}
+
 .flairoptionpane .flair,
 .flairselection .flair,
 .flairselector {
@@ -599,7 +603,7 @@ a.voteWeight {
 
 div.titlebox span.number:after {
   z-index: 1;
-  content: " Watchers"
+  content: " Horadrim"
 }
 
 .titlebox .users-online {
@@ -616,7 +620,7 @@ div.titlebox span.number:after {
 
 .titlebox .users-online .number:after {
   z-index: 1;
-  content: " hunting demons"
+  content: " staying awhile and listening"
 }
 
 .titlebox .number,
@@ -1201,4 +1205,8 @@ html.res-commentBoxes .comment {
 
 .thing.stickied .md td, .thing.stickied .md th {
   border-color: #ababab
+}
+
+.gilded {
+  box-shadow: 0 0 18px rgba(255,235,80,.4);
 }
