@@ -660,8 +660,8 @@ div.titlebox span.number:after {
   border: 1px solid #65b354;
 }
 
-.stickied .entry.RES-keyNav-activeElement {
-  border-right-color: #65b354!important
+.stickied .entry.res-selected {
+  border-left-color: #65b354!important
 }
 
 .comments-page .stickied {
@@ -846,8 +846,8 @@ body.listing-page>.content {
   position: relative
 }
 
-.linkflair-bluepost.stickied .entry.RES-keyNav-activeElement {
-  border-right-color: #00c3ff!important
+.linkflair-bluepost.stickied .entry.res-selected {
+  border-left-color: #00c3ff!important
 }
 
 .thing.stickied.linkflair-bluepost .usertext .md a {
@@ -1042,11 +1042,6 @@ button:hover {
   background-color: #0b2d4f
 }
 
-div.RES-keyNav-activeElement {
-  border-left: none;
-  border-right: 4px solid #0b2d4f
-}
-
 .res form.toggle.sr_style_toggle {
   margin: -6px 0 8px
 }
@@ -1127,19 +1122,14 @@ form.toggle.sr_style_toggle label {
   margin-right: 34px
 }
 
-div.RES-keyNav-activeElement,
-div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-  padding-left: 0!important
-}
-
 .subButtons {
   margin-top: 5px!important;
   margin-bottom: 5px!important
 }
 
-.linkflair-bluepost div.RES-keyNav-activeElement,
-.linkflair-bluepost.stickied div.RES-keyNav-activeElement {
-  border-color: #3cadff
+.linkflair-bluepost div.res-selected,
+.linkflair-bluepost.stickied div.res-selected {
+  border-color: #3cadff!important
 }
 
 #siteTable .link {
@@ -1156,6 +1146,11 @@ div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 
 #header-bottom-right {
   max-width: 400px
+}
+
+.res .entry.res-selected {
+  padding-left: 8px!important;
+  border-left: 3px solid #0b2d4f
 }
 
 .res .entry.res-selected,
