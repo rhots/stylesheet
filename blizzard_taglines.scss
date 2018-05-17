@@ -18,6 +18,7 @@
 .thing .tagline .author[href$="/BlizzJunho"],
 .thing .tagline .author[href$="/BlizzKyle"],
 .thing .tagline .author[href$="/BlizzLoesby"],
+.thing .tagline .author[href$="/BlizzMattVi"],
 .thing .tagline .author[href$="/BlizzMilkfat"],
 .thing .tagline .author[href$="/BlizzNeyman"],
 .thing .tagline .author[href$="/BlizzTravis"],
@@ -149,6 +150,10 @@
 
 .thing .tagline .author[href$="/Blizz_Joe"]::after {
   content: "Lead Systems Designer";
+}
+
+.thing .tagline .author[href$="/BlizzMattVi"]::after {
+  content: "Lead Hero Designer";
 }
 
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
