@@ -1,7 +1,7 @@
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
   background-image: url(%%banner%%);
-  background-position: 80% 0
+  background-position: center 0
 }
 
 .pinHeader-sub #header-bottom-left,
@@ -196,7 +196,7 @@ html.res-commentBoxes .comment {
 
 body:before {
   height: 180px;
-  background: url(%%banner%%) 80% 0 no-repeat fixed #000;
+  background: url(%%banner%%) center 0 no-repeat fixed #000;
   top: 0;
   position: absolute;
   width: 100%;
@@ -1161,8 +1161,8 @@ div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 .linkflair-bluepost .res .RES-keyNav-activeElement,
 .linkflair-bluepost .res .RES-keyNav-activeElement .md-container,
 .res .RES-keyNav-activeElement,
-.res .RES-keyNav-activeElement .md-container, 
-.entry.res-selected, 
+.res .RES-keyNav-activeElement .md-container,
+.entry.res-selected,
 .entry.res-selected .md-container {
   background-color: transparent!important
 }
