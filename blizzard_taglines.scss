@@ -76,10 +76,13 @@
 .thing .tagline .author[href$="/Blizz_Daybringer"]::after,
 .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .thing .tagline .author[href$="/BlizzNeyman"]::after,
-.thing .tagline .author[href$="/BlizzCooper"]::after,
 .thing .tagline .author[href$="/BlizzKyle"]::after,
 .thing .tagline .author[href$="/Centaurik"]::after {
-  content: "Game Designer";
+  content: "Live Game Designer";
+}
+
+.thing .tagline .author[href$="/BlizzCooper"]::after {
+  content: "Live Content Designer";
 }
 
 .thing .tagline .author[href$="/Blizz_JDeShazer"]::after {
