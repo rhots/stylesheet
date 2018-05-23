@@ -655,13 +655,23 @@ div.titlebox span.number:after {
   margin-top: 0
 }
 
+.res .entry.res-selected {
+  padding-left: 8px;
+  border-left: 3px solid #0b2d4f
+}
+
+.res .entry.res-selected,
+.res .entry.res-selected .md-container {
+  background-color: transparent!important
+}
+
 .stickied {
   background: rgba(101, 179, 84, .25);
   border: 1px solid #65b354;
 }
 
-.stickied .entry.res-selected {
-  border-left-color: #65b354!important
+.res .stickied .entry.res-selected {
+  border-left-color: #65b354
 }
 
 .comments-page .stickied {
@@ -846,8 +856,8 @@ body.listing-page>.content {
   position: relative
 }
 
-.linkflair-bluepost.stickied .entry.res-selected {
-  border-left-color: #00c3ff!important
+.res .linkflair-bluepost .entry.res-selected {
+  border-left-color: #00c3ff
 }
 
 .thing.stickied.linkflair-bluepost .usertext .md a {
@@ -1127,11 +1137,6 @@ form.toggle.sr_style_toggle label {
   margin-bottom: 5px!important
 }
 
-.linkflair-bluepost div.res-selected,
-.linkflair-bluepost.stickied div.res-selected {
-  border-color: #3cadff!important
-}
-
 #siteTable .link {
   margin-bottom: 1px
 }
@@ -1146,16 +1151,6 @@ form.toggle.sr_style_toggle label {
 
 #header-bottom-right {
   max-width: 400px
-}
-
-.res .entry.res-selected {
-  padding-left: 8px!important;
-  border-left: 3px solid #0b2d4f
-}
-
-.res .entry.res-selected,
-.res .entry.res-selected .md-container {
-  background-color: transparent!important
 }
 
 .link .usertext .md {
