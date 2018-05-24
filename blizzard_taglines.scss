@@ -16,6 +16,7 @@
 .thing .tagline .author[href$="/BlizzJohnny"],
 .thing .tagline .author[href$="/BlizzJohnzee"],
 .thing .tagline .author[href$="/BlizzJunho"],
+.thing .tagline .author[href$="/BlizzKwevs"],
 .thing .tagline .author[href$="/BlizzKyle"],
 .thing .tagline .author[href$="/BlizzLoesby"],
 .thing .tagline .author[href$="/BlizzMattVi"],
@@ -104,6 +105,10 @@
 .thing .tagline .author[href$="/Blizz_KinaBREW"]::after,
 .thing .tagline .author[href$="/Blizz_BMarony"]::after {
   content: "3D Artist";
+}
+
+.thing .tagline .author[href$="/BlizzKwevs"]::after {
+  content: "Senior Animator";
 }
 
 .thing .tagline .author[href$="/EsportsKyle"]::after{
