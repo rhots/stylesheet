@@ -17,7 +17,7 @@ nocompress:
 	sass --sourcemap=none main.scss main.css
 
 revision:
-	@echo '$(GITSHA) - $(COMMITSUMMARY) - $(COMMITMSG)'
+	@echo "$(GITSHA) - $(COMMITSUMMARY) - $(COMMITMSG)"
 
 watch:
 	sass --style compressed --sourcemap=none --watch main.scss:main.css
