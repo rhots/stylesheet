@@ -1,29 +1,44 @@
 $flair-height: 20px;
 $flair-width: 40px;
+$esports-flair-width: 30px;
 
-@function flair-position-width($index) {
-  @return $flair-width * $index * -1;
+@function flair-position-width($width, $index) {
+  @return $width * $index * -1;
 }
 
 @function flair-position-height($index) {
   @return $flair-height * $index * -1;
 }
 
+@mixin esports-flair($name, $row, $column) {
+  .flair-e-#{$name}::before {
+    background-position: flair-position-width($esports-flair-width, $column) flair-position-height($row);
+  }
+}
+
+@mixin esports-flair-column($names, $column) {
+  @for $i from 1 through length($names) {
+    $name: nth($names, $i);
+    $row: $i - 1;
+    @include esports-flair($name, $row, $column);
+  }
+}
+
 @mixin hero-flair($name, $index) {
   .flair-h-#{$name}::before {
-    background-position: flair-position-width(0) flair-position-height($index);
+    background-position: flair-position-width($flair-width, 0) flair-position-height($index);
   }
 }
 
 @mixin hero-master-flair($name, $index) {
   .flair-h-master-#{$name}::before {
-    background-position: flair-position-width(1) flair-position-height($index);
+    background-position: flair-position-width($flair-width, 1) flair-position-height($index);
   }
 }
 
 @mixin hero-star-flair($name, $index) {
   .flair-h-star-#{$name}::before {
-    background-position: flair-position-width(2) flair-position-height($index);
+    background-position: flair-position-width($flair-width, 2) flair-position-height($index);
   }
 }
 
