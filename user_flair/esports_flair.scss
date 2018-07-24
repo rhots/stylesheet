@@ -1,3 +1,5 @@
+@import '../modules/user_flair';
+
 .flair-esports,
 .flair-esports::before{
   width: 30px;
@@ -7,176 +9,18 @@
   background: url(%%flair-esports%%);
 }
 
-.flair-e-hgc::before {
-  background-position: 0 0;
-}
+$column-zero: 'hgc', 'roll20', 'cloud9', 'mindfreak', 'aztech', 'mvp', 'heroes-hype';
 
-.flair-e-roll20::before {
-  background-position: 0 -20px;
-}
+$column-one: 'no-tomorrow', 'team-freedom', 'heroeshearth', 'tempo-storm', 'endemic', 'team-octalysis', 'simplicity', 'lfm-esports';
 
-.flair-e-cloud9::before {
-  background-position: 0 -40px;
-}
+$column-two: 'zealots', 'team-liquid', 'team-dignitas', 'fnatic', 'method', 'granit-gaming', 'leftovers', 'monkey-menagerie';
 
-.flair-e-mindfreak::before {
-  background-position: 0 -60px;
-}
+$column-three: 'team-blossom', 'tempest', 'gen-g', 'ballistix', 'miracle', 'supernova', 'feliz', 'gluck';
 
-.flair-e-aztech::before {
-  background-position: 0 -80px;
-}
+$column-four: 'rpg', 'ce', 'spt', 'theone', 'a-team', 'kt', 'btg', 'teamnut';
 
-.flair-e-mvp::before {
-  background-position: 0 -100px;
-}
-
-.flair-e-heroes-hype::before {
-  background-position: 0 -120px;
-}
-
-
-
-
-.flair-e-no-tomorrow::before {
-  background-position: -30px 0;
-}
-
-.flair-e-team-freedom::before {
-  background-position: -30px -20px;
-}
-
-.flair-e-heroeshearth::before {
-  background-position: -30px -40px;
-}
-
-.flair-e-tempo-storm::before {
-  background-position: -30px -60px;
-}
-
-.flair-e-endemic::before {
-  background-position: -30px -80px;
-}
-
-.flair-e-team-octalysis::before {
-  background-position: -30px -100px;
-}
-
-.flair-e-simplicity::before {
-  background-position: -30px -120px;
-}
-
-.flair-e-lfm-esports::before {
-  background-position: -30px -140px;
-}
-
-
-
-
-.flair-e-zealots::before {
-  background-position: -60px 0;
-}
-
-.flair-e-team-liquid::before {
-  background-position: -60px -20px;
-}
-
-
-.flair-e-team-dignitas::before {
-  background-position: -60px -40px;
-}
-
-
-.flair-e-fnatic::before {
-  background-position: -60px -60px;
-}
-
-
-.flair-e-method::before {
-  background-position: -60px -80px;
-}
-
-
-.flair-e-granit-gaming::before {
-  background-position: -60px -100px;
-}
-
-
-.flair-e-leftovers::before {
-  background-position: -60px -120px;
-}
-
-
-.flair-e-monkey-menagerie::before {
-  background-position: -60px -140px;
-}
-
-
-
-
-.flair-e-team-blossom::before {
-  background-position: -90px 0;
-}
-
-.flair-e-tempest::before {
-  background-position: -90px -20px;
-}
-
-.flair-e-gen-g::before {
-  background-position: -90px -40px;
-}
-
-.flair-e-ballistix::before {
-  background-position: -90px -60px;
-}
-
-.flair-e-miracle::before {
-  background-position: -90px -80px;
-}
-
-.flair-e-supernova::before {
-  background-position: -90px -100px;
-}
-
-.flair-e-feliz::before {
-  background-position: -90px -120px;
-}
-
-.flair-e-gluck::before {
-  background-position: -90px -140px;
-}
-
-
-
-
-.flair-e-rpg::before {
-  background-position: -120px 0;
-}
-
-.flair-e-ce::before {
-  background-position: -120px -20px;
-}
-
-.flair-e-spt::before {
-  background-position: -120px -40px;
-}
-
-.flair-e-theone::before {
-  background-position: -120px -60px;
-}
-
-.flair-e-a-team::before {
-  background-position: -120px -80px;
-}
-
-.flair-e-kt::before {
-  background-position: -120px -100px;
-}
-
-.flair-e-btg::before {
-  background-position: -120px -120px;
-}
-
-.flair-e-teamnut::before {
-  background-position: -120px -140px;
-}
+@include esports-flair-column($column-zero,  0);
+@include esports-flair-column($column-one,   1);
+@include esports-flair-column($column-two,   2);
+@include esports-flair-column($column-three, 3);
+@include esports-flair-column($column-four,  4);
