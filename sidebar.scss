@@ -242,54 +242,6 @@
   background: #1a8bbc
 }
 
-.side .md a[href*="#submissionFlair"] {
-  text-align: center;
-  content: "";
-  display: inline-block;
-  height: 35px;
-  width: 130px;
-  background: url(%%categories-withoutBorders-updatedIcons%%) no-repeat;
-  margin-left: 11px;
-  margin-top: 1px;
-  margin-bottom: 1px
-}
-
-.side .md a[href*="#submissionFlair"]:hover {
-  opacity: .8
-}
-
-.side .md a[href*="#BluePosts"] {
-  background-position: 0 0
-}
-
-.side .md a[href*="#ModPosts"] {
-  background-position: 0 -35px
-}
-
-.side .md a[href*="#Gameplay"] {
-  background-position: 0 -70px
-}
-
-.side .md a[href*="#VoD"] {
-  background-position: 0 -105px
-}
-
-.side .md a[href*="#esports"] {
-  background-position: 0 -245px
-}
-
-.side .md a[href*="#Shows"] {
-  background-position: 0 -140px
-}
-
-.side .md a[href*="#WeeklyPosts"] {
-  background-position: 0 -175px
-}
-
-.side .md a[href*="#BugReports"] {
-  background-position: 0 -210px
-}
-
 .side .md h1,
 .side .sidecontentbox .title h1 {
   display: block;
