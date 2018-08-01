@@ -19,7 +19,7 @@
   padding: 0 4px 0 0;
   margin-bottom: -13px;
   line-height: 14px;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .flairoptionpane .linkflairlabel {
@@ -29,51 +29,51 @@
 }
 
 .linkflair-blizzcon .linkflairlabel {
-  color: #7DF;
+  color: #7DF !important;
 }
 
 .linkflair-bug .linkflairlabel {
-  color: #E68A00;
+  color: #E68A00 !important;
 }
 
 .linkflair-creative .linkflairlabel {
-  color: #70f;
+  color: #70f !important;
 }
 
 .linkflair-discussion .linkflairlabel {
-  color: #923d0e;
+  color: #923d0e !important;
 }
 
 .linkflair-esports .linkflairlabel {
-  color: #119c14;
+  color: #119c14 !important;
 }
 
 .linkflair-fluff .linkflairlabel {
-  color: #f74f97;
+  color: #f74f97 !important;
 }
 
 .linkflair-gameplay .linkflairlabel {
-  color: #28A;
+  color: #28A !important;
 }
 
 .linkflair-news .linkflairlabel {
-  color: #1100b0;
+  color: #1100b0 !important;
 }
 
 .res-nightmode .linkflair-news .linkflairlabel {
-  color: #6757ff;
+  color: #6757ff !important;
 }
 
 .linkflair-rage .linkflairlabel {
-  color: red;
+  color: red !important;
 }
 
 .linkflair-suggestion .linkflairlabel {
-  color: #8e8800;
+  color: #8e8800 !important;
 }
 
 .linkflair-teaching .linkflairlabel {
-  color: #1ba2a2;
+  color: #1ba2a2 !important;
 }
 
 
@@ -134,22 +134,22 @@
 // Blizzard-related flairs
 
 .linkflair-bluepost .flair {
-  color: #ddd
+  color: #ddd !important
 }
 
 .linkflair-blizzard .linkflairlabel {
-  background-color: #000;
+  background-color: #000 !important;
   border-color: #000;
   border-width: 0;
-  color: #00b4ff;
+  color: #00b4ff !important;
   font-size: 11px;
   font-weight: 700;
   padding: 3px;
 }
 
 .linkflair-blizzreply .linkflairlabel {
-  background: #333;
-  color: rgba(0, 195, 255, 1);
+  background: #333 !important;
+  color: rgba(0, 195, 255, 1) !important;
   display: inline-block;
   font-size: 11px;
   font-weight: 700;
