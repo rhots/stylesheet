@@ -196,7 +196,7 @@ html.res-commentBoxes .comment {
 
 body:before {
   height: 180px;
-  background: url(%%banner%%) center 0 no-repeat #000;
+  background: url(%%banner%%) center top/cover no-repeat #000;
   top: 0;
   position: absolute;
   width: 100%;
@@ -603,7 +603,7 @@ a.voteWeight {
 
 div.titlebox span.number:after {
   z-index: 1;
-  content: " Draenei"
+  content: " Scarlet Crusaders"
 }
 
 .titlebox .users-online {
@@ -620,7 +620,7 @@ div.titlebox span.number:after {
 
 .titlebox .users-online .number:after {
   z-index: 1;
-  content: " swinging hammers"
+  content: " burning in the light"
 }
 
 .titlebox .number,
