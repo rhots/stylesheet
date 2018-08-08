@@ -32,21 +32,19 @@
 
 .flair {
   color: #333;
-  line-height: 16px;
+  line-height: 20px;
   box-sizing: content-box;
-  vertical-align: bottom;
+  vertical-align: middle;
   font-size: 11px!important;
-  margin-left: 1px
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .flair::before {
   content: " ";
   margin: 0;
-  vertical-align: top
-}
-
-.flair:hover::before {
-  margin-right: 4px
+  vertical-align: top;
+  margin-right: 4px;
 }
 
 .flair:empty::before {
@@ -78,4 +76,25 @@
   display: inline-block;
   width: 13px;
   height: 18px;
+}
+
+.flairrichtext {
+  width: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.flairrichtext:before {
+  display: none;
+}
+
+.flair .flairemoji {
+  width: 20px;
+  height: 20px;
+  top: -1px; // why is it needed?
+}
+
+.flair span {
+  margin-left: 2px;
+  margin-right: 2px;
 }
