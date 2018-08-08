@@ -43,7 +43,6 @@
 .thing .tagline .author[href$="/Kheluriel"],
 .thing .tagline .author[href$="/Rathmyr"],
 .thing .tagline .author[href$="/Ravinix"],
-.thing .tagline .author[href$="/Spyrian"],
 .thing .tagline .author[href$="/Ustovar"],
 .thing .tagline .author[href$="/Xenramek"]{
   border-radius: 1px;
@@ -75,7 +74,6 @@
 .thing .tagline .author[href$="/Kheluriel"]::after,
 .thing .tagline .author[href$="/Rathmyr"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after,
-.thing .tagline .author[href$="/Spyrian"]::after,
 .thing .tagline .author[href$="/Xenramek"]::after {
   content: "Community Manager";
 }
