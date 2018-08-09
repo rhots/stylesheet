@@ -4,15 +4,19 @@
 .thing .tagline .author[href$="/Blizz_BShih"],
 .thing .tagline .author[href$="/Blizz_CKingdom"],
 .thing .tagline .author[href$="/Blizz_Daybringer"],
+.thing .tagline .author[href$="/Blizz_DGower"],
 .thing .tagline .author[href$="/Blizz_DRobbins"],
 .thing .tagline .author[href$="/Blizz_JDeShazer"],
 .thing .tagline .author[href$="/Blizz_Joe"],
+.thing .tagline .author[href$="/Blizz_JunoK"],
 .thing .tagline .author[href$="/Blizz_KinaBREW"],
 .thing .tagline .author[href$="/Blizz_LanaB"],
 .thing .tagline .author[href$="/Blizz_Peterconcept"],
 .thing .tagline .author[href$="/Blizz_Shyy"],
+.thing .tagline .author[href$="/Blizz_Stas"],
 .thing .tagline .author[href$="/Blizz_TedP"],
 .thing .tagline .author[href$="/blizz_zhopp"],
+.thing .tagline .author[href$="/Blizz_Zues"],
 .thing .tagline .author[href$="/BlizzardCS_Scout"],
 .thing .tagline .author[href$="/BlizzAlan"],
 .thing .tagline .author[href$="/BlizzAZJackson"],
@@ -43,7 +47,6 @@
 .thing .tagline .author[href$="/Kheluriel"],
 .thing .tagline .author[href$="/Rathmyr"],
 .thing .tagline .author[href$="/Ravinix"],
-.thing .tagline .author[href$="/Spyrian"],
 .thing .tagline .author[href$="/Ustovar"],
 .thing .tagline .author[href$="/Xenramek"]{
   border-radius: 1px;
@@ -75,7 +78,6 @@
 .thing .tagline .author[href$="/Kheluriel"]::after,
 .thing .tagline .author[href$="/Rathmyr"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after,
-.thing .tagline .author[href$="/Spyrian"]::after,
 .thing .tagline .author[href$="/Xenramek"]::after {
   content: "Community Manager";
 }
@@ -148,6 +150,19 @@
 .thing .tagline .author[href$="/BlizzLoesby"]::after,
 .thing .tagline .author[href$="/Blizz_DRobbins"]::after {
   content: "Software Engineer";
+}
+
+.thing .tagline .author[href$="/Blizz_JunoK"]::after,
+.thing .tagline .author[href$="/Blizz_Zues"]::after {
+  content: "Lead Software Engineer";
+}
+
+.thing .tagline .author[href$="/Blizz_Stas"]::after {
+  content: "Technical Director";
+}
+
+.thing .tagline .author[href$="/Blizz_DGower"]::after {
+  content: "Senior Software Engineer";
 }
 
 .thing .tagline .author[href$="/BlizzJohnny"]::after {
