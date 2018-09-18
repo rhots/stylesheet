@@ -12,6 +12,7 @@
 .thing .tagline .author[href$="/Blizz_KinaBREW"],
 .thing .tagline .author[href$="/Blizz_LanaB"],
 .thing .tagline .author[href$="/Blizz_Peterconcept"],
+.thing .tagline .author[href$="/Blizz_SHolmes"],
 .thing .tagline .author[href$="/Blizz_Shyy"],
 .thing .tagline .author[href$="/Blizz_Stas"],
 .thing .tagline .author[href$="/Blizz_TedP"],
@@ -94,7 +95,8 @@
   content: "Lead Content Designer";
 }
 
-.thing .tagline .author[href$="/Blizz_JDeShazer"]::after {
+.thing .tagline .author[href$="/Blizz_JDeShazer"]::after,
+.thing .tagline .author[href$="/Blizz_SHolmes"]::after {
   content: "Battleground Designer";
 }
 
