@@ -103,10 +103,6 @@
   content: "Producer";
 }
 
-.thing .tagline .author[href$="/BlizzAlan"]::after {
-  content: "Game Director";
-}
-
 .thing .tagline .author[href$="/blizz_zhopp"]::after {
   content: "Technical Game Designer";
 }
@@ -192,7 +188,7 @@
 }
 
 .thing .tagline .author[href$="/BlizzKyle"]::after {
-  content: "Hero Designer";
+  content: "Senior Game Designer";
 }
 
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
