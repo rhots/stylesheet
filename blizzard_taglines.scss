@@ -86,9 +86,8 @@
 .thing .tagline .author[href$="/Blizz_Daybringer"]::after,
 .thing .tagline .author[href$="/BlizzAZJackson"]::after,
 .thing .tagline .author[href$="/BlizzNeyman"]::after,
-.thing .tagline .author[href$="/BlizzKyle"]::after,
 .thing .tagline .author[href$="/Centaurik"]::after {
-  content: "Live Game Designer";
+  content: "Live Designer";
 }
 
 .thing .tagline .author[href$="/BlizzCooper"]::after {
@@ -104,10 +103,6 @@
   content: "Producer";
 }
 
-.thing .tagline .author[href$="/BlizzAlan"]::after {
-  content: "Game Director";
-}
-
 .thing .tagline .author[href$="/blizz_zhopp"]::after {
   content: "Technical Game Designer";
 }
@@ -117,7 +112,12 @@
   content: "3D Artist";
 }
 
-.thing .tagline .author[href$="/BlizzKwevs"]::after {
+.thing .tagline .author[href$="/Blizz_CKingdom"]::after {
+  content: "Lead Animator";
+}
+
+.thing .tagline .author[href$="/BlizzKwevs"]::after,
+.thing .tagline .author[href$="/Blizz_LanaB"]::after {
   content: "Senior Animator";
 }
 
@@ -187,6 +187,10 @@
   content: "Lead Hero Designer";
 }
 
+.thing .tagline .author[href$="/BlizzKyle"]::after {
+  content: "Senior Game Designer";
+}
+
 .thing .tagline .author[href$="/Blizz_Peterconcept"]::after {
   content: "Concept Artist";
 }
@@ -204,14 +208,6 @@
   content: "Principal Technical Artist";
 }
 
-.thing .tagline .author[href$="/Blizz_LanaB"]::after {
-  content: "Senior Animator";
-}
-
 .thing .tagline .author[href$="/Blizz_TedP"]::after {
   content: "Lead Character Artist";
-}
-
-.thing .tagline .author[href$="/Blizz_CKingdom"]::after {
-  content: "Lead Animator";
 }
