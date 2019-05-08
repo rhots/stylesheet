@@ -4,7 +4,10 @@
 .thing .tagline .author[href$="/Blizz_Daybringer"],
 .thing .tagline .author[href$="/Blizz_DGower"],
 .thing .tagline .author[href$="/Blizz_DWarner"],
+.thing .tagline .author[href$="/Blizz_Hankins"],
 .thing .tagline .author[href$="/Blizz_IanMcEwan"],
+.thing .tagline .author[href$="/Blizz_Jacobs"],
+.thing .tagline .author[href$="/Blizz_JeffB"],
 .thing .tagline .author[href$="/Blizz_Joe"],
 .thing .tagline .author[href$="/Blizz_JunoK"],
 .thing .tagline .author[href$="/Blizz_KinaBREW"],
@@ -16,15 +19,20 @@
 .thing .tagline .author[href$="/Blizz_SMorozov"],
 .thing .tagline .author[href$="/Blizz_Stas"],
 .thing .tagline .author[href$="/Blizz_TedP"],
+.thing .tagline .author[href$="/Blizz_Thomas"],
+.thing .tagline .author[href$="/Blizz_Vega"],
+.thing .tagline .author[href$="/Blizz_Waterman"],
 .thing .tagline .author[href$="/Blizz_Zues"],
 .thing .tagline .author[href$="/BlizzardCS_Scout"],
 .thing .tagline .author[href$="/BlizzAZJackson"],
 .thing .tagline .author[href$="/BlizzCooper"],
 .thing .tagline .author[href$="/BlizzJohnny"],
 .thing .tagline .author[href$="/BlizzJunho"],
+.thing .tagline .author[href$="/BlizzKofalt"],
 .thing .tagline .author[href$="/BlizzKyle"],
 .thing .tagline .author[href$="/BlizzMattVi"],
 .thing .tagline .author[href$="/BlizzNeyman"],
+.thing .tagline .author[href$="/BlizzStephers"],
 .thing .tagline .author[href$="/dyluuxx"],
 .thing .tagline .author[href$="/Dalthrox"],
 .thing .tagline .author[href$="/Dromogaz"],
@@ -61,6 +69,7 @@
   }
 }
 
+.thing .tagline .author[href$="/BlizzStephers"]::after,
 .thing .tagline .author[href$="/Kaeyoh"]::after,
 .thing .tagline .author[href$="/Katealyst"]::after,
 .thing .tagline .author[href$="/Rathmyr"]::after,
@@ -161,10 +170,17 @@
   content: "Lead Character Artist";
 }
 
+.thing .tagline .author[href$="/Blizz_Vega"]::after,
+.thing .tagline .author[href$="/Blizz_Waterman"]::after,
+.thing .tagline .author[href$="/Blizz_Jacobs"]::after,
+.thing .tagline .author[href$="/Blizz_Hankins"]::after,
 .thing .tagline .author[href$="/Blizz_DWarner"]::after,
 .thing .tagline .author[href$="/Blizz_PEwing"]::after,
 .thing .tagline .author[href$="/Blizz_IanMcEwan"]::after,
 .thing .tagline .author[href$="/Blizz_SMorozov"]::after,
+.thing .tagline .author[href$="/BlizzKofalt"]::after,
+.thing .tagline .author[href$="/Blizz_JeffB"]::after,
+.thing .tagline .author[href$="/Blizz_Thomas"]::after,
 .thing .tagline .author[href$="/Blizz_PElia"]::after {
   content: "Heroes Developer";
 }
