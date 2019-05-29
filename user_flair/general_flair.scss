@@ -6,7 +6,7 @@
   background-position: 0 0;
 }
 
-.flair-g-assassin::before {
+.flair-g-ranged-assassin::before {
   background-position: 40px 0;
 }
 
@@ -14,7 +14,7 @@
   background-position: 0 -20px;
 }
 
-.flair-g-specialist::before {
+.flair-g-melee-assassin::before {
   background-position: 40px -20px;
 }
 
@@ -30,7 +30,7 @@
   background-position: 0 -60px;
 }
 
-.flair-g-warrior::before {
+.flair-g-tank::before {
   background-position: 40px -60px;
 }
 
@@ -156,4 +156,12 @@
 
 .flair-g-cloaken::before {
   background-position: 40px -380px;
+}
+
+.flair-g-healer::before {
+  background-position: 0 -400px;
+}
+
+.flair-g-bruiser::before {
+  background-position: 40px -400px;
 }
