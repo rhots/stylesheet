@@ -1,4 +1,5 @@
 .thing .tagline .author[href$="/Araxom"],
+.thing .tagline .author[href$="/Blizz_Agilhardt"],
 .thing .tagline .author[href$="/Blizz_AKlontzas"],
 .thing .tagline .author[href$="/Blizz_CKingdom"],
 .thing .tagline .author[href$="/Blizz_Daybringer"],
@@ -15,9 +16,11 @@
 .thing .tagline .author[href$="/Blizz_Peterconcept"],
 .thing .tagline .author[href$="/Blizz_PElia"],
 .thing .tagline .author[href$="/Blizz_PEwing"],
+.thing .tagline .author[href$="/Blizz_Shane"],
 .thing .tagline .author[href$="/Blizz_SHolmes"],
 .thing .tagline .author[href$="/Blizz_SMorozov"],
 .thing .tagline .author[href$="/Blizz_Stas"],
+.thing .tagline .author[href$="/Blizz_Steve"],
 .thing .tagline .author[href$="/Blizz_TedP"],
 .thing .tagline .author[href$="/Blizz_Thomas"],
 .thing .tagline .author[href$="/Blizz_Vega"],
@@ -183,6 +186,9 @@
 .thing .tagline .author[href$="/BlizzKofalt"]::after,
 .thing .tagline .author[href$="/Blizz_JeffB"]::after,
 .thing .tagline .author[href$="/Blizz_Thomas"]::after,
-.thing .tagline .author[href$="/Blizz_PElia"]::after {
+.thing .tagline .author[href$="/Blizz_PElia"]::after,
+.thing .tagline .author[href$="/Blizz_Agilhardt"]::after,
+.thing .tagline .author[href$="/Blizz_Steve"]::after,
+.thing .tagline .author[href$="/Blizz_Shane"]::after {
   content: "Heroes Developer";
 }
