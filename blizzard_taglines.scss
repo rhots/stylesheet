@@ -34,7 +34,6 @@
 .thing .tagline .author[href$="/BlizzLouise"],
 .thing .tagline .author[href$="/BlizzNeyman"],
 .thing .tagline .author[href$="/BlizzShelby"],
-.thing .tagline .author[href$="/BlizzStephers"],
 .thing .tagline .author[href$="/Cydra01"],
 .thing .tagline .author[href$="/KaeoMilker"],
 .thing .tagline .author[href$="/Ravinix"],
@@ -69,7 +68,6 @@
   }
 }
 
-.thing .tagline .author[href$="/BlizzStephers"]::after,
 .thing .tagline .author[href$="/Cydra01"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after {
   content: "Community Manager";
