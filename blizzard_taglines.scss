@@ -35,23 +35,23 @@
 .thing .tagline .author[href$="/BlizzNeyman"],
 .thing .tagline .author[href$="/BlizzShelby"],
 .thing .tagline .author[href$="/BlizzStephers"],
-.thing .tagline .author[href$="/Cydra01"],
-.thing .tagline .author[href$="/KaeoMilker"],
-.thing .tagline .author[href$="/Ravinix"],
-
-.thing .tagline .author[href$="/Araxom"],
 .thing .tagline .author[href$="/BlizzardCS_Scout"],
+.thing .tagline .author[href$="/Araxom"],
+.thing .tagline .author[href$="/Cydra01"],
 .thing .tagline .author[href$="/Dalthrox"],
 .thing .tagline .author[href$="/Dromogaz"],
+.thing .tagline .author[href$="/KaeoMilker"],
 .thing .tagline .author[href$="/Kalviery"],
 .thing .tagline .author[href$="/Orlyia"],
-.thing .tagline .author[href$="/Ustovar"]{
+.thing .tagline .author[href$="/PezRadar"],
+.thing .tagline .author[href$="/Ravinix"],
+.thing .tagline .author[href$="/Ustovar"] {
   border-radius: 1px;
   margin-bottom: 2px;
   padding: 2px 3px;
   vertical-align: middle;
 
-  &::after{
+  &::after {
     border-left: 1px solid #AAA;
     font-size: 11px;
     margin-left: .25em;
@@ -71,6 +71,7 @@
 
 .thing .tagline .author[href$="/BlizzStephers"]::after,
 .thing .tagline .author[href$="/Cydra01"]::after,
+.thing .tagline .author[href$="/PezRadar"]::after,
 .thing .tagline .author[href$="/Ravinix"]::after {
   content: "Community Manager";
 }
@@ -79,8 +80,8 @@
   content: "Production Director";
 }
 
-.thing .tagline .author[href$="/Araxom"]::after,
 .thing .tagline .author[href$="/BlizzardCS_Scout"]::after,
+.thing .tagline .author[href$="/Araxom"]::after,
 .thing .tagline .author[href$="/Dalthrox"]::after,
 .thing .tagline .author[href$="/Dromogaz"]::after,
 .thing .tagline .author[href$="/Kalviery"]::after,
