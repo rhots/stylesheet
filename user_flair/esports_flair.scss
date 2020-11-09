@@ -9,15 +9,15 @@
   background: url(%%flair-esports%%);
 }
 
-$column-zero: 'hgc', 'roll20', 'cloud9', 'mindfreak', 'aztech', 'mvp', 'heroes-hype', 'crimson-gaming', 'twisted-vision';
+$column-zero: 'hgc', 'roll20', 'cloud9', 'mindfreak', 'aztech', 'mvp', 'heroes-hype', 'crimson-gaming', 'twisted-vision', 'sidestep-kings';
 
-$column-one: 'no-tomorrow', 'team-freedom', 'heroeshearth', 'tempo-storm', 'endemic', 'team-octalysis', 'simplicity', 'lfm-esports';
+$column-one: 'no-tomorrow', 'team-freedom', 'heroeshearth', 'tempo-storm', 'endemic', 'team-octalysis', 'simplicity', 'lfm-esports', '30k', 'wildheart-esports';
 
-$column-two: 'team-zealots', 'liquid', 'dignitas', 'fnatic', 'method', 'granit-gaming', 'leftovers', 'monkey-menagerie';
+$column-two: 'team-zealots', 'liquid', 'dignitas', 'fnatic', 'method', 'granit-gaming', 'leftovers', 'monkey-menagerie', 'chilly-mountain';
 
-$column-three: 'team-blossom', 'tempest', 'gen-g', 'ballistix', 'miracle', 'supernova', 'feliz', 'gluck';
+$column-three: 'team-blossom', 'tempest', 'gen-g', 'ballistix', 'miracle', 'supernova', 'feliz', 'gluck', 'crowdcontrol';
 
-$column-four: 'rpg', 'ce', 'spt', 'theone', 'a-team', 'kt', 'btg', 'teamnut';
+$column-four: 'rpg', 'ce', 'spt', 'theone', 'a-team', 'kt', 'btg', 'teamnut', 'oxygen-esports';
 
 @include esports-flair-column($column-zero,  0);
 @include esports-flair-column($column-one,   1);
