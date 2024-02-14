@@ -1,52 +1,6 @@
-.thing .tagline .author[href$="/Blizz_Adrian"],
-.thing .tagline .author[href$="/Blizz_Agilhardt"],
-.thing .tagline .author[href$="/Blizz_AKlontzas"],
-.thing .tagline .author[href$="/Blizz_BGleiter"],
-.thing .tagline .author[href$="/Blizz_Daybringer"],
-.thing .tagline .author[href$="/Blizz_DGower"],
-.thing .tagline .author[href$="/Blizz_DWarner"],
-.thing .tagline .author[href$="/Blizz_Hankins"],
-.thing .tagline .author[href$="/Blizz_IanMcEwan"],
-.thing .tagline .author[href$="/Blizz_Jacobs"],
-.thing .tagline .author[href$="/Blizz_JeffB"],
-.thing .tagline .author[href$="/Blizz_Joe"],
-.thing .tagline .author[href$="/Blizz_JunoK"],
-.thing .tagline .author[href$="/Blizz_KinaBREW"],
-.thing .tagline .author[href$="/Blizz_MarkPetro"],
-.thing .tagline .author[href$="/Blizz_MGrenewetzki"],
-.thing .tagline .author[href$="/Blizz_PElia"],
-.thing .tagline .author[href$="/Blizz_PEwing"],
-.thing .tagline .author[href$="/Blizz_RyanM"],
-.thing .tagline .author[href$="/Blizz_Shane"],
-.thing .tagline .author[href$="/Blizz_SMorozov"],
-.thing .tagline .author[href$="/Blizz_Steve"],
-.thing .tagline .author[href$="/Blizz_Thomas"],
-.thing .tagline .author[href$="/Blizz_Vega"],
-.thing .tagline .author[href$="/Blizz_Waterman"],
-.thing .tagline .author[href$="/Blizz_Worth"],
-.thing .tagline .author[href$="/Blizz_Zues"],
-.thing .tagline .author[href$="/BlizzAZJackson"],
-.thing .tagline .author[href$="/BlizzCorey"],
-.thing .tagline .author[href$="/BlizzDorothy"],
-.thing .tagline .author[href$="/BlizzJohnny"],
-.thing .tagline .author[href$="/BlizzKGu"],
-.thing .tagline .author[href$="/BlizzKofalt"],
-.thing .tagline .author[href$="/BlizzKyle"],
-.thing .tagline .author[href$="/BlizzLouise"],
-.thing .tagline .author[href$="/BlizzNeyman"],
-.thing .tagline .author[href$="/BlizzShelby"],
-.thing .tagline .author[href$="/BlizzStephers"],
-.thing .tagline .author[href$="/BlizzardCS_Scout"],
-.thing .tagline .author[href$="/Araxom"],
-.thing .tagline .author[href$="/Cydra01"],
-.thing .tagline .author[href$="/Dalthrox"],
-.thing .tagline .author[href$="/Dromogaz"],
-.thing .tagline .author[href$="/KaeoMilker"],
-.thing .tagline .author[href$="/Kalviery"],
-.thing .tagline .author[href$="/Orlyia"],
-.thing .tagline .author[href$="/PezRadar"],
-.thing .tagline .author[href$="/Ravinix"],
-.thing .tagline .author[href$="/Ustovar"] {
+.thing .tagline .author[href$="/Blizz_Brad"],
+.thing .tagline .author[href$="/Blizz_James"],
+.thing .tagline .author[href$="/PezRadar"] {
   border-radius: 1px;
   margin-bottom: 2px;
   padding: 2px 3px;
@@ -70,63 +24,14 @@
   }
 }
 
-.thing .tagline .author[href$="/BlizzStephers"]::after,
-.thing .tagline .author[href$="/Cydra01"]::after,
-.thing .tagline .author[href$="/PezRadar"]::after,
-.thing .tagline .author[href$="/Ravinix"]::after {
-  content: "Community Manager";
+.thing .tagline .author[href$="/PezRadar"]::after {
+  content: "Community Director";
 }
 
-.thing .tagline .author[href$="/KaeoMilker"]::after {
-  content: "Production Director";
+.thing .tagline .author[href$="/Blizz_Brad"]::after {
+  content: "Lead Designer";
 }
 
-.thing .tagline .author[href$="/BlizzardCS_Scout"]::after,
-.thing .tagline .author[href$="/Araxom"]::after,
-.thing .tagline .author[href$="/Dalthrox"]::after,
-.thing .tagline .author[href$="/Dromogaz"]::after,
-.thing .tagline .author[href$="/Kalviery"]::after,
-.thing .tagline .author[href$="/Orlyia"]::after,
-.thing .tagline .author[href$="/Ustovar"]::after {
-  content: "Customer Support";
-}
-
-.thing .tagline .author[href$="/Blizz_Adrian"]::after,
-.thing .tagline .author[href$="/Blizz_Agilhardt"]::after,
-.thing .tagline .author[href$="/Blizz_AKlontzas"]::after,
-.thing .tagline .author[href$="/Blizz_BGleiter"]::after,
-.thing .tagline .author[href$="/Blizz_Daybringer"]::after,
-.thing .tagline .author[href$="/Blizz_DGower"]::after,
-.thing .tagline .author[href$="/Blizz_DWarner"]::after,
-.thing .tagline .author[href$="/Blizz_Hankins"]::after,
-.thing .tagline .author[href$="/Blizz_IanMcEwan"]::after,
-.thing .tagline .author[href$="/Blizz_Jacobs"]::after,
-.thing .tagline .author[href$="/Blizz_JeffB"]::after,
-.thing .tagline .author[href$="/Blizz_Joe"]::after,
-.thing .tagline .author[href$="/Blizz_JunoK"]::after,
-.thing .tagline .author[href$="/Blizz_KinaBREW"]::after,
-.thing .tagline .author[href$="/Blizz_MarkPetro"]::after,
-.thing .tagline .author[href$="/Blizz_MGrenewetzki"]::after,
-.thing .tagline .author[href$="/Blizz_PElia"]::after,
-.thing .tagline .author[href$="/Blizz_PEwing"]::after,
-.thing .tagline .author[href$="/Blizz_RyanM"]::after,
-.thing .tagline .author[href$="/Blizz_Shane"]::after,
-.thing .tagline .author[href$="/Blizz_SMorozov"]::after,
-.thing .tagline .author[href$="/Blizz_Steve"]::after,
-.thing .tagline .author[href$="/Blizz_Thomas"]::after,
-.thing .tagline .author[href$="/Blizz_Vega"]::after,
-.thing .tagline .author[href$="/Blizz_Waterman"]::after,
-.thing .tagline .author[href$="/Blizz_Worth"]::after,
-.thing .tagline .author[href$="/Blizz_Zues"]::after,
-.thing .tagline .author[href$="/BlizzAZJackson"]::after,
-.thing .tagline .author[href$="/BlizzCorey"]::after,
-.thing .tagline .author[href$="/BlizzDorothy"]::after,
-.thing .tagline .author[href$="/BlizzJohnny"]::after,
-.thing .tagline .author[href$="/BlizzKGu"]::after,
-.thing .tagline .author[href$="/BlizzKofalt"]::after,
-.thing .tagline .author[href$="/BlizzKyle"]::after,
-.thing .tagline .author[href$="/BlizzLouise"]::after,
-.thing .tagline .author[href$="/BlizzNeyman"]::after,
-.thing .tagline .author[href$="/BlizzShelby"]::after {
-  content: "Heroes Developer";
+.thing .tagline .author[href$="/Blizz_James"]::after {
+  content: "Lead Producer";
 }
