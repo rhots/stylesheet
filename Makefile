@@ -5,21 +5,25 @@ COMMITMSG := $(shell git log --format=%b -n 1 HEAD 2>/dev/null)
 all: build
 
 build:
-	sass --style compressed --sourcemap=none main.scss main.css
+	sass --style compressed --no-source-map \
+		main.scss main.css
 
 clean:
 	rm main.css
 
 lint:
-	sass-lint --verbose --no-exit --ignore 'naut_base.scss' '**/*.scss'
+	sass-lint --verbose --no-exit --ignore \
+		'naut_base.scss' '**/*.scss'
 
 nocompress:
-	sass --sourcemap=none main.scss main.css
+	sass --no-source-map \
+		main.scss main.css
 
 revision:
 	@echo "$(GITSHA) - $(COMMITSUMMARY) - $(COMMITMSG)"
 
 watch:
-	sass --style compressed --sourcemap=none --watch main.scss:main.css
+	sass --style compressed --no-source-map --watch \
+		main.scss:main.css
 
 .PHONY: all build clean lint nocompress revision watch

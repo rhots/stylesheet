@@ -1,4 +1,4 @@
-@import '../modules/user_flair';
+@use '../modules/user_flair';
 
 .flair-esports,
 .flair-esports::before{
@@ -19,8 +19,8 @@ $column-three: 'team-blossom', 'tempest', 'gen-g', 'ballistix', 'miracle', 'supe
 
 $column-four: 'rpg', 'ce', 'spt', 'theone', 'a-team', 'kt', 'btg', 'teamnut', 'oxygen-esports';
 
-@include esports-flair-column($column-zero,  0);
-@include esports-flair-column($column-one,   1);
-@include esports-flair-column($column-two,   2);
-@include esports-flair-column($column-three, 3);
-@include esports-flair-column($column-four,  4);
+@include user_flair.esports-flair-column($column-zero,  0);
+@include user_flair.esports-flair-column($column-one,   1);
+@include user_flair.esports-flair-column($column-two,   2);
+@include user_flair.esports-flair-column($column-three, 3);
+@include user_flair.esports-flair-column($column-four,  4);

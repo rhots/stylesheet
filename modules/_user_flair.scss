@@ -1,3 +1,4 @@
+@use "sass:list";
 $flair-height: 20px;
 $flair-width: 40px;
 $esports-flair-width: 30px;
@@ -17,8 +18,8 @@ $esports-flair-width: 30px;
 }
 
 @mixin esports-flair-column($names, $column) {
-  @for $i from 1 through length($names) {
-    $name: nth($names, $i);
+  @for $i from 1 through list.length($names) {
+    $name: list.nth($names, $i);
     $row: $i - 1;
     @include esports-flair($name, $row, $column);
   }

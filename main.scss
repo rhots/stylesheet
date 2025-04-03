@@ -1,17 +1,17 @@
-@import "naut_base";
-@import "custom";
+@use "naut_base";
+@use "custom";
 
-@import "blizzard_flair";
-@import "blizzard_taglines";
-@import "expand";
-@import "link_flair";
-@import "res";
-@import "sidebar";
-@import "spoilers";
+@use "blizzard_flair";
+@use "blizzard_taglines";
+@use "expand";
+@use "link_flair";
+@use "res";
+@use "sidebar";
+@use "spoilers";
 
 // It is imperative that user_flair/user_flair appear first in order to give
 // categorized flair styling more specificity to use different spritesheets.
-@import "user_flair/user_flair";
-@import "user_flair/esports_flair";
-@import "user_flair/general_flair";
-@import "user_flair/hero_flair";
+@use "user_flair/user_flair";
+@use "user_flair/esports_flair";
+@use "user_flair/general_flair";
+@use "user_flair/hero_flair";
